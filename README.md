@@ -1,6 +1,8 @@
 # Aula do CEFET
 *Professor:* Flávio Coutinho
 
+[![devDependency Status](https://david-dm.org/fegemo/cefet-class-template.png)](https://david-dm.org/fegemo/cefet-class-template)
+
 ---
 
 # Instruções de uso (1)
