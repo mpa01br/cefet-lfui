@@ -47,7 +47,7 @@ _Fonte: [site da Belesminha](http://homepages.dcc.ufmg.br/~flavioro/belesminha/i
 
 ## Comandos ([detalhes](http://homepages.dcc.ufmg.br/~flavioro/belesminha/comandos.htm))
 
-![Tela do jogo Belesminha mostrando a Belesminha e algumas folhas em seu caminho](/images/belesminha-tela1.gif)
+![Tela do jogo Belesminha mostrando a Belesminha e algumas folhas em seu caminho](images/belesminha-tela1.gif)
 
 - `f`: frente
 - `d`: virar à direita (90º)
@@ -70,7 +70,7 @@ ffdf
 
 ## Interface do jogo
 
-![Tela do jogo Belesminha mostrando a interface](/images/belesminha-interface.gif)
+![Tela do jogo Belesminha mostrando a interface](images/belesminha-interface.gif)
 
 ---
 
