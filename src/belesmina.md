@@ -5,7 +5,7 @@
 
 ---
 
-## ~~Guia 10~~ Guia Interino
+## Guia 10
 
 - Assunto: **Recursividade**
 - Objetivo: Entender o funcionamento da **recursividade** e ganhar uns pontinhos
@@ -21,7 +21,7 @@
 
 ---
 
-# **1** Conhecendo a **Belesminha**
+# Conhecendo a **Belesminha**
 
 ---
 
@@ -53,25 +53,11 @@ _Fonte: [site da Belesminha](http://homepages.dcc.ufmg.br/~flavioro/belesminha/i
 - `d`: virar à direita (90º)
 - `e`: virar à esquerda (90º)
 
----
+### Exemplo:
 
-## Exemplo de comandos
-
-```
+```bash
 ffdf
 ```
-
-- frente
-- frente
-- vira à direita
-- frente novamente
-
----
-
-## Interface do jogo
-
-![Tela do jogo Belesminha mostrando a interface](/images/belesminha-interface.gif)
-
 ---
 
 ## Funções ([detalhes](http://homepages.dcc.ufmg.br/~flavioro/belesminha/funcoes.htm))
@@ -89,49 +75,6 @@ b(P):fb(P-1)
 
 ---
 
-# **2** Mas o que é a **recursividade**?
+# Mas o que é a **recursividade**?
 
 ---
-
-## Definição: Recursividade
-
-s.f. **1** Em ciência da computação, a recursividade é a definição de uma
-subrotina (função ou método) que pode invocar a si mesma.
-
----
-
-## Definição: Recursividade
-
-- `fatorial(x) = x * fatorial(x-1)`
-```C
-int fatorial(int n)
-{
-    if (n==1) {
-      return n;
-    }
-    return fatorial(n-1) * n;
-}
-```
-
----
-
-# **3** Missão: salvar a Belesmoca
-
----
-
-## Mas como, professor?
-
-- Concluir o desafio da Belesminha e vencer a última fase.
-- Mostrar a solução do último nível para o professor
-- Valor: **1 ponto extra**
-
----
-
-## Passos...
-
-1. [Baixar o jogo](http://homepages.dcc.ufmg.br/~flavioro/belesminha/comobaixar.htm)
-1. Descompactar o arquivo em alguma pasta (Desktop/Belesminha?)
-1. Executar a máquina virtual do Java em linha de comando, na pasta:
-```bash
-java -jar Belesminha-primavera2008.jar
-```
