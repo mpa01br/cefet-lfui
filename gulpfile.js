@@ -94,10 +94,11 @@ gulp.task('clean:images', function() {
 gulp.task('connect', ['build'], function(done) {
   connect.server({
     root: ['dist'],
-    livereload: true
+    livereload: true,
+    port: 8081
   });
 
-  opn('http://localhost:8080', done);
+  opn('http://localhost:8081', done);
 });
 
 gulp.task('watch', function() {

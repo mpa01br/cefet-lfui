@@ -10,6 +10,19 @@ var bespoke = require('bespoke'),
     state = require('bespoke-state'),
     markdown = require('bespoke-markdown');
 
+var presentationEl = document.getElementById('presentation-slide'),
+    queryString = document.location.search,
+    queryStringMatches,
+    requestedPresentation;
+
+if (queryString && presentationEl) {
+  queryStringMatches = /p=([^&#]*)/.exec(queryString);
+  requestedPresentation = queryStringMatches[1];
+  if (!!requestedPresentation) {
+    presentationEl.setAttribute('data-markdown', requestedPresentation);
+  }
+}
+
 // Bespoke.js
 bespoke.from('article', [
   markdown(),
