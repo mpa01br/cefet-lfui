@@ -21,6 +21,7 @@
    <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
 1. **_Hackear_** o facebook :O (20 min)
    <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
+1. Próxima aula
 
 ---
 # Parte 1: Como a **Internet** funciona
@@ -107,3 +108,24 @@ Mas você também pode...
 
 ---
 ![Tela do Facebook hackeado pelo professor](images/hacked-facebook.png)
+
+---
+# Para a **próxima aula**
+_**(Falhas) de Segurança** na Internet e em Computadores_
+
+---
+_Enunciado_: Escrever uma resenha sobre 2 tipos de ciberataque escolhidos da
+lista a seguir. Sobre cada item, você deve explicar o que é e como funciona e
+o que pode ser feito para proteger um computador desse tipo de ataque.
+
+- DDOS (_Distributed Denial of Service_ ou Negação de Serviço Distribuída)
+- XSS (_Cross-site_ scripting ou Scriptagem entre sites)
+- Trojans (ou Cavalos de Tróia)
+- Vírus
+- _Malwares_
+
+
+
+_Limite_: 1 página para cada item
+
+_Entrega_: **Moodle** até 23 de Setembro de 2014
