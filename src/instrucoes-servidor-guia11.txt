@@ -1,0 +1,49 @@
+1. Instalar VirtualBox
+1. Instalar Ubuntu
+
+No ubuntu
+1. Atualizar apt
+  $ sudo apt-get update
+  $ sudo apt-get upgrade
+1. Instalar curl
+  $ sudo apt-get install curl
+1. Instalar tasksel
+  $ sudo apt-get install tasksel
+1. Instalar LAMP via tasksel
+  $ sudo tasksel
+1. Colocar senha mysql como 'oivalf'
+1. Instalar phpmyadmin, configurando senha do mysql como 'oivalf'
+1. Criar um database usando o phpmyadmin chamado 'litecart'
+  1. Abrir o phpmyadmin
+    http://localhost/phpmyadmin
+  1. Databases
+  1. Criar novo db com nome 'litecart' e collation utf8-unicode-ci
+1. Baixar o litecart e colocá-lo na pasta do apache
+  1. http://litecart.net e baixar para ~/Downloads
+  1. Descompactar
+    $ unzip litecart-xxxx.zip
+  1. Copiar conteúdos da pasta public_html para /var/www/html/
+    $ sudo cp -a public_html/* /var/www/html
+1. Configurar o litecart
+  1. No browser, ir para http://localhost
+  1. Verificar dependências e permissões. Algumas permissões com problema, não vai atrapalhar... porém, se todas estiverem incorretas, rodar:
+    $/var/www/html/ sudo -R chmod 777 ./*
+  1. Preencher campos necessários, inclusive senha do mysql 'oivalf'
+    1. Nome do database: 'litecart'
+    1. Marcar "incluir dados de exemplo"
+  1. Prosseguir com instalação
+1. Após instalação, na seção administrativa, habilitar módulo de pagamento via paypal
+  1. http://localhost/admin
+  1. Logar com admin/oivalf
+  1. Menu 'Modules > Payment'
+  1. Habilitar Paypal
+1. Instalar visualizador de logs goAccess (goaccess.io)
+  1. Deps
+    $ sudo apt-get install libncursesw5-dev	libglib2.0-dev libgeoip-dev libtokyocabinet-dev
+  1. Instalar
+    $ sudo apt-get install goaccess
+1. Criar script para executar
+  $ echo goaccess -f /var/log/apache2/access.log > ~/Desktop/logs.sh
+  $ chmod a+x ~/Desktop/logs.sh
+1. Instalar apachetop
+  $ sudo apt-get install apachetop
