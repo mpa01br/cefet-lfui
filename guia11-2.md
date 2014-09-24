@@ -83,17 +83,31 @@ A informação enviada (nome=Flavio....) não aparece em lugar nenhum.
 Mas e se pudermos **alterar seus valores** para o que quisermos?
 
 ---
+## Exercício (para entregar)
+
+Responda esta e as questões seguintes considerando o formato esperado para
+suas respostas que conversamos mais cedo.
+
+**Questão 1)** Qual é a tradução de "Tamper Data" (inglês) para o Português?
+
+---
 # Parte 4: Hackeando a loja do Geraldo
+---
+## Loja do Geraldo
+
+![Tela da loja do Geraldo](images/loja-do-geraldo.png)
 ---
 ## Atividade
 
-1. Abrir Firefox
+1. Abrir (ou instalar, se necessário) o Firefox
 1. Procurar e instalar uma extensão chamada "Tamper Data"
 1. Adicionar nova entrada no _hosts_ para a máquina virtual do professor
    (fessor2) - peça o IP da máquina virtual para o professor
 1. Abrir a "loja do Geraldão" (http://fessor2/)
 
 ---
+## Atividade (continuação)
+
 1. Adicionar um produto ao carrinho
 1. Ir até a página do carrinho de compras (link no topo direito da página)
 1. Utilizar o "Tamper Data" e alterar o preço do produto
@@ -101,17 +115,11 @@ Mas e se pudermos **alterar seus valores** para o que quisermos?
 1. Selecionar forma de pagamento PayPal
 1. Clicar para finalizar a compra...
 
-
-Note que, na página que se segue (do PayPal), o preço a ser pago está diferente
-do preço total que deveria ser pago.
+   Note que, na página que se segue (do PayPal), o preço a ser pago está diferente
+   do preço total que deveria ser pago.
 
 ---
 ## Exercício (para entregar)
-
-Responda as seguintes questões sobre o que você observou nesta última atividade.
-Lembre-se do formato esperado para suas respostas que conversamos mais cedo.
-
-**Questão 1)** Qual é a tradução de "Tamper Data" para o Português?
 
 **Questão 2)** Quais componentes da segurança da informação (CID) estamos quebrando
 com este tipo de ataque?
@@ -120,7 +128,7 @@ com este tipo de ataque?
 Geraldo?
 
 ---
-# Parte 5: Derrubando a loja do Geraldo (opcional, 10% extra)
+# Parte 5: Derrubando a loja do Geraldo
 ---
 ## Atividade
 
@@ -138,6 +146,21 @@ com um ataque de DDoS?
 
 **Questão 5)** Sendo um técnico de rede da loja do Geraldo, como você mitigaria
 este ataque de DDoS?
+
+**Questão 6)** Qual o significado de _honey pot_ (ou pote de mel) no contexto de
+segurança da informação.
+
+continua...
+
+---
+## Exercício (para entregar)
+
+**Questão 7)** Sendo um hacker tentando derrubar um site usando esse mesmo método,
+você poderia ser descoberto de alguma forma? Como?
+
+Entregar via **Moodle**
+
+[Link para entrega](http://moodle.cefetmg.br/mod/assignment/view.php?id=13128)
 
 ---
 # Parte 6: Para aprender mais...
