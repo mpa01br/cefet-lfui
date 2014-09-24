@@ -11,7 +11,7 @@
   1. Conhecer os fundamentos de Segurança da Informação
   1. Entender a **resolução de DNS local** (arquivo _hosts_)
   1. Conseguir reconhecer **falhas de segurança em websites**
-  1. Realizar um ataque de **negação de serviço** e conhecer formas de
+  1. Realizar um ataque de **negação de serviço** e descobrir formas de
      **mitigação**
 
 ---
@@ -20,24 +20,21 @@
 1. Avisos (10 min)
 1. Segurança, DNS e HTTP (10 min)
 1. **Hackear** (agora sim) a loja do Geraldo (20 min)
-1. **Derrubar** a loja do Geraldo via DDoS (se der tempo, 20 min)
+1. **Derrubar** a loja do Geraldo via DDoS (20 min)
 1. Atividades (20 min)
    <marquee>ENTREGA DE EXERCÍCIO</marquee>
 
 ---
 # Parte 1: Avisos
 ---
-## Pré-relatórios
+## Pré-relatório desta aula
 
-Como ainda não temos o Moodle de volta, favor enviar para o e-mail do professor:
+Entregar via **Moodle** - finalmente!!
 
-- para: [coutinho@decom.cefetmg.br](mailto:coutinho@decom.cefetmg.br)
-- assunto: lfui: pré-relatório guia11: SEU NOME
-- corpo: < vazio >
-- anexo: arquivo com o relatório
+[Link para entrega](http://moodle.cefetmg.br/mod/assignment/view.php?id=13128)
 
 ---
-## Formato de entraga dos trabalhos
+## Formato de entrega dos trabalhos
 
 Você deve entregar suas atividades desta disciplina, à partir de hoje, seguindo os formatos descritos a seguir:
 1. Seu trabalho deve ser escrito no programa **Word** ou em sua versão software livre **LibreOffice Writer**.
@@ -53,6 +50,18 @@ Você deve entregar suas atividades desta disciplina, à partir de hoje, seguind
 
    Uma resposta em texto completo deve possibilitar um leitor que tem acesso apenas à resposta de saber com facilidade o que foi perguntado.
 
+---
+## Exemplo
+
+Questão 1) O que é DDoS?
+
+Formato correto: No contexto de segurança da informação, _Distributed Denial of Services_
+(DDoS) ou Negação de Serviços Distribuída se trata de um ataque cibernético para
+impedir que serviços de rede atendam requisições legítimas.
+
+
+~~Formato incorreto~~: Ataque cibernético para impedir que serviços atendam requisições
+legítimas.
 
 ---
 # Parte 2: Fundamentos de Segurança da Informação
@@ -63,6 +72,8 @@ Você deve entregar suas atividades desta disciplina, à partir de hoje, seguind
 
 ---
 ## Conheça o CID da Segurança
+
+A segurança da informação perpassa por 3 grandes pilares:
 
 - **Confidencialidade** (_confidentiality_): a informação não deve ser acessada
   por quem não tem autorização para acessá-la.
@@ -83,7 +94,7 @@ Localização:
 - Unix: `/etc/hosts`
 
 ---
-## Exercício
+## Exercício (sem entrega)
 
 1. Você deve **localizar o arquivo _hosts_** e **criar uma entrada nele** para
    que o nome "fessor" (sem àspas) aponte para o _notebook_ do professor.
@@ -99,4 +110,4 @@ Este também...
 ...
 ---
 ...e agora? Acho que a resposta está em outro lugar... Que tal voltar para o
-slide #13?
+slide #14?
