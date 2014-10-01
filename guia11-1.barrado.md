@@ -10,33 +10,34 @@
 - Objetivos:
   1. Conhecer os fundamentos de Segurança da Informação
   1. Entender a **resolução de DNS local** (arquivo _hosts_)
-  1. Prevenção, detecção e mitigação de **malware**
+  1. Conseguir reconhecer **falhas de segurança em websites**
+  1. Realizar um ataque de **negação de serviço** e descobrir formas de
+     **mitigação**
 
 ---
 ## Roteiro
 
-1. Avisos
-1. Segurança e DNS
-1. Atividades sobre _malware_
-   <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
+1. Avisos (10 min)
+1. Segurança, DNS e HTTP (10 min)
+1. **Hackear** (agora sim) a loja do Geraldo (20 min)
+1. **Derrubar** a loja do Geraldo via DDoS (20 min)
+1. Atividades (20 min)
+   <marquee>ENTREGA DE EXERCÍCIO</marquee>
 
 ---
 # Parte 1: Avisos
-
 ---
 ## Pré-relatório desta aula
 
-Entregar via **Moodle**.
+Entregar via **Moodle** - finalmente!!
 
 [Link para entrega](http://moodle.cefetmg.br/mod/assignment/view.php?id=13128)
 
 ---
 ## Formato de entrega dos trabalhos
 
-Você deve entregar suas atividades desta disciplina, à partir de hoje, seguindo
-os formatos descritos a seguir:
-1. Seu trabalho deve ser escrito no programa **Word** ou em sua versão software
-   livre **LibreOffice Writer**.
+Você deve entregar suas atividades desta disciplina, à partir de hoje, seguindo os formatos descritos a seguir:
+1. Seu trabalho deve ser escrito no programa **Word** ou em sua versão software livre **LibreOffice Writer**.
 1. O trabalho deve ser **entregue** em um dos três formatos de arquivo:
   - **doc**
   - **docx**
@@ -45,11 +46,9 @@ os formatos descritos a seguir:
 ---
 ## Formato de entraga dos trabalhos
 
-- Você deve escrever respostas aos enunciados dos exercícios como um
-  **texto completo**, da mesma forma que você o faz nas aulas de Português.
+1. Você deve escrever respostas aos enunciados dos exercícios como um **texto completo**, da mesma forma que você o faz nas aulas de Português.
 
-- Uma resposta em texto completo deve possibilitar um leitor que tem acesso
-   apenas à resposta de saber com facilidade o que foi perguntado.
+   Uma resposta em texto completo deve possibilitar um leitor que tem acesso apenas à resposta de saber com facilidade o que foi perguntado.
 
 ---
 ## Exemplo
@@ -57,7 +56,7 @@ os formatos descritos a seguir:
 Questão 1) O que é DDoS?
 
 Formato correto: No contexto de segurança da informação, _Distributed Denial of Services_
-(DDoS) ou Negação de Serviços Distribuída refere-se a um ataque cibernético para
+(DDoS) ou Negação de Serviços Distribuída se trata de um ataque cibernético para
 impedir que serviços de rede atendam requisições legítimas.
 
 
@@ -66,7 +65,6 @@ legítimas.
 
 ---
 # Parte 2: Fundamentos de Segurança da Informação
-
 ---
 ## Conheça o CID da Segurança
 
@@ -84,26 +82,7 @@ A segurança da informação perpassa por 3 grandes pilares:
   informação são sempre possíveis.
 
 ---
-## Os 10 Mandamentos da Segurança da Informação
-
-1. Utilize senhas difíceis de serem descobertas;
-2. Altere sua senha periodicamente;
-3. Tome cuidado com downloads;
-4. Tome cuidado com e-mails de remetentes desconhecidos;
-5. Evite sites com conteúdos duvidosos;
-
----
-## Os 10 Mandamentos da Segurança da Informação (cont.)
-
-6. Não abra anexos de e-mails desconhecidos;
-7. Tome cuidado com compras na Internet;
-8. Tome cuidado ao acessar sites de bancos;
-9. Não revele informações sobre você na Internet;
-10. Ao informar dados em sites, verifique se a página é segura (com prefixo “https”).
-
----
 # Parte 3: Resolução local de DNS
-
 ---
 ## O arquivo _hosts_
 
@@ -131,4 +110,4 @@ Este também...
 ...
 ---
 ...e agora? Acho que a resposta está em outro lugar... Que tal voltar para o
-slide #15?
+slide #14?
