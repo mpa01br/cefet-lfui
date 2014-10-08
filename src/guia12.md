@@ -167,7 +167,7 @@
 Você deve criptografar uma mensagem [usando o algoritmo AES](http://aesencryption.net/) (_Advanced Encryption
  Standard_) com seu número de matrícula como segredo e então enviá-la para seu colega ao
 lado. O colega que receber deve descriptografar a mensagem e responder de volta,
- usando seu próprio número de matrículo como segredo.
+ usando seu próprio número de matrícula como segredo.
 
 Você deve entregar uma captura da tela da mensagem que você enviou e outra da
 mensagem que você recebeu, já descriptografada.
