@@ -145,6 +145,14 @@ Você deve entregar uma captura da tela da mensagem que você enviou e outra da
 mensagem que você recebeu, já descriptografada.
 
 ---
+## Exercício 3
+
+### Responda:
+
+Questão 1: Por que o tamanho dos arquivos da pasta "Meus Arquivos" ficou
+diferente do arquivo de _backup_ gerado?
+
+---
 # Referências
 
 - [Ferramenta de Backup do Windows XP](http://www.baboo.com.br/tutorial/tutorial-de-windows/tutorial-windows-xp/ferramenta-de-backup-do-windows-xp-2/)
