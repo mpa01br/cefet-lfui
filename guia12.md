@@ -134,10 +134,38 @@
 # Criptografia
 
 ---
+## Criptografia
+
+- Etimologia: **cripto + grafia**
+  - kruptós (grego antigo): escondido, secreto
+  - graphia (latin): escrita
+- Criptografar
+  - Conversão de informação de um estado legível para um estado aparentemente
+    sem sentido
+- Descriptografar
+  - Conversão de informação aparentemente sem sentido para um estado legível
+
+---
+## Estratégias
+
+<ul>
+  <li><img style="float: right; width: 200px" src="images/crypto-symmetric.png">
+    Algoritmos de chave privada ou algoritmos simétricos
+
+    <p>Exemplos: DES, **AES**</p>
+  </li>
+  <li style="clear: both;">
+    <img style="float: right; width: 200px" src="images/crypto-asymmetric.png">
+    Algoritmos de chave pública ou algoritmos assimétricos
+    <p>Exemplos: RSA </p>
+  </li>
+</ul>
+
+---
 ## Exercício 2
 
 Você deve criptografar uma mensagem [usando o algoritmo AES](http://aesencryption.net/) (_Advanced Encryption
- Standard_) com seu número de matrícula e então enviá-la para seu colega ao
+ Standard_) com seu número de matrícula como segredo e então enviá-la para seu colega ao
 lado. O colega que receber deve descriptografar a mensagem e responder de volta,
  usando seu próprio número de matrículo como segredo.
 
