@@ -111,7 +111,7 @@ Um mapeamento de nomes (_Domain Names_) para endereços IP que é a primeira fon
 de pesquisa do sistema operacional para a resolução de DNS.
 
 Localização:
-- Windows: `C:\Windows\system32\etc\drivers\hosts`
+- Windows: `C:\Windows\system32\drivers\etc\hosts`
 - Unix: `/etc/hosts`
 
 ---
@@ -119,7 +119,7 @@ Localização:
 
 1. Você deve **localizar o arquivo _hosts_** e **criar uma entrada nele** para
    que o nome "fessor" (sem àspas) aponte para o _notebook_ do professor.
-2. Acessar, no seu navegar, o computador do professor na porta 8081
+2. Acessar, no seu navegador, o computador do professor na porta 8081
 
 ---
 O cachorro do professor comeu este slide.
@@ -130,5 +130,5 @@ Este também...
 ---
 ...
 ---
-...e agora? Acho que a resposta está em outro lugar... Que tal voltar para o
-slide #15?
+...e agora? Acho que a resposta está em outro lugar... Que tal voltar para os
+slides 15 e 16?
