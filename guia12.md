@@ -181,6 +181,20 @@ Questão 1: Por que o tamanho dos arquivos da pasta "Meus Arquivos" ficou
 diferente do arquivo de _backup_ gerado?
 
 ---
+## Exercício 4
+
+## Pesquise:
+
+Questão 2: Pesquise e disserte sobre o papel do algoritmo AES para a segurança
+da informação em redes WiFi. Sua resposta deve explicar questões como a que protocolo de
+segurança de rede ele está associado, por que é importante utilizar um algoritmo
+ de criptografia e quais outras utilizações (além de redes WiFi) podemos dar ao
+AES ou a outro algoritmo de criptografia.
+
+Você deve citar pelo menos 3 fontes de pesquisa que encontrar na Internet
+(bibliografia)
+
+---
 # Referências
 
 - [Ferramenta de Backup do Windows XP](http://www.baboo.com.br/tutorial/tutorial-de-windows/tutorial-windows-xp/ferramenta-de-backup-do-windows-xp-2/)
