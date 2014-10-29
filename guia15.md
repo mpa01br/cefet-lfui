@@ -227,7 +227,7 @@
 - Pede-se:
   1. No fim da Tabela, crie as colunas: Valor Juros e Valor a Pagar
   1. Calcule, para cada linha das colunas criadas:
-    1. Valor Juros = (Dias Atr * Perc.Juros) * Valor
+    1. Valor Juros = (Dias Atr \* Perc.Juros) \* Valor
     1. Valor a pagar = Valor + Valor Juros
   1. Insira uma linha antes da linha do TOTAL. Escreva média na coluna A
      dessa linha. Na coluna F calcule a média do valor dos juros.
