@@ -61,6 +61,13 @@ gulp.task('images', ['clean:images'], function() {
     .pipe(connect.reload());
 });
 
+gulp.task('attachments', ['clean:attachments'], function() {
+  return gulp.src(['src/attachments/*'])
+    .pipe(isDist ? through() : plumber())
+    .pipe(gulp.dest('dist/attachments'))
+    .pipe(connect.reload());
+});
+
 gulp.task('clean', function() {
   return gulp.src('dist')
     .pipe(rimraf());
@@ -91,6 +98,11 @@ gulp.task('clean:images', function() {
     .pipe(rimraf());
 });
 
+gulp.task('clean:attachments', function() {
+  return gulp.src('dist/attachments')
+    .pipe(rimraf());
+});
+
 gulp.task('connect', ['build'], function(done) {
   connect.server({
     root: ['dist'],
@@ -117,6 +129,6 @@ gulp.task('deploy', ['build'], function(done) {
   ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
 });
 
-gulp.task('build', ['js', 'html', 'md', 'css', 'images']);
+gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments']);
 gulp.task('serve', ['connect', 'watch']);
 gulp.task('default', ['build']);
