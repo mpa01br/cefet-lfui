@@ -62,7 +62,7 @@ gulp.task('images', ['clean:images'], function() {
 });
 
 gulp.task('attachments', ['clean:attachments'], function() {
-  return gulp.src(['src/attachments/*'])
+  return gulp.src(['src/attachments/**/*'])
     .pipe(isDist ? through() : plumber())
     .pipe(gulp.dest('dist/attachments'))
     .pipe(connect.reload());
