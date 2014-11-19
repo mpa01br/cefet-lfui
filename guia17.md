@@ -12,7 +12,6 @@
   1. Usar validação de dados
   1. Usar formatação de células condicional
   1. Praticar o uso de funções
-  1. Configurar uma planilha para impressão
 
 ---
 ## Enunciado
