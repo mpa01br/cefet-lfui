@@ -39,7 +39,7 @@
 ## Exercício - Parte **1**
 
 - Baixar um arquivo texto que tem informações sobre algumas celebridades
-  - [celebridades.csv](attachments/guia17/celebridades.csv)
+  - [celebridades.csv](attachments/celebridades.csv)
 - <img src="images/csv-abrir-notepad.png" style="float:right;margin-left:20px;margin-bottom:15px;">
   Abra esse arquivo **usando um editor de texto simples**, como o `Notepad` ou
   o `Notepad++`
@@ -137,7 +137,7 @@
 
 - Baixe um banco de dados disponibilizado pelo professor que tem
   informações sobre países:
-  - [`geography.accdb`](attachments/guia17/geography.accdb)
+  - [`geography.accdb`](attachments/geography.accdb)
 - Abra esse arquivo **usando um editor de texto puro**, como o `Notepad++`
   - Diferente de um arquivo `CSV`, um arquivo de banco de dados no formato
     `ACCDB` é bastante complexo e codificado de forma binária
