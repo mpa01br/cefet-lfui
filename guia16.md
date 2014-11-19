@@ -19,4 +19,6 @@
 
 - Entrega via **Moodle** até o final **desta aula**
 - Baixe o enunciado do exercício aqui:
-  [exercicio-torneio-cefet-uai.pdf](http://fegemo.github.io/cefet-lfui/attachments/exercicio-torneio-cefet-uai.pdf)
+  [exercicio-torneio-cefet-uai.pdf](http://fegemo.github.io/cefet-lfui/attachments/guia17/exercicio-torneio-cefet-uai.pdf)
+
+---
