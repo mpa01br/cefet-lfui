@@ -201,7 +201,12 @@
   os valores que podemos colocar em uma célula
   - Mais especificamente, vamos falar para o Excel que a coluna
     "País de Origem" aceita apenas os nomes dos países
-1. Selecione as células C2:C13 (da coluna "País de Origem")
+
+1. <img src="images/excel-ordernar-tabela.png" style="float:right;margin:10px;">
+   Primeiramente, **ordene a tabela** de países de forma alfabética (planilha
+   "Países")
+1. Selecione as células `C2:C13` (da coluna "País de Origem" da planilha
+   "Celebridades")
 
 ---
 ## Exercício - Parte 4 (cont.)
@@ -214,13 +219,12 @@
 ---
 ## Exercício - Parte 4 (cont.)
 
-1. Uma janela aparecerá. Nela, devemos selecionar como queremos restringir os
+1. <img src="images/excel-validacao-dados1.png" style="float:right;margin-left:10px;margin-bottom:10px">
+   Uma janela aparecerá. Nela, devemos selecionar como queremos restringir os
    valores a serem digitados nas células selecionadas
-
-   ![](images/excel-validacao-dados1.png)
    1. Na janela, selecione que você deseja permitir uma "Lista" de valores
    1. Além disso, selecione a "Fonte" dos dados da lista como as células
-      que contêm nomes de países na planilha "Países" (=Países!A2:A239)
+      que contêm nomes de países na planilha "Países" (`=Países!A2:A239`)
 
 ---
 ## Exercício - Parte 4 (cont.)
