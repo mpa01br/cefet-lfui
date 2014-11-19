@@ -300,14 +300,18 @@
 - Agora vamos mostrar quais países são mais populosos (alto número de pessoas
   por km²)
 - Vamos usar uma ferramenta de "Formatação Condicional"
-  - o Excel pode formatar células de forma diferente dependendo do valor da
-    célula
-    1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
-    1. Selecione a opção de formatação condicional como na imagem abaixo:
 
-       ![](images/excel-formatacao-condicional.png)
+---
+## Exercício - Parte 7 (cont.)
+
+- o Excel pode formatar células de forma diferente dependendo do valor da
+  célula
+  1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
+  1. Selecione a opção de formatação condicional como na imagem abaixo:
+
+     ![](images/excel-formatacao-condicional.png)
 
 ---
 ## Finalizando...
 
-1. Entregar **via Moodle**
+1. Entregar **via Moodle** no horário **desta aula**
