@@ -107,11 +107,10 @@
 
 - Dê o título: “Serviços da Internet” e crie um slide de tópicos, listando
   os serviços descritos abaixo:
-  - Serviços Internet
+  - Servidores
   - Web
   - Correio eletrônico
   - Transferência de arquivos
-  - Grupos de discussão
 
 ---
 # 6º ao 9º slides
@@ -123,8 +122,8 @@
 ---
 ## Conteúdo do 6º slide
 
-- **Título**: Serviços da Internet
-- **Texto para transformação/criação de tópicos**: _Os servidores Internet
+- **Título**: Servidores
+- **Texto para transformação/criação de tópicos**: _Os servidores na Internet
   podem oferecer vários serviços. Copiar arquivos, enviar mensagens
   para outros usuários, participar de grupos de discussão e visitar
   serviços de informação são os principais._
@@ -283,4 +282,5 @@
 ---
 ## Finalizando...
 
+1. Salvar como guia18.pptx (formato de arquivo padrão do Powerpoint)
 1. Entregar **via Moodle** no horário **desta aula**
