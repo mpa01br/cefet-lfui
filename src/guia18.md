@@ -9,7 +9,7 @@
 - Assunto: **Apresentações**: Powerpoint
 - Objetivos:
   1. Orientações de Apresentação de conteúdos
-  1. Criação de apresenstações
+  1. Criação de apresentações
   1. Formatação de slides e conteúdo
   1. Notas de apresentação
 
