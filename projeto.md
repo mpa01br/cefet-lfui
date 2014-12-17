@@ -54,8 +54,17 @@
   1. (5%) Jogabilidade inédita, ou diferente do comum
   1. (3%/cada) Fase além da primeira (limite de 5)
   1. (10%) Ter um "chefão", ou uma fase mais complicada
-  1. (5-15%) Inimigos "espertos"
+  1. (5-15%) Inimigos, mais simples ou mais espertos
   1. (5%) Gráficos bem criados
+  1. (continua no próximo slide...)
+
+
+---
+## Como consigo 100% dos meus pontos? (cont.)
+
+- Mais itens extras:
+  1. (5%) Cenário maior que a tela (então ter que ter "barra de rolagem")
+  1. (2-5%) Diálogos entre personagens ou instruções de jogo
   1. (5-10%) Animações diversas (andando, saltando, abaixando, atirando,
       invencível etc.)
   1. (5-15%) Itens ou armas
