@@ -139,3 +139,57 @@
 - (8) Entrega das atividades em sala
   - ~1 ponto por aula
 - (8) Prova
+
+---
+# Atividade de hoje
+
+![](images/logo-sample.png)
+
+---
+
+## **Logo**
+
+1. Instale o programa FMS Logo.
+  - [Link para _download_ no sourceforge](http://sourceforge.net/projects/fmslogo/)
+  - [Link para _download_ local](attachments/fmslogo-6.32.0.exe)
+1. Usando os comandos do logo (veja os slides adiante), escreva  na tela:
+  - O seu primeiro ou
+  - O seu sobrenome ou
+  - O nome do seu cachorro.
+1. Poste o resultado (a imagem) e o código produzido no Moodle.
+  - Caso o Moodle ainda não tenha sido ativado, envie os dois arquivos por email para 
+    [coutinho@decom.cefetmg.br](mailto:coutinho@decom.cefetmg.br) **com o assunto** "aula-0 sobre logo"
+
+---
+## Comandos no logo (1/2)
+
+1. **Andar para frente**
+   - `parafrente nº` ou **`pf nº`**
+   - Faz com que a tartaruga ande para frente (no sentido que ela estiver apontando) 
+     o número de passos digitado (`nº`).
+1. **Andar para trás**
+   - `paratrás nº` ou **`pt nº`**
+   - Faz com que a tartaruga ande para trás (no sentido oposto que
+     ela estiver apontando) o número de passos digitado (`nº`).
+1. **Virar para a direita**
+   - `paradireita nº` ou **`pd nº`**
+   - Gira a tartaruga para a direita o número de graus (`nº`).
+
+
+---
+## Comandos no logo (2/2)
+
+1. **Virar para a esquerda**
+   - `paraesquerda nº` ou **`pe nº`**
+   - Gira a tartaruga para a esquerda o número de graus igual a `nº`.
+1. **Saltar**
+   - `usenada` ou **`un`**
+   - Movimenta a tartaruga sem riscar
+1.  **Riscar**
+   - `uselápis` ou **`ul`**
+   - Movimenta a tartaruga deixando um rastro
+
+---
+## Resultado do professor
+
+![](images/logo-flavio.png)
