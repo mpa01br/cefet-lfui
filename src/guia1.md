@@ -1,4 +1,4 @@
-# Informática - REDES
+# Informática e Redes
 
 - Disciplina: **Laboratório de Fundamentos de Informática**
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
