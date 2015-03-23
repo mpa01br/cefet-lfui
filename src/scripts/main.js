@@ -8,7 +8,9 @@ var bespoke = require('bespoke'),
     hash = require('bespoke-hash'),
     progress = require('bespoke-progress'),
     state = require('bespoke-state'),
-    markdown = require('bespoke-markdown');
+    markdown = require('bespoke-markdown'),
+    tutorial = require('./tutorial');
+
 
 var presentationEl = document.getElementById('presentation-slide'),
     queryString = document.location.search,
@@ -33,5 +35,6 @@ bespoke.from('article', [
   //scale(),
   hash(),
   progress(),
-  state()
+  state(),
+  tutorial(document.getElementsByClassName('tutorial')[0], 10)
 ]);
