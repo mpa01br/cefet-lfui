@@ -27,3 +27,47 @@ $tutorial-right = 20px
   to
     right: $tutorial-right * 2;
 
+
+
+
+
+.texto-binario
+  animation shine 1s ease-out 0s 1 normal
+.texto-normal
+  animation shine2 1s ease-out 0s 1 normal
+
+@keyframes shine
+  from
+    opacity .25
+  to
+    opacity 1
+
+@keyframes shine2
+  from
+    opacity .25
+  to
+    opacity 1
+
+table
+  max-width 760px
+  text-align center
+
+td:not(:last-child), th:not(:last-child)
+  border-right 1px solid rgba(0,0,0,.2)
+
+td
+  padding 3px
+
+th
+  padding 3px
+
+tr
+  border 1px solid rgba(0,0,0,.4)
+
+tr:nth-of-type(2n) > td
+  background-color rgba(255,255,255,.4)
+
+thead > tr
+  background-color #555
+  color white
+

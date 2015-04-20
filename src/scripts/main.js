@@ -9,7 +9,8 @@ var bespoke = require('bespoke'),
     progress = require('bespoke-progress'),
     state = require('bespoke-state'),
     markdown = require('bespoke-markdown'),
-    tutorial = require('./tutorial');
+    tutorial = require('./tutorial'),
+    easter = require('./easter');
 
 
 var presentationEl = document.getElementById('presentation-slide'),
@@ -38,3 +39,5 @@ bespoke.from('article', [
   state(),
   tutorial(document.getElementsByClassName('tutorial')[0], 10)
 ]);
+
+easter();

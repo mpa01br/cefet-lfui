@@ -1,20 +1,22 @@
 var pkg = require('./package.json'),
-    gulp = require('gulp'),
-    gutil = require('gulp-util'),
-    plumber = require('gulp-plumber'),
-    rimraf = require('gulp-rimraf'),
-    rename = require('gulp-rename'),
-    connect = require('gulp-connect'),
-    browserify = require('gulp-browserify'),
-    uglify = require('gulp-uglify'),
-    stylus = require('gulp-stylus'),
-    autoprefixer = require('gulp-autoprefixer'),
-    csso = require('gulp-csso'),
-    through = require('through'),
-    opn = require('opn'),
-    ghpages = require('gh-pages'),
-    path = require('path'),
-    isDist = process.argv.indexOf('serve') === -1;
+  gulp = require('gulp'),
+  gutil = require('gulp-util'),
+  plumber = require('gulp-plumber'),
+  rimraf = require('gulp-rimraf'),
+  rename = require('gulp-rename'),
+  connect = require('gulp-connect'),
+  uglify = require('gulp-uglify'),
+  stylus = require('gulp-stylus'),
+  autoprefixer = require('gulp-autoprefixer'),
+  csso = require('gulp-csso'),
+  through = require('through'),
+  opn = require('opn'),
+  ghpages = require('gh-pages'),
+  path = require('path'),
+  browserify = require('gulp-browserify'),
+  debowerify = require('debowerify'),
+  isDist = process.argv.indexOf('serve') === -1;
+
 
 gulp.task('js', ['clean:js'], function() {
   return gulp.src('src/scripts/main.js')
@@ -65,6 +67,13 @@ gulp.task('attachments', ['clean:attachments'], function() {
   return gulp.src(['src/attachments/**/*'])
     .pipe(isDist ? through() : plumber())
     .pipe(gulp.dest('dist/attachments'))
+    .pipe(connect.reload());
+});
+
+gulp.task('bower', function() {
+  return gulp.src(['bower_components/**/*'])
+    .pipe(isDist ? through() : plumber())
+    .pipe(gulp.dest('dist/bower_components'))
     .pipe(connect.reload());
 });
 
@@ -129,6 +138,6 @@ gulp.task('deploy', ['build'], function(done) {
   ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
 });
 
-gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments']);
+gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments' /*, 'bower'*/ ]);
 gulp.task('serve', ['connect', 'watch']);
 gulp.task('default', ['build']);
