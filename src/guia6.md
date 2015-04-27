@@ -43,7 +43,7 @@
   - B = 11
   - ...
   - F = 15
-- Exemplos:
+- Exemplos (não se preocupe em entender a conversão ainda):
  - 20AC<sub>16</sub> = 8364<sub>10</sub>
  - FFFF<sub>16</sub> = 65535<sub>10</sub>
  - 11<sub>16</sub> = 17<sub>10</sub>
@@ -81,10 +81,10 @@
   - Um arquivo de texto (por exemplo, um arquivo musica.txt)
   - Um arquivo não textual (por exemplo, um foto, um pdf, um docx)
 1. Você deve entregar, no Moodle, **4 _screenshots_ da saída do programa**, sendo elas para:
-  - o arquivo binário, no formato binário
-  - o arquivo binário, no formato hexadecimal
   - o arquivo textual, no formato binário
   - o arquivo textual, no formato hexadecimal
+  - o arquivo não textual, no formato binário
+  - o arquivo não textual, no formato hexadecimal
  
 ---
 # Conversões **para** a base decimal
