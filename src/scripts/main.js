@@ -10,7 +10,8 @@ var bespoke = require('bespoke'),
     state = require('bespoke-state'),
     markdown = require('bespoke-markdown'),
     tutorial = require('./tutorial'),
-    easter = require('./easter');
+    easter = require('./easter'),
+    gifs = require('./stoppable-gifs');
 
 
 var presentationEl = document.getElementById('presentation-slide'),
@@ -41,3 +42,4 @@ bespoke.from('article', [
 ]);
 
 easter();
+gifs();
