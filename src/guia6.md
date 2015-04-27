@@ -8,7 +8,6 @@
 
 - Assunto: Sistemas de numeração
 - Objetivos:
-  1. Conhecer os agrupamentos de bits
   1. Praticar a conversão de números entre bases 
   1. Praticar aritmética binária
   
@@ -21,7 +20,6 @@
 1. Conversões **para** a base decimal
 1. Conversões **a partir** da base decimal
 1. Exercício 2
-1. Agrupamentos de bits
 
 ---
 # Bases comuns na computação
@@ -65,7 +63,7 @@
 ---
 ## Exercício 1
 
-1. Baixe o código fonte do programa `descbin.c`.
+1. Baixe o código fonte do programa `descbin.c` disponibilizado no Moodle
   - Esse programa lê um arquivo e o imprime na tela de dois jeitos:
     1. Binário ou hexadecimal (parte da esquerda)
     1. Textual, usando a tabela ASCII (parte da direita)
