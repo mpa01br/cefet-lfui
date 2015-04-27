@@ -78,8 +78,8 @@
 ## Exercício 1 (cont.)
 
 1. Compile e execute o programa e o utilize para ler 2 arquivos:
-  - Um arquivo binário (por exemplo, algum arquivo .exe)
-  - Um arquivo textual (por exemplo, o próprio descbin.c)
+  - Um arquivo de texto (por exemplo, um arquivo musica.txt)
+  - Um arquivo não textual (por exemplo, um foto, um pdf, um docx)
 1. Você deve entregar, no Moodle, **4 _screenshots_ da saída do programa**, sendo elas para:
   - o arquivo binário, no formato binário
   - o arquivo binário, no formato hexadecimal
