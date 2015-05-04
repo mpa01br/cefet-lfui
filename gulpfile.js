@@ -70,6 +70,12 @@ gulp.task('attachments', ['clean:attachments'], function() {
     .pipe(connect.reload());
 });
 
+gulp.task('favicon', function() {
+  return gulp.src(['favicon.ico'])
+    .pipe(gulp.dest('dist'))
+    .pipe(connect.reload());
+});
+
 gulp.task('bower', function() {
   return gulp.src(['bower_components/**/*'])
     .pipe(isDist ? through() : plumber())
@@ -138,6 +144,6 @@ gulp.task('deploy', ['build'], function(done) {
   ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
 });
 
-gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments' /*, 'bower'*/ ]);
+gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments', 'favicon' ]);
 gulp.task('serve', ['connect', 'watch']);
 gulp.task('default', ['build']);
