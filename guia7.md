@@ -159,7 +159,7 @@
 ---
 ## Operador **OR** (ou)
 
-- A operação OR resulta em 0 apenas quando os dois operandos são 0
+- A operação OR resulta em 1 se qualquer operando for 1
 - Todas as combinações para cada operando sendo apenas de 1 bit:
   1. `1 OR 1 = 1`
   1. `1 OR 0 = 1`
@@ -245,7 +245,3 @@
     encontrar o complemento
     - Exemplo: encontrar complemento de `10110`: `(2`<sup>`5`</sup>`) - 10110 = ` **`01010`**
     
----
-## Na próxima aula...
-
-- Na próxima aula veremos mais sobre números negativos e números não inteiros
