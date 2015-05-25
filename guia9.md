@@ -98,7 +98,7 @@
   ou mesmo gerar texto que possa ser editado.
   - No caso da geração de texto, o computador precisa tentar entender o que está escrito, **transformando uma imagem 
     cheia de caracteres em um conjunto de letras, números e símbolos**. O nome dessa técnica é _Optical 
-    Mark Recognition_ (OCR)
+    Character Recognition_ (OCR)
 
 ---
 ## Como fazer OCR?
