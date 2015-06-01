@@ -4,317 +4,183 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **17**
+## Guia 13
 
-- Assunto: **Planilhas eletrônicas**: Excel
+- Assunto: **Processador de texto**: Word
 - Objetivos:
-  1. Conectar a fontes de dados diversas
-  1. Usar validação de dados
-  1. Usar formatação de células condicional
-  1. Praticar o uso de funções
+  1. Criar, editar, carregar e salvar documentos
+  1. Praticar formatação de texto, criação de tabela, uso de estilos, inserção
+     de figuras, referências e índices
+  1. Usar ferramenta de correção ortográfica
+
 
 ---
-## Enunciado
+## Roteiro
 
-- Você deve criar a planilha abaixo que reune informações sobre **o que algumas
-  celebridades faziam antes de se tornar famosas** e também algumas informações
-  sobre seu **país de origem**
-- Você deve seguir os passos que serão descritos nos próximos _slides_
-
-  ![](images/excel-celebridades-fim.png)
-
----
-## Motivação: Conectar a fontes de dados
-
-- Hoje vamos construir uma planilha no Microsoft Excel que acessa dados de
-  outros arquivos.
-  - Digamos que você precisa de uma coluna em sua planilha para dizer o país e
-    a capital onde uma pessoa nasceu
-    - Você pode digitar isso você mesmo
-    - Mas, se você já tiver essa informação em outro local do seu computador,
-      é mais adequado simplesmente reutilizar
+1. Criando e carregando documentos (1 min)
+1. Formatação do texto e estilos de _design_ (2 min)
+1. Criando um sumário (1 min)
+1. Adicionando referências e citações (2 min)
+1. Revisão de texto (1 min)
+1. Um relatório técnico (70 min)
+   <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
-## Exercício - Parte **1**
-
-- Baixar um arquivo texto que tem informações sobre algumas celebridades
-  - [celebridades.csv](attachments/guia17/celebridades.csv)
-- <img src="images/csv-abrir-notepad.png" style="float:right;margin-left:20px;margin-bottom:15px;">
-  Abra esse arquivo **usando um editor de texto simples**, como o `Notepad` ou
-  o `Notepad++`
-  - Repare o formato do arquivo: são apenas textos, separados por vírgula
-  - O formato <abbr title="Comma-separated values">`CSV`</abbr> é um formato
-    de arquivo comum para armazenar dados e ele é muito simples
-  - Tipicamente, o separador é a vírgula, mas outros caracteres podem ser
-    usados
+# Parte 1: Criando e carregando documentos
 
 ---
-## Exercício - Parte 1 (cont.)
+## Menu Arquivo
 
-- Criar um arquivo no Excel e salvá-lo com o nome `guia17.xlsx`
-- Agora, você deve importar as informações do arquivo `celebridades.csv` para
-  dentro do seu arquivo `guia17.xlsx`:
-  1. Na aba "Dados", na seção "Obter Dados Externos", clique no botão
-     "De Texto"
-     <img src="images/excel-barra-dados-importar-texto.png" style="display:block;margin:10px 0">
-  1. Uma janela para seleção de arquivo abrirá. Selecione `celebridades.csv`
+![](images/word-menu-arquivo.png)
 
 ---
-## Exercício - Parte 1 (cont.)
+## Menu Arquivo &gt; Opção **Novo** (cont.)
 
-- Continuando (após selecionar `celebridades.csv`)...
-  1. Um assistente de importação será aberto. Aqui, devemos ajudar o Excel a
-     entender como o arquivo `CSV` está configurado
-  1. Faça a configuração de acordo com o que você perceba do arquivo, de forma
-     que faça sentido para você
-
-     ![](images/excel-importacao-csv1.png)
-
----
-## Exercício - Parte 1 (cont.)
-
-- Continuando (após clicar em "Avançar")...
-  1. Na segunda tela do assistente, o Excel pergunta qual é o **caractere
-     delimitador** das informações
-  1. Selecione o caractere que delimita informações no arquivo
-     `celebridades.csv`
-
-     ![](images/excel-importacao-csv2.png)
+- Você pode criar um documento em branco
+- Mas também pode usar um **modelo** pronto de algum tipo de documento, por
+  exemplo:
+  - Uma lista de presença
+  - Um currículo
+  - Um certificado
+  - Um cartão de visita
 
 ---
-## Exercício - Parte 1 (cont.)
+## Menu Arquivo &gt; Opções **Salvar** e **Salvar como...**
 
-- Continuando (após clicar em "Avançar")...
-  1. O Excel agora sabe quantas colunas (2) o arquivo `CSV` tem. Agora, ele
-     precisa saber o tipo de informação em cada coluna (texto, número, data
-     etc.)
-  1. Como as duas colunas contém apenas texto, selecione o **tipo de dados**
-     apropriado **para cada uma**
-
-     ![](images/excel-importacao-csv3.png)
+- A primeira vez que se clica em **Salvar** para um documento novo, você deve
+  escolher em que pasta e qual o nome do arquivo deseja persistí-lo
+- Próximos cliques em **Salvar** não requerem nenhum tipo de escolha
+- Para criar uma cópia do arquivo atual, use a opção **Salvar Como...** para
+  escolher um local e um nome para a cópia
 
 ---
-## Exercício - Parte 1 (cont.)
+## Menu Arquivo &gt; Opção **Abrir**
 
-- Continuando (após clicar em "Concluir")
-  1. <img src="images/excel-importacao-csv-resultado.png" style="float:right;margin:10px;">
-     Uma pequena janela abrirá perguntando onde quer colocar os dados
-     importados
-     - Selecione a primeira célula da primeira planilha. O resultado é
-       mostrado abaixo:
+- Para carregar um arquivo, você pode acessar a opção **Abrir** e selecionar o
+  documento do sistema de arquivos (pasta e nome do arquivo)
 
-  1. Renomeie a planilha "Plan1" para "Celebridades"
+## Menu Arquivo &gt; Opção **Informações**
 
----
-## Exercício - Parte **2**
-
-- Vamos criar uma nova linha para conter um cabeçalho das colunas
-  1. Crie uma nova linha acima da linha 1
-  1. Nas células:
-    - A1, escreva "Nome da Celebridade"
-    - B1, escreva "Antiga Profissão"
-    - C1, escreva "País de Origem"
-    - D1, escreva "Capital do País"
-    - E1, escreva "Pessoas/Km²"
+- Possibilita a configuração de proteção do documento
+  - Você pode criptografá-lo e apenas quem tiver uma senha pode abrí-lo
+  - Você pode impedir que modificações sejam feitas ao documento
+  - Você pode associar uma assinatura digital
 
 ---
-## Exercício - Parte 2 (cont.)
-
-1. Formate a planilha de forma que ela se pareça com a figura abaixo
-
-   ![](images/excel-celebridades-1.png)
+# Parte 2: Formatação do texto e estilos de _design_
 
 ---
-## Motivação: mais sobre fontes de dados externas
+## Duas formas para formatar texto
 
-- Agora, precisamos de uma lista de países, capitais e informação de
-  habitantes por km² de cada país para terminarmos de preencher a planilha
-- Para isso, vamos **usar um banco de dados que contém essas informações**
-
----
-## Exercício - Parte **3**
-
-- Baixe um banco de dados disponibilizado pelo professor que tem
-  informações sobre países:
-  - [`geography.accdb`](attachments/guia17/geography.accdb)
-- Abra esse arquivo **usando um editor de texto puro**, como o `Notepad++`
-  - Diferente de um arquivo `CSV`, um arquivo de banco de dados no formato
-    `ACCDB` é bastante complexo e codificado de forma binária
-    - Daí, não conseguimos extrair informação usando um editor de texto simples
-- Para visualizar este arquivo, precisamos do programa **Microsoft Access**,
-  que é **a ferramenta do pacote Office que usamos para criar bancos de dados**
+- Você pode alterar a fonte, uso de negrito, itálico, sublinhado, tachado,
+  tamanho, espaçamento, bordas e várias outras coisas de duas formas
+  - Específica
+    - Alteramos a formatação dos elementos que estão selecionados
+    - Ideal para textos pequenos
+  - Com estilos
+    - Alteramos a formatação de "partes" da página como: parágrafos, títulos,
+      subtítulos etc.
+    - Ideal para textos maiores, mais técnicos ou científicos
+- Veja exemplos dos dois _slides_ seguintes
 
 ---
-## Exercício - Parte 3 (cont.)
+## Formatação **específica**
 
-- Agora, vamos importar algumas informações do arquivo `geography.accdb`
-  para nossa planilha
-  1. Altere o nome da segunda planilha para "Países", em vez de "Plan2"
-  1. Exclua a terceira planilha (Plan3)
-  1. Na aba "Dados", na seção "Obter Dados Externos", selecione "Do Access"
+![](images/word-formatacao.png)
 
 ---
-## Exercício - Parte 3 (cont.)
+## Formatação **por estilos**
 
-1. Selecione o arquivo que você baixou (`geography.accdb`)
-  - O arquivo `geography.accdb`, assim como outros tipos de bancos de dados,
-    organiza os dados em tabelas
-  - Uma nova janela será aberta, perguntando que tabela do arquivo
-    `geography.accdb` você deseja importar
-
-    ![](images/excel-importacao-access1.png)
-  - Selecione a tabela `Country` (país, em inglês) e clique "Ok"
+![](images/word-formatacao-estilos.png)
 
 ---
-## Exercício - Parte 3 (cont.)
+## Formatação **por estilos** (cont.)
 
-- Continuando (depois de selecionar "Ok")
-  1. Uma nova janela abrirá, perguntando se você quer importar os dados
-     dos países como uma tabela, uma tabela dinâmica ou uma tabela dinâmica
-     e um gráfico
-     - Escolha apenas "Tabela" e selecione a primeira célula da planilha
-       "Países"
-
-       ![](images/excel-importacao-access2.png)
+- Com a formatação por estilos, além de ter a facilidade de alterar várias
+  partes do documento de uma vez, também **estamos dizendo ao Word: isto aqui é
+  um título, isto aqui um subtítulo, isto aqui é corpo do texto etc.**
+- Dessa forma, conseguimos, por exemplo, gerar um **sumário automaticamente** e
+  com o número das páginas preenchido dinamicamente
 
 ---
-## Exercício - Parte 3 (cont.)
-
-- A segunda planilha se parecerá com a figura abaixo:
-
-  ![](images/excel-celebridades-2.png)
+# Parte 3:  Criando um sumário
 
 ---
-## Recapitulando
+## Sumário
 
-- No momento agora temos uma planilha com informações sobre as celebridades
-  (parcialmente preenchida) e outra planilha com dados sobre países
-- Agora, queremos preencher a coluna "País de Origem" da planilha "Celebridades"
-- Contudo, já que temos a informação de todos os países, **em vez de digitar**
-  os países nas colunas, vamos selecionar o país de uma lista, para facilitar
-  - Veja a seguir como conseguir isso na parte 4 do exercício
+- Uma vez que você marcou quais são seus títulos e subtítulos, você pode gerar
+  o sumário automaticamente
+
+  ![](images/word-sumario.png)
 
 ---
-## Exercício - Parte **4**
-
-- Vamos usar um recurso do Excel chamado **validação de dados** para restringir
-  os valores que podemos colocar em uma célula
-  - Mais especificamente, vamos falar para o Excel que a coluna
-    "País de Origem" aceita apenas os nomes dos países
-
-1. <img src="images/excel-ordernar-tabela.png" style="float:right;margin:10px;">
-   Primeiramente, **ordene a tabela** de países de forma alfabética (planilha
-   "Países")
-1. Selecione as células `C2:C13` (da coluna "País de Origem" da planilha
-   "Celebridades")
+# Parte 4: Adicionando referências e citações
 
 ---
-## Exercício - Parte 4 (cont.)
+## Preenchendo suas **fontes bibliográficas** (pt 1)
 
-1. Na aba "Dados", seção "Ferramentas de Dados", clique no botão "Validação
-   de Dados"
-
-   ![](images/excel-barra-dados-validacao.png)
+![](images/word-bibliografia.png)
 
 ---
-## Exercício - Parte 4 (cont.)
+## Criando uma **Bibliografia** (pt 2)
 
-1. <img src="images/excel-validacao-dados1.png" style="float:right;margin-left:10px;margin-bottom:10px">
-   Uma janela aparecerá. Nela, devemos selecionar como queremos restringir os
-   valores a serem digitados nas células selecionadas
-   1. Na janela, selecione que você deseja permitir uma "Lista" de valores
-   1. Além disso, selecione a "Fonte" dos dados da lista como as células
-      que contêm nomes de países na planilha "Países" (`=Países!A2:A239`)
+![](images/word-referencias.png)
 
 ---
-## Exercício - Parte 4 (cont.)
+## **Citando** no texto
 
-- Continuando... (após clicar em "Ok")
-  1. Repare que agora, nas células da coluna "País de Origem", existe um botão
-     que dá acesso a uma lista de países:
-
-     ![](images/excel-validacao-dados2.png)
-  1. Agora, preencha o país de origem de cada celebridade
-    - Você pode consultar o Google para aquelas que não souber, ou simplesmente
-      selecionar qualquer país
+![](images/word-citar.png)
 
 ---
-## Recapitulando
-
-- Agora podemos selecionar o nome do país (em inglês, mas tudo bem) para cada
-  celebridade
-- Contudo, também precisamos saber qual é a capital dos países para colocar na
-  coluna "Capital do País"
-- A nossa planilha "Países" tem a relação de capital de cada país, então
-  podemos reutilizá-la
-  - Mas, vamos fazer isso sem precisar escrever as capitais nós mesmos.
-    Veja como fazer isso na parte 5
+# Parte 5: Revisão de texto
 
 ---
-## Exercício - Parte **5**
+## Revisão ortográfica e gramatical
 
-- Para preencher as células da coluna "Capital do País" de forma automática,
-  vamos usar uma função do Excel chamada <abbr title="Procura Vertical">`PROCV`</abbr>
-1. Selecione a primeira célula da coluna "Capital do País": `D2`
-   - A função `PROCV` procura, em uma tabela, o valor de uma outra coluna
-   - Ela precisa de 3 parâmetros:
-     ```
-     =PROCV(valor_procurado; matriz_tabela; número_coluna)
-     ```
+![](images/word-revisao-orto.png)
 
 ---
-## Exercício - Parte 5 (cont.)
+# Parte 6: Um Relatório Técnico (Exercício)
 
-- Para usar a função `PROCV` na célula `D2` e buscar a capital do país que
-  está selecionado na célula `C2`:
-  ```
-  =PROCV(C2; Tabela_geography.accdb; 3)
-  ```
-- Veja como a planilha deve ficar:
-
-  ![](images/excel-celebridades-3.png)
+- Entrega **até o final desta aula** via Moodle
+- Você deve entregar o seu documento em formato .docx
 
 ---
-## Exercício - Parte 5 (cont.)
+## Exercício
 
-1. Copie a fórmula que você criou para a célula `D2` para `D3`, `D4` e todas as
-   outras células da coluna "Capital do País"
-   - Você pode selecionar a célula `D2` e arrastar o quadrado/triângulo do
-     canto inferior direito para as outras células (até `D13`)
+  Você deve criar um texto científico com o conteúdo e formatação idênticos a
+  [este relatório técnico](https://drive.google.com/file/d/0B6-KCjtlxaKIS3F1VDM4MnV6cjQ/view?usp=sharing). A imagem a ser utilizada
+  é [esta aqui](images/word-grafico.png).
 
-     ![](images/excel-celebridades-4.png)
 
 ---
-## Exercício - Parte **6**
+## Exercício (cont.)
 
-1. Usando a mesma função (`PROCV`), preenha a coluna Pessoas/Km² usando as
-   colunas "Population" e "Area" da planilha "Países"
-   - Você vai precisar fazer algo como:
-     ```
-     =PROCV(...)/PROCV(...)
-     ```
-  - Como deve ficar a planilha:
-
-    ![](images/excel-celebridades-5.png)
-
----
-## Exercício - Parte **7**
-
-- Agora vamos mostrar quais países são mais populosos (alto número de pessoas
-  por km²)
-- Vamos usar uma ferramenta de "Formatação Condicional"
+1. O documento deve usar a fonte Calibri (corpo) tamanho 10, com parágrafos
+   justificados
+1. Algumas listas possuem mais de uma coluna
+1. Palavras em negrito, itálico, etc. devem ser idênticas às do documento de
+   referência
+1. A capa deve ser semelhante à do documento de referência, mas não precisa ser
+   idêntica. Ela deve conter seu nome completos
+1. As páginas devem conter numeração no seu rodapé, do lado direito
 
 ---
-## Exercício - Parte 7 (cont.)
+## Exercício (cont.)
 
-- o Excel pode formatar células de forma diferente dependendo do valor da
-  célula
-  1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
-  1. Selecione a opção de formatação condicional como na imagem abaixo:
-
-     ![](images/excel-formatacao-condicional.png)
+1. O **sumário** deve ser criado **automaticamente**
+   - Portanto, utilize os **estilos de títulos** para criar os títulos das seções
+1. Você deve incluir a figura do gráfico referenciá-la com uma **referência
+   cruzada**
+1. A tabela deve possuir uma legenda (Tabela 1: Tabela com as sugestões...) e
+   ela deve ser referenciada por uma **referência cruzada** também
+   - Use **estilos de _Design_** para colorir a tabela
 
 ---
-## Finalizando...
+## Exercício (cont.)
 
-1. Entregar **via Moodle** no horário **desta aula**
+1. A seção de **referências** deve ser criada **automaticamente**
+   - Portanto, utilize as ferramentas de bibliografia ao fazer as citações no
+    texto
+1. O documento de referência possui erros de escrita (ortografia e gramática).
+   Você deve encontrar e corrigir todos os erros

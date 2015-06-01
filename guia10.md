@@ -1,4 +1,4 @@
-# Informática - REDES
+# Informática
 
 - Disciplina: **Laboratório de Fundamentos de Informática**
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
@@ -6,126 +6,250 @@
 ---
 ## Guia 10
 
-- Assunto: **Internet**
-- Objetivos:
-  1. Entender o funcionamento da Internet como **"usuário"** e como
-**técnico**
-  1. Conhecer fundamentos da Web
-  1. Entender alguns processos de segurança que permeiam a Internet
+- Assunto: CPU e memória principal
+- Objetivo:
+  1. Entender que partes são essenciais para um computador
+  1. Conhecer o funcionamento do processador
+  1. Conhecer a hierarquia de memória
+  
+---
+# Arquitetura de um computador
+
+![](images/arquitetura-pc.png)
+
+- As peças que compõem um computador podem ser divididas em 3 grupos:
+  1. Dispositivos de **entrada**
+  1. Dispositivos de **processamento**
+  1. Dispositivos de **saída**
 
 ---
-## Roteiro
+# Unidade Central de Processamento (CPU)
 
-1. Assistir os 2 vídeos sobre **como a Internet funciona** (40 min)
-1. Descobrir alguns **endereços IP** (20 min)
-   <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
-1. **_Hackear_** o facebook :O (20 min)
-   <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
-1. Próxima aula
+![](images/processador-frente-verso.png)
 
 ---
-# Parte 1: Como a **Internet** funciona
+## A CPU (ou o processador)
+
+- É um conjunto complexo de circuitos eletrônicos que executam instruções de programas
+- Consiste em duas partes:
+  1. Unidade de controle
+  1. Unidade lógica e aritmética (_arithmetic/logic unit_ ou ALU)
+- O computador possui armazenamento (ou memória) primário (RAM, ROM, Cache) e secundário (HD, Flash, DVD-ROM etc.)
+  - A CPU tem uma relação muito próxima com o armazenamento primário
+- Para entender o que signfica **instruções de programas**, vamos pegar um pequeno desvio...
+  
 ---
-<iframe width="640" height="480" src="//www.youtube.com/embed/7_LPdttKXPc?rel=0" frameborder="0" allowfullscreen></iframe>
+<!--
+backdrop: detour
+-->
 
-## [Como a Internet funciona em 5 Minutos](https://www.youtube.com/watch?v=7_LPdttKXPc)
+## **Executando** um programa
 
----
-<iframe width="640" height="360" src="//www.youtube.com/embed/hymzoUpM0K0" frameborder="0" allowfullscreen></iframe>
-
-## [Guerreiros da Rede](https://www.youtube.com/watch?v=hymzoUpM0K0)
-
----
-# Parte 2: _Detergente é **IP**_
-
-![Foto de um detergente Ypê](images/detergente-ype.jpg)
-
----
-
-O endereço IP é um número binário usado para identificar coisas conectadas em
-rede.
-
-![Visualização do endereço IP em base binária](images/ipv4.png)
-
----
-O IP pode ser:
-  - **privado**, quando utilizado apenas em uma LAN (local area network ou rede
-    local), ou
-  - **público**, quando usado na Internet ou em outra WAN (wide area network ou rede
-    de longa distância)
+- Quando executamos um programa (um arquivo `.exe`), os seguintes passos acontecem:
+  1. Seu conteúdo contendo instruções de execução (em formato de **código de máquina**)
+    é transportado do disco rígido (HD) **para a memória RAM**
+  2. **O processador** começa a solicitar da memória RAM cada instrução do programa e as **executa**
+  3. Os resultados são **salvos na memória RAM** e exibidos na tela
+- Mas o que é esse **código de máquina**?
 
 ---
-Além disso, o IP pode ser:
-  - **estático**, se ele é atribuído ao computador (à placa de rede, na verdade)
-  por meio de configuração, ou
-  - **dinâmico**, se ele é atribuído por um servidor DHCP (um roteador ou outro
-    dispositivo com essa função)
+<!--
+backdrop: detour
+-->
+
+## **Compilando** um programa
+
+- **Código de máquina** é um formato binário de **instruções** que o processador sabe executar
+  - Podemos dizer que é a linguagem de programação que o processador sabe executar
+  - Mas como geramos esse código de máquina?
+- Quando compilamos um programa em C/C++, o compilador:
+  1. Transforma de **C/C++** para uma **linguagem intermediária chamada Assembly**
+  1. Traduz de Assembly para o formato binário, **em código de máquina**
+- Podemos **ver o compilador** fazendo isso!
 
 ---
-# Parte 2: Exercício
+<!--
+backdrop: detour
+-->
 
-1. Descubra o IP privado e o IP público do seu computador.
-1. Defina qual é seu site favorito ou aquele de que você menos gosta.
-1. Descubra qual o IP do site escolhido.
-1. Descubra em que cidade fica o servidor que hospeda o site escolhido.
-1. Entregue as respostas via **Moodle** e explique como você conseguiu chegar
-   nelas.
+## Processo de compilação
 
----
-Você pode consultar a Internet, mas sugiro buscar pelos comandos:
-```bash
-ping
-```
-
-Para Windows:
-```bash
-tracert
-```
-
-Para Linux:
-```bash
-traceroute
-```
+![](images/compilacao-e-montagem.png)
 
 ---
-Mas você também pode...
-- [Como determinar o endereço IP privado e público](http://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-addresses/)
-- [Endereço IP na Wikipedia](http://pt.wikipedia.org/wiki/Endere%C3%A7o_IP)
-- [Ferramenta de consulta de geo-localização de IPs](http://www.geoiptool.com/)
+<!--
+backdrop: detour
+-->
+
+## Como posso eu mesmo fazer isso?
+
+- Para instruir o compilador para gerar código **assembly**:
+  ```bash
+  $ g++ -S meuArquivo.cpp
+  ```
+  - Um arquivo com nome `meuArquivo.s` será gerado, contendo instruções em assembly
+- Para compilar normalmente (e gerar código de máquina):
+  ```bash
+  $ g++ meuArquivo.cpp
+  ```
+- Para visualizar o código de máquina (arquivo `.o` ou `.exe`)
+  ```bash
+  $ objdump -d meuArquivo.exe
+  ```
 
 ---
-# Parte 3: *Hackeando* o Facebook
+<!--
+backdrop: detour
+-->
 
-![Foto do Mark Zuckerberg](images/mark.jpg)
+## O que é uma instrução?
+
+- Como mencionamos, o **processador executa instruções dos programas** que 
+  eventualmente são carregados na memória
+- Cada linha do arquivo **assembly** possui uma instrução
+  - Exemplos de instruções:
+    - Atribui um valor de um "lugar" a outro
+    ```x86asm
+    movl orig, dest     ;; dest recebe orig
+    ```
+    - Soma dois valores e coloca o resultado na direita
+    ```x86asm
+    addl orig, dest     ;; dest recebe orig+dest
+    ```
+- Vocês terão muitas oportunidades para brincar com **assembly** =)
+  - Veja [algumas instruções][x86_64] dos processadores Intel/AMD
+  
+[x86_64]: https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 
 ---
+## De volta ao processador: as duas unidades
 
-1. Navegue para o Facebook, ou qualquer outro site, no seu navegador predileto.
-1. Abra as ferramentas de desenvolvedor (normalmente, F12 ou Ctrl+Shift+I).
-1. Brinque com as propriedades (cor, tamanho, fonte) dos elementos da página e
-   deixe-a bem diferente do que ela é.
-1. Tire uma _screenshot_ e envie no **Moodle** também.
+- A **unidade de controle**:
+  - Usa sinais elétricos para coordenar a execução de instruções pelo processador
+  - Comunica-se com a unidade lógica e aritmética e com a memória
+- A **unidade lógica e aritmética** (ou ALU):
+  - Executa operações com números binários, sejam elas lógicas (AND, OR, NOT etc.) 
+    ou aritméticas (soma, multiplicação etc.)
+  - Além dessas operações, a ALU pode realizar comparações
+    - Isto é essencial para que seja possível **tomar decisões diferentes dependendo 
+      de certas condições**
+- Além delas, o processador possui **registradores** (próx. slide)
+  
+---
+## **Registradores**
+
+- Áreas de armazenamento temporário **dentro do processador** com altíssima velocidade de acesso 
+- Dentro do processador, servem para **armazenar os operandos e resultados das instruções**
+- Analogia com a caixa registradora de lojas:
+  _"Um lugar conveniente, temporário, para armazenar o que é usado nas transações"_
+- Há dois tipos:
+  1. Registradores **de propósito geral**, usados para guardar operandos comuns
+  1. Registradores **especiais**, com funções específicas, por exemplo:
+    - Manter a instrução atualmente sendo executada
+    - Controlar onde a próxima instrução será armazenada
+- Um processador possui aprox. **16 registradores de propósito geral**  
 
 ---
-![Tela do Facebook hackeado pelo professor](images/hacked-facebook.png)
+## Instruções e registradores
+
+- Os registradores podem ser identificados por nomes. Em processadores de 64 bits da Intel/AMD, os nomes são:
+  ```
+  rax, rbx, rcx, rdx, rbp, rsp, rsi, rdi,
+  r8, r9, r10, r11, r12, r13, r14, r15
+  ```
+- Uma instrução normalmente referencia registradores de origem e destino. Por exemplo:
+  ```x86asm
+  movl %rsp, %rbp     ;; O conteúdo do registrador %rbp 
+                      ;; recebe o valor que está no %rsp
+  ```
+
+  
+  
+---
+# Memória
 
 ---
-# Para a **próxima aula**
-_**(Falhas) de Segurança** na Internet e em Computadores_
+## Tipos de memória
+
+- Os registradores também armazenam dados, então são considerados parte da memória do computador
+- Além deles, existe outro tipo de memória dentro do processador chamada _cache_
+  - Sua velocidade está entre a velocidade dos registradores e da RAM
+- O papel de cada nível de memória:
+  1. **Registradores** armazenam os dados da **operação sendo executada**
+  1. **RAM** armazena o código e as variáveis do **programa sendo executado**
+  1. **HD** armazena o código dos programas que podem a vir serem **executados no futuro**
+  
+---
+## Hierarquia de memória
+
+- ![right](images/hierarquia-memoria.png)
+  Por que há vários tipos de memória?
+  - Se fosse tecnicamente e economicamente viável, teríamos apenas uma memória, super rápida, super grande
+  - Mas memórias rápidas são muito caras
+  - E precisamos de memórias grandes para armazenar grandes volumes de dados
+  
+---
+## RAM (_Random Access Memory_)
+
+![](images/ram.png)
+
+- A RAM (ou memória de acesso aleatório) é um tipo de armazenamento **volátil**: 
+  <abbr title="id est (isto é)">_i.e._</abbr>, ela perde os dados na ausência 
+  de energia elétrica
+  - Assim como registradores e _cache_
+- Ela **armazena as instruções e os dados dos programas** (as variáveis) que estão sendo executados
 
 ---
-_Enunciado_: Escrever uma resenha sobre 2 tipos de ciberataque escolhidos da
-lista a seguir. Sobre cada item, você deve explicar o que é e como funciona e
-o que pode ser feito para proteger um computador desse tipo de ataque.
+# Como a CPU executa instruções
 
-- DDOS (_Distributed Denial of Service_ ou Negação de Serviço Distribuída)
-- XSS (_Cross-site_ scripting ou Scriptagem entre sites)
-- Trojans (ou Cavalos de Tróia)
-- Vírus
-- _Malwares_
+---
+## Preparação para execução de instruções
 
+- Assim que executamos um programa, seu código (instruções), que está em memória 
+  secundária (<abbr title="exempli gratia (por exemplo)">_e.g._</abbr>, no HD), 
+  é trazido para a memória primária (<abbr title="exempli gratia (por exemplo)">_e.g._</abbr>, para a RAM)
+- Lembre-se que uma instrução é algo como:
+  ```x86asm
+  addl orig, dest
+  ```
+  - Que soma o número contido no registrador `orig` ao número em `dest` e coloca 
+    o resultado da soma no registrador `dest`
+  
+---
+## Ciclo do processador
 
+- Então, para cada instrução, o processador faz 4 etapas:
+  1. A unidade de controle obtém a instrução 
+  1. A unidade de controle decodifica a instrução e busca os operandos na memória
+  1. A unidade de controle transfere os dados para registradores e a ALU executa a instrução
+  1. A unidade de controle armazena o resultado da operação da ALU em um registrador ou na RAM
+- Veja a imagem no próximo slide
 
-_Limite_: 1 página para cada item
+---
+## Ciclo do processador (cont.)
 
-_Entrega_: **Moodle** até 23 de Setembro de 2014
+![](images/processador-ciclo.png)
+
+---
+## Ciclo do processador e o **_clock_ do sistema** 
+
+- O processador possui o _clock_ do sistema que produz um **pulso elétrico a uma taxa fixa 
+  para sincronizar todas as operações do computador**
+  - O _clock_ do sistema não tem a ver com o relógio
+- O _clock_, medido em **ciclos por segundo** (Hz), determina a velocidade com que o processador consegue executar 
+  as 4 fases de uma instrução
+  - O processador de um computador pessoal hoje em dia trabalha em aprox. 2,4GHz (Giga Hertz, ou 1 bilhão de ciclos por segundo) 
+- Se a RAM está fora do processador, como eles se comunicam?
+
+---
+# A placa mãe
+
+---
+## Placa mãe
+
+![](images/placa-mae.png)
+
+- É uma placa de circuitos com um conjunto de chips e conexões que **organizam as atividades do computador**
+- **Todos os componentes e dispositivos** do computador se **conectam** a ela
+  - Processador, memória, disco rígido, drive de DVD, fonte, dispositivos de entrada e saída etc.
+  

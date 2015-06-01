@@ -4,192 +4,230 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **19**
+## Guia **15**
 
-- Assunto: **Apresentações**: Powerpoint - parte 2 e Prezi
+- Assunto: **Planilhas eletrônicas**: Excel
 - Objetivos:
-  -	Tipos de Apresentação
-  - Slide mestre
-  - Gráficos, Tabelas e Organogramas
-  - Ferramentas alternativas
+  1. Conhecer os conceitos básicos
+  1. Praticar formatação básica, preenchimento de células, referências
+  1. Praticar o uso de fórmulas simples
 
 ---
-## Enunciado
+## Roteiro
 
-- Na aula de hoje, você vai aprimorar a apresentação do Powerpoint que criou na
-  última aula e também criar uma versão alternativa dela usando uma ferramenta
-  online chamada Prezi  
-- Mas, primeiro, vamos relembrar algumas recomendações para a
-  criação de apresentações em geral
-
----
-# Orientações de Apresentação de conteúdos
+1. Conceitos básicos
+1. Formatação
+1. Fórmulas
+1. Exercícios (1 e 2)
 
 ---
-## Recomendações (relembrando)
-
-- Preferir utilizar tópicos, e não parágrafos grandes
-  - O uso de slides cheios de textos dificulta o acompanhamento da pessoa
-    que está assistindo a sua apresentação
-- Não usar textos com fontes menores que **24pt**
-  - Para que mesmo quem está no fundo da sala consiga enxergar
-- Usar um esquema de cores de alto contraste
-- Não "poluir" os slides com informação demais
+# Conceitos básicos
 
 ---
-## Ponto de partida
+## O que é o Excel?
 
-- Faça _download_ do seu trabalho da última aula (`guia18.pptx`). Você
-  consegue acessar o arquivo enviado, usando a interface do Moodle
-  - Caso não tenha vindo na última aula, peça a apresentação de um colega
+- O Excel é o programa de planilha eletrônica do Microsoft Office
+  - Você pode fornecer dados (em geral, numéricos) em uma planilha e
+    manipulá-los para produzir determinados resultados
 
----
-# Parte 1: Powerpoint - aula 2
-
----
-## 1º passo
-
-- Vamos remover o tema que utilizamos na última aula, já que vamos
-  personalizar a apresentação por conta própria
-
-  ![](images/powerpoint-tema-remover.png)
+- Outras funcionalidades
+  - Funções, que podem ser utilizadas para criar fórmulas para executar
+    cálculos complexos
+  - Geração de gráficos dinâmicos a partir de tabelas
+  - Importação e exportação de planilhas em vários formatos, incluindo
+    HTML, CSV, PDF, entre outros...
 
 ---
-## 2º passo
+## Interface
 
-- Crie um novo slide na apresentação na posição 10
-  - Título: "Processo do Protocolo HTTP"
-  - Conteúdo: a lista ordenada abaixo
-    1. Navegador resolve o nome do site para um IP
-    1. Navegador faz uma requisição GET para o IP
-    1. Servidor responde o GET com um arquivo
+![](images/excel-interface.png)
 
 ---
-## 3º passo - _SmartArts_
+## Conceitos
 
-- Agora, vamos melhorar a aparência das nossas listas de tópicos
-- À partir do Office 2007, o Powerpoint contém um recurso de personalização das
-  listas de tópico chamado **_SmartArt_**
-- Vamos transformar os tópicos do slide 10 em um "processo básico"
-
-  ![](images/powerpoint-smartart1.png)
-
----
-## 3º passo - _SmartArts_ (cont.)
-
-- <img src="powerpoint-smartart1.png" style="float:right;margin-left:20px">
-  Selecione "Mais Elementos Gráficos SmartArt..." para ter acesso à lista
-  completa de possibilidades de transformação
-- Na janela, selecione "Processo" e "Processo Básico" em seguida
-
-  ![](images/powerpoint-smartart3.png)
+- **Planilha**: conjunto de células dispostas em **linhas** e **colunas**
+- **Célula**: um espaço onde se pode escrever algo
+  - É identificada por uma coluna (letra) e uma linha (número)
+  - Por exemplo, `A1`, `B1`, `D10`
+- Cada documento do excel pode conter várias planilhas (abas)
 
 ---
-## 3º passo - _SmartArts_
+## Seleção de Células
 
-- O slide ficará parecido com a figura abaixo:
-
-  ![](images/powerpoint-smartart4.png)
-
----
-## 3º passo - _SmartArts_
-
-- Você ainda pode alterar as cores e os estilos das figuras criadas
-
-  ![](images/powerpoint-smartart5.png)
-- Altere seu _SmartArt_ para uma paleta de cores diferente e também use um
-  estilo diferente do padrão
+- Célula única
+  - Clique com o botão esquerdo do mouse sobre a célula
+- <img src="images/excel-selecao.png" style="float: right; margin-left: 10px; width: 400px">
+  Grupo de células contínuas
+  1. Clique em uma célula
+  1. Pressione e arraste o botão esquerdo do mouse por outras células
 
 ---
-## 4º passo
+## Seleção de Células (cont.)
 
-- Escolha **outros 2 slides** que possuem uma lista de tópicos e **converta
-  suas listas para _SmartArt_**
-  - Na hora de escolher o _layout_ (tipo) do _SmartArt_, considere o
-    significado dos tópicos da lista
-    - Por exemplo, a lista do slide 10 representa um processo. Por isso,
-      escolhemos um _layout_ do tipo "processo"
+- Grupo de células não-contínuas
+  1. Selecione a primeira célula
+  1. Pressione e segure a tecla <kbd>Ctrl</kbd>
+  1. Clique nas demais células que deseja selecionar
 
----
-## 5º passo - Slide mestre
-
-- Agora, vamos colocar a logomarca do CEFET no canto inferior esquerdo de cada
-  slide
-  - Uma alternativa é inserir a imagem em cada slide
-    - Imagina se, em vez de 10 slides, tivéssemos 100?
-  - Outra forma, a que vamos utilizar, é por meio do **slide mestre**
-- Faça _download_ aqui da logo do CEFET:
-
-  ![](images/cefet.jpg)
+![](images/excel-selecao-nao-continua.png)
 
 ---
-## 5º passo - Slide mestre (cont.)
+## Seleção de linhas e colunas
 
-- O **slide mestre** é como uma "forma de fazer bolo", só que de slides :)
-  - O termo correto é **_template_**, que algumas pessoas traduzem para modelo
-- Para acessar/alterar o slide mestre acesse a aba "Exibição", seção "Modos
-  de Exibição Mestres":
+1. Clique no cabeçalho da primeira linha ou coluna que deseja selecionar
+1. Arraste até a última linha ou coluna a contemplar
 
-  ![](images/powerpoint-slide-mestre1.png)
+![](images/excel-selecao-linha-coluna.png)
 
 ---
-## 5º passo - Slide mestre (cont.)
+## Seleção de planilha inteira
 
-- No modo de slide mestre, o Powerpoint mostra todos os **tipos de slide** para
-  que possamos alterar um a um
+- Clique entre o cabeçalho das colunas e linhas da planilha
 
-  ![](images/powerpoint-slide-mestre2.png)
-
----
-## 5º passo - Slide mestre (cont.)
-
-- Selecione o 3º tipo de slide - aquele que mostra um título no alto e uma
-  lista de tópicos no espaço de conteúdo
-- Insira a logomarca do CEFET e posicione-a no canto inferior esquerdo, como
-  na imagem
-
-  ![](images/powerpoint-slide-mestre3.png)
+![](images/excel-selecao-folha.png)
 
 ---
-## 5º passo - Slide mestre (cont.)
+## Inserindo linhas e colunas
 
-- Vamos agora deixar a logomarca menos visível, de forma que ela não fique
-  chamando muita atenção do conteúdo dos slides
-  1. Selecione a imagem
-  1. Na aba "Formatação", seção "Ajustar", escolha a opção "Cor" e, em seguida,
-     a opção cinza claro
-
-     ![](images/powerpoint-imagem-apagada.png)
-
----
-## 5º passo - Slide mestre (cont.)
-
-- Agora, vamos **sair do modo de slide mestre** e voltar ao modo normal
-  - Para isso, na aba "Slide Mestre", clique no botão "Fechar modo de exibição
-    mestre"
-
-  ![](images/powerpoint-slide-mestre4.png)
+- Utilizando a guia "Inserir"
+  1. Selecione uma célula
+  1. Clique em Inserir Linhas na Planilha (ou Colunas)
+    ![](images/excel-inserir-linha.png)
+- Utilizando o mouse
+  1. Clique com o botão direito do mouse no cabeçalho da coluna ou da linha onde você deseja fazer a inserção
+  1. Clique em "Inserir"
 
 ---
-## Entrega da **primeira parte**
+## Apagando linhas e colunas
 
-1. Salvar como guia19.pptx
-1. Entregar **via Moodle** no horário **desta aula**
-
----
-# Parte 2: Prezi
+1. Selecione a coluna ou a linha que quer apagar
+1. Clique com o botão direito no identificador da coluna ou linha
+1. Selecione "Excluir" do menu
 
 ---
-## Enunciado
+## Preenchimento automático de células
 
-- Você deve recriar a apresentação da última aula usando o Prezi
-- http://www.prezi.com
-- Para isso, você vai precisar criar uma conta gratuita no site
-- Use o mesmo conteúdo da apresentação `guia18.pptx`, porém aprenda e explore
-  os recursos exclusivos do Prezi para tornar sua apresentação mais chamativa
+- Preencha a(s) célula(s) com os valores iniciais da sequência
+- Selecione a(s) célula(s) preenchida(s)
+- Clique na "alça", no canto inferior direito da célula e arraste-o na direção desejada para preencher as demais células automaticamente
+
+![](images/excel-preenchimento-auto.png)
 
 ---
-## Entrega da **segunda parte**
+# Formatação
 
-1. Descubra qual o link da sua apresentação no Prezi
-1. Entregar **via Moodle** no horário **desta aula**
+---
+## Formatação
+
+- A formatação é realizada nas células que estiverem selecionadas
+- O conjunto de ferramentas de formatação é bastante semelhante àquele que vimos do Word
+
+![](images/excel-barra-formatacao.png)
+
+---
+## Formatação (cont.)
+
+![](images/excel-form-texto.png)
+
+![](images/excel-form-numero.png)
+
+---
+## Mesclando células
+
+- Mesclar Células (Unir 2 ou mais células)
+  1. Selecione as células que deverão ser unidas
+  1. Clique no ícone da barra de ferramentas
+![](images/excel-mesclando.png)
+
+---
+# Fórmulas
+
+---
+## Fórmulas simples
+
+- Todas as fórmulas no Calc devem começar com o caractere = (igual), pois é desta maneira que programa entenderá que a entrada é uma fórmula e não um texto.
+- Exemplo de Fórmulas
+
+  <img src="images/excel-operadores.png" style="width: 300px;">
+
+---
+## Fórmulas: operadores aritméticos
+
+- Operadores Aritméticos
+  - \+ Soma
+  - \- Subtração
+  - \* Multiplicação
+  - / Divisão
+  - ^ Potenciação
+  - % Porcentagem
+
+---
+## Somando valores de células
+
+- Somando Valores de Células
+  1. Coloque igual (=) na célula que vai receber o cálculo da soma
+  1. Selecione o primeiro valor (em uma célula)
+  1. Pressione mais (+)
+  1. Selecione o segundo valor (em uma célula)
+  1. Pressione Enter
+
+- **PS**: Se você deseja somar mais de duas células, repita os passos 2 e 3 (i.e., selecionar os valores e colocando “+” entre eles) e só digite Enter quando todos os valores que você deseja somar estiverem na lista
+
+---
+## Copiando fórmula entre células
+
+- Uma fórmula, pode ser copiada para outras células de uma mesma linha ou coluna
+- Para isso basta:
+  1. Selecionar a célula onde a fórmula foi inserida
+  1. Clique na “alça”, no canto inferior direito da célula e arraste-o na direção desejada para preencher as demais células automaticamente
+    - **PS:** A fórmula será copiada, entretanto o cálculo será efetuado de acordo com os valores presentes nas células relacionadas
+
+---
+# Exercícios
+
+---
+## Entrega
+
+- Entrega via **Moodle** até o final **desta aula**
+- Você deve entregar **um único arquivo com a extensão `xslx`** contendo as
+  duas planilhas que você criar nos exercícios 1 e 2
+
+---
+## Exercício **1**
+
+- Crie um arquivo no Excel com o nome `guia15.xslx`
+- Deixe apenas a primeira planilha e exclua as outras duas
+  <img src="images/excel-planilhas.png" style="width: 300px">
+- Construa, na primeira planilha, a tabela abaixo:
+  ![](images/xls-exercicio1.png)
+
+---
+## Exercício **1** (cont.)
+
+- Pede-se:
+  1. A coluna Imposto deve ser preenchida da seguinte forma:
+     - Se Categoria = 1, imposto é 10%
+     - Se Categoria = 2, imposto é 15%
+  2. Calcule a coluna Total Produto = somatório das vendas em MG, RJ e SP
+     de cada produto. O total produto deve possuir 2 casas decimais e
+     separador de milhares.
+  3. Calcule a linha Total região = somatório das vendas de cada estado.
+     O total região deve possuir 2 casas decimais e separador de milhares.
+
+---
+## Exercício **2**
+
+- No **mesmo arquivo**, crie uma nova planilha e construa a tabela abaixo:
+
+  ![](images/xls-exercicio2.png)
+
+---
+## Exercício **2** (cont.)
+
+- Pede-se:
+  1. No fim da Tabela, crie as colunas: Valor Juros e Valor a Pagar
+  1. Calcule, para cada linha das colunas criadas:
+    1. Valor Juros = (Dias Atr \* Perc.Juros) \* Valor
+    1. Valor a pagar = Valor + Valor Juros
+  1. Insira uma linha antes da linha do TOTAL. Escreva média na coluna A
+     dessa linha. Na coluna F calcule a média do valor dos juros.
