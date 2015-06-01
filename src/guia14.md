@@ -4,135 +4,128 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 14
+## Guia 10
 
-- Assunto: **Processador de texto**: Word
+- Assunto: **Internet**
 - Objetivos:
-  1. Usar modelos de documento
-  1. Praticar formatação de texto, criação de tabela, uso de estilos, inserção
-     de figuras, referências e índices
-  1. Conhecer e praticar o uso das ferramentas de revisão
-  1. Proteger documentos
+  1. Entender o funcionamento da Internet como **"usuário"** e como
+**técnico**
+  1. Conhecer fundamentos da Web
+  1. Entender alguns processos de segurança que permeiam a Internet
 
 ---
-## Roteiro - Exercício
+## Roteiro
 
-1. Criar seu currículo (35 min)
-1. Enviar seu currículo para o colega ao lado e receber o dele (2 min)
-1. Fazer alterações para melhorar o currículo do colega (10 min)
-1. Receber seu currículo com altlerações (2 min)
-1. Aplicar ou rejeitar as alterações (10 min)
-1. Proteger o documento contra alterações (5 min)
-
-
----
-# Entrega: via Moodle até o final **desta aula**
-
-- Entregar, em um arquivo compactado (.zip, .rar, .7z):
-  1. Seu currículo inicial (da Parte 1)
-  1. O currículo do seu colega revisado (da Parte 3)
-  1. O seu currículo após as alterações (da Parte 5)
-  1. Seu currículo criptografado e protegido contra alterações (da Parte 6)
-
-- Atenção: como você deve enviar 3 versões diferentes do seu documento (+1 do
-  seu colega), você vai precisar criar arquivos diferentes ("Salvar Como")
+1. Assistir os 2 vídeos sobre **como a Internet funciona** (40 min)
+1. Descobrir alguns **endereços IP** (20 min)
+   <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
+1. **_Hackear_** o facebook :O (20 min)
+   <marquee>_ENTREGAR EXERCÍCIO!_</marquee>
+1. Próxima aula
 
 ---
-# Parte 1: Criando o currículo
+# Parte 1: Como a **Internet** funciona
+---
+<iframe width="640" height="480" src="//www.youtube.com/embed/7_LPdttKXPc?rel=0" frameborder="0" allowfullscreen></iframe>
 
-- Você deve criar um novo documento no Word e usar um **modelo de currículo**
-- **Preencher o currículo** com suas informações - pessoais, acadêmicas,
-  profissionais
-- Você **pode** fazer alterações no formato se quiser ter um currículo com uma
-  aparência diferente do modelo padrão
-- Salvar seu currículo: `curriculum-vitae-parte1.docx`
+## [Como a Internet funciona em 5 Minutos](https://www.youtube.com/watch?v=7_LPdttKXPc)
 
 ---
-# Parte 2: Enviar seu currículo para o colega ao lado e receber o dele
+<iframe width="640" height="360" src="//www.youtube.com/embed/hymzoUpM0K0" frameborder="0" allowfullscreen></iframe>
 
-- Enviar por e-mail
-
----
-# Parte 3: Revisar e criticar o currículo do colega
+## [Guerreiros da Rede](https://www.youtube.com/watch?v=hymzoUpM0K0)
 
 ---
-## Ferramentas de revisão
+# Parte 2: _Detergente é **IP**_
 
-- O Word tem ferramentas para facilitar a revisão por pares (_peer review_) de
-  documentos
-- Muito útil para casos em que uma pessoa é "dona" e responsável por um
-  documento, mas ela quer aceitar sugestões de outra(s) pessoa(s)
-  - Exemplo: aluno escrevendo sua monografia e tendo ajuda do professor
-    orientador
-- A aba **Revisão** dá acesso a esse e a alguns outros recursos no Word
-
-  ![](images/word-controlar-alteracoes.png)
+![Foto de um detergente Ypê](images/detergente-ype.jpg)
 
 ---
-## Ferramentas de revisão (cont.)
 
-- Para usar
-  - Você deve ativar o **controle de alterações**
+O endereço IP é um número binário usado para identificar coisas conectadas em
+rede.
 
-    ![](images/word-controlar-alteracoes2.png)
-
----
-## Ferramentas de revisão (cont.)
-
-  - **Toda alteração** que você fizer no documento ficará **marcada**. Por
-    exemplo:
-
-    ![](images/word-alteracoes-controladas.png)
+![Visualização do endereço IP em base binária](images/ipv4.png)
 
 ---
-## Ferramentas de revisão (cont.)
-
-- Você também pode escrever **comentários** sobre trechos do texto, com
-  sugestões de alteração mais complexas ou com explicações sobre suas alterações
-
-  ![](images/word-alteracoes-comentarios.png)
-
-- Finda sua revisão, você deve **desativar o controle de alterações**
-- Salvar o currículo do colega: `curriculum-vitae-colega-parte3.docx`
+O IP pode ser:
+  - **privado**, quando utilizado apenas em uma LAN (local area network ou rede
+    local), ou
+  - **público**, quando usado na Internet ou em outra WAN (wide area network ou rede
+    de longa distância)
 
 ---
-# Parte 4: Enviar o currículo revisado do colega de volta para ele
-
-- Enviar por e-mail
-
----
-# Parte 5: Receber seu currículo revisado e aplicar/recusar as sugestões
-
----
-## Aplicando/rejeitando alterações
-
-- Você deve aceitar ou rejeitar todas as alterações realizadas por seu colega
-  no seu currículo. Além disso, você também deve ler eventuais comentários que
-  ele tenha realizado e optar por fazer mais modificações
-
-  ![](images/word-aceitando-rejeitando.png)
+Além disso, o IP pode ser:
+  - **estático**, se ele é atribuído ao computador (à placa de rede, na verdade)
+  por meio de configuração, ou
+  - **dinâmico**, se ele é atribuído por um servidor DHCP (um roteador ou outro
+    dispositivo com essa função)
 
 ---
-## Aplicando/rejeitando alterações (cont.)
+# Parte 2: Exercício
 
-- Após lidar com as alterações
-  - Salvar seu currículo: `curriculum-vitae-parte5.docx`
-
----
-# Parte 6: Protegendo documentos
-
----
-## Protegendo documentos
-
-- Você pode criar uma versão "congelada" do seu documento de forma que ela não
-  permita alterações
-- Também é possível criar uma senha para criptografar o conteúdo do documento
+1. Descubra o IP privado e o IP público do seu computador.
+1. Defina qual é seu site favorito ou aquele de que você menos gosta.
+1. Descubra qual o IP do site escolhido.
+1. Descubra em que cidade fica o servidor que hospeda o site escolhido.
+1. Entregue as respostas via **Moodle** e explique como você conseguiu chegar
+   nelas.
 
 ---
-## Exercício
+Você pode consultar a Internet, mas sugiro buscar pelos comandos:
+```bash
+ping
+```
 
-- Você deve proteger a última versão do seu currículo contra alterações,
-  configurando o arquivo como **versão final**
-- Você deve também critpografá-lo usando **os últimos 4 dígitos do seu
-  número de matrícula**
-- Salvar como: `curriculum-vitae-parte6.docx`
+Para Windows:
+```bash
+tracert
+```
+
+Para Linux:
+```bash
+traceroute
+```
+
+---
+Mas você também pode...
+- [Como determinar o endereço IP privado e público](http://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-addresses/)
+- [Endereço IP na Wikipedia](http://pt.wikipedia.org/wiki/Endere%C3%A7o_IP)
+- [Ferramenta de consulta de geo-localização de IPs](http://www.geoiptool.com/)
+
+---
+# Parte 3: *Hackeando* o Facebook
+
+![Foto do Mark Zuckerberg](images/mark.jpg)
+
+---
+
+1. Navegue para o Facebook, ou qualquer outro site, no seu navegador predileto.
+1. Abra as ferramentas de desenvolvedor (normalmente, F12 ou Ctrl+Shift+I).
+1. Brinque com as propriedades (cor, tamanho, fonte) dos elementos da página e
+   deixe-a bem diferente do que ela é.
+1. Tire uma _screenshot_ e envie no **Moodle** também.
+
+---
+![Tela do Facebook hackeado pelo professor](images/hacked-facebook.png)
+
+---
+# Para a **próxima aula**
+_**(Falhas) de Segurança** na Internet e em Computadores_
+
+---
+_Enunciado_: Escrever uma resenha sobre 2 tipos de ciberataque escolhidos da
+lista a seguir. Sobre cada item, você deve explicar o que é e como funciona e
+o que pode ser feito para proteger um computador desse tipo de ataque.
+
+- DDOS (_Distributed Denial of Service_ ou Negação de Serviço Distribuída)
+- XSS (_Cross-site_ scripting ou Scriptagem entre sites)
+- Trojans (ou Cavalos de Tróia)
+- Vírus
+- _Malwares_
+
+
+
+_Limite_: 1 página para cada item
+
+_Entrega_: **Moodle** até 23 de Setembro de 2014

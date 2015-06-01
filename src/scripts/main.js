@@ -8,7 +8,8 @@ var bespoke = require('bespoke'),
     hash = require('bespoke-hash'),
     progress = require('bespoke-progress'),
     state = require('bespoke-state'),
-    markdown = require('bespoke-markdown'),
+    markdown = require('bespoke-meta-markdown'),
+    backdrop = require('bespoke-backdrop'),
     tutorial = require('./tutorial'),
     easter = require('./easter'),
     gifs = require('./stoppable-gifs');
@@ -29,7 +30,11 @@ if (queryString && presentationEl) {
 
 // Bespoke.js
 bespoke.from('article', [
-  markdown(),
+  markdown({
+    backdrop: function(slide, value) {
+      slide.setAttribute('data-bespoke-backdrop', value);
+    }
+  }),
   fancy(),
   keys(),
   touch(),
@@ -38,6 +43,7 @@ bespoke.from('article', [
   hash(),
   progress(),
   state(),
+  backdrop(),
   tutorial(document.getElementsByClassName('tutorial')[0], 10)
 ]);
 
