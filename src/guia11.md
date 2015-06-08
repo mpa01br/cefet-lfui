@@ -180,7 +180,6 @@
   - Geralmente, feitos por um revestimento de cobre na superfície da placa mãe
 - A **largura do barramento** define a quantidade de dados que pode ser trafegada por vez (ciclo de clock)
 
----
 
 
 ---
