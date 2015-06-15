@@ -97,7 +97,7 @@ backdrop: os-windows
 ---
 ## Versões do Windows por ano
 
-![](../../images/windows-versions.png)
+![](images/windows-versions.png)
 
 ---
 <!--
