@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Olá, eu sou o José</title>
+</head>
+<body>
+  Este é uma página
+  bastante simples!
+  <img src="unicornio.png" alt="Unicórnios :)" />
+  e agora com um <span style="color: pink">unicórnio ;)</span>
+</body>
+</html>
