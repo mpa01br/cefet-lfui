@@ -9,7 +9,7 @@
 - Assunto: **Sistemas Operacionais**
 - Objetivo:
   1. Descrever as funções de um sistema operacional
-  1. Conhecer os sistemas de arquivos
+  1. Conhecer os sistemas operacionais de computadores pessoais mais comuns
   
 ---
 <!--
