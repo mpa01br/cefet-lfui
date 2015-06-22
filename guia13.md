@@ -313,7 +313,7 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cp /home/aluno/frutas.txt /home/aluno/Área de trabalho/legumes.txt
+    $ cp /home/aluno/frutas.txt /home/aluno/Área\ de\ trabalho/legumes.txt
     ```
     - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho 
       (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
@@ -328,7 +328,7 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cd /home/aluno/Área de trabalho
+    $ cd /home/aluno/Área\ de\ trabalho
     $ mv legumes.txt vegetables.txt
     ```
     - Alterou o nome do arquivo de `legumes.txt` para `vegetables.txt`, permanecendo na mesma pasta
