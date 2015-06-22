@@ -143,6 +143,7 @@ backdrop: os-linux
     <li>Gnome</li>
     <li>KDE</li>
     <li>Unity</li>
+    <li>Cinnamon</li>
   </ul>
   
 ---
