@@ -313,7 +313,7 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cp /home/aluno/frutas.txt /home/aluno/Área\ de\ trabalho/legumes.txt
+    $ cp /tmp/frutas.txt /tmp/arquivos/legumes.txt
     ```
     - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho 
       (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
