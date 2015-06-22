@@ -114,8 +114,7 @@
     - Já o diretório **`/mnt`** fica reservado aos administradores que precisam montar temporariamente 
       um **sistema de arquivos externo**
 - `/dev` - dispositivos
-  - Pasta que contém arquivos que representam **dispositivos de _hardware_** (_<u>dev</u>ices_, em inglês) e que são 
-    essenciais para o bom funcionamento do sistema
+  - Pasta que contém arquivos que representam **dispositivos de _hardware_** (_<u>dev</u>ices_, em inglês)
  
 ---
 ## Os diretórios **/etc**, **/proc** e **/var**
@@ -129,8 +128,7 @@
     - Por exemplo, para saber há quanto tempo o Linux está sendo usado, basta ler o arquivo `/proc/uptime`
 - `/var` - arquivos com tamanho variável
   - Todo **arquivo que aumenta de tamanho ao longo do tempo** está no diretório de arquivos <u>var</u>iáveis
-  - Um bom exemplo são os _logs_ do sistema, ou seja, registros em forma de texto de atividades realizadas 
-    no Linux
+  - Um bom exemplo são os _logs_ do sistema
     
 ---
 ## Os diretórios **/home** e **/root**
@@ -315,10 +313,10 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cp /home/aluno/frutas.txt /home/aluno/Desktop/legumes.txt
+    $ cp /home/aluno/frutas.txt /home/aluno/Área de trabalho/legumes.txt
     ```
     - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho 
-      (`/home/aluno/Desktop`), alterando o nome para `legumes.txt`
+      (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
 
 ---
 ## Comandos no sistema de arquivos (6/6)
@@ -330,7 +328,7 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cd /home/aluno/Desktop
+    $ cd /home/aluno/Área de trabalho
     $ mv legumes.txt vegetables.txt
     ```
     - Alterou o nome do arquivo de `legumes.txt` para `vegetables.txt`, permanecendo na mesma pasta
@@ -374,7 +372,7 @@ backdrop: terminal
 ## Atividade (parte 1/2)
 
 - Utilizando comandos no terminal, anote a sequência de comandos utilizados em cada atividade:
-  1. Crie um diretório chamado `aluno` em sua área de trabalho (área de trabalho: `/home/aluno/Desktop`)
+  1. Crie um diretório chamado `aluno` em sua área de trabalho (área de trabalho: `/home/aluno/Área de trabalho`)
   1. Utilizando o comando `gedit texto.txt`, crie um arquivo texto dentro do seu
      diretório `aluno`
   1. Crie um novo diretório dentro do diretório `aluno` com o nome `trabalhos`
