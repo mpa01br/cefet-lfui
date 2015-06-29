@@ -49,7 +49,7 @@ backdrop: cmd-and-powershell
     if errorlevel 1 ( echo Site fora do ar ou inexistente )
     else ( echo Site funcionando  )
     ```
-    - Baixar [essa versão do `.bat`](../attachments/guia14/google-online.bat) e outra que recebe o [site como parâmetro](../attachments/guia14/site-online.bat)
+    - Baixar [essa versão do `.bat`](attachments/guia14/google-online.bat) e outra que recebe o [site como parâmetro](attachments/guia14/site-online.bat)
      
 ---
 ## Histórico de _shell_ para Windows (3/3)
