@@ -4,183 +4,199 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 13
+## Guia 17
 
-- Assunto: **Processador de texto**: Word
+- Assunto: **Backup** (Cópia de Segurança)
 - Objetivos:
-  1. Criar, editar, carregar e salvar documentos
-  1. Praticar formatação de texto, criação de tabela, uso de estilos, inserção
-     de figuras, referências e índices
-  1. Usar ferramenta de correção ortográfica
-
+  1. Entender o processo de _backup_
+  1. Conhecer as etapas e os tipos diferentes de _backup_
+  1. Praticar a criação de _backups_ no Windows
+  1. Entender e praticar o conceito de cópia criptografada de dados
 
 ---
 ## Roteiro
 
-1. Criando e carregando documentos (1 min)
-1. Formatação do texto e estilos de _design_ (2 min)
-1. Criando um sumário (1 min)
-1. Adicionando referências e citações (2 min)
-1. Revisão de texto (1 min)
-1. Um relatório técnico (70 min)
+1. _Backup_
+   <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
+1. Criptografia
    <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
-# Parte 1: Criando e carregando documentos
+# Parte 1: _Backup_
 
 ---
-## Menu Arquivo
-
-![](images/word-menu-arquivo.png)
+![](images/suporte-backup.jpg)
 
 ---
-## Menu Arquivo &gt; Opção **Novo** (cont.)
+## Definição de _Backup_
 
-- Você pode criar um documento em branco
-- Mas também pode usar um **modelo** pronto de algum tipo de documento, por
-  exemplo:
-  - Uma lista de presença
-  - Um currículo
-  - Um certificado
-  - Um cartão de visita
-
----
-## Menu Arquivo &gt; Opções **Salvar** e **Salvar como...**
-
-- A primeira vez que se clica em **Salvar** para um documento novo, você deve
-  escolher em que pasta e qual o nome do arquivo deseja persistí-lo
-- Próximos cliques em **Salvar** não requerem nenhum tipo de escolha
-- Para criar uma cópia do arquivo atual, use a opção **Salvar Como...** para
-  escolher um local e um nome para a cópia
+- Do inglês, "cópia de segurança"
+- Pode se referir a:
+  1. Uma cópia de arquivos que foi realizada no passado
+  1. O processo de criação de cópias (de segurança) de arquivos
+- Propósitos
+  - Primário: recuperar dados que foram perdidos por exclusão ou corrompimento
+    - Exemplos: ataque, exclusão acidental, dano no disco rígido etc.
+  - Secundário: recuperar dados de um momento anterior
+    - Exemplos: desfazer-se das últimas alterações, manter histórico de
+      modificações
 
 ---
-## Menu Arquivo &gt; Opção **Abrir**
+## Características
 
-- Para carregar um arquivo, você pode acessar a opção **Abrir** e selecionar o
-  documento do sistema de arquivos (pasta e nome do arquivo)
-
-## Menu Arquivo &gt; Opção **Informações**
-
-- Possibilita a configuração de proteção do documento
-  - Você pode criptografá-lo e apenas quem tiver uma senha pode abrí-lo
-  - Você pode impedir que modificações sejam feitas ao documento
-  - Você pode associar uma assinatura digital
+- A cópia dos arquivos pode ocupar muito espaço
+- Em vez de fazer uma cópia simples, os arquivos são
+  1. Comprimidos, para ocupar menos espaço
+  1. Deduplicados, para evitar cópias idênticas do mesmo conteúdo
+  1. **Criptografados**, para proteger os dados contra acesso ilegítimo
 
 ---
-# Parte 2: Formatação do texto e estilos de _design_
+## Tipos de Mídia
+
+- Fita magnética
+- Disco rígico
+- Disco óptico
+- SSD
+- Remoto
+- Disquete
 
 ---
-## Duas formas para formatar texto
+## Estratégias
 
-- Você pode alterar a fonte, uso de negrito, itálico, sublinhado, tachado,
-  tamanho, espaçamento, bordas e várias outras coisas de duas formas
-  - Específica
-    - Alteramos a formatação dos elementos que estão selecionados
-    - Ideal para textos pequenos
-  - Com estilos
-    - Alteramos a formatação de "partes" da página como: parágrafos, títulos,
-      subtítulos etc.
-    - Ideal para textos maiores, mais técnicos ou científicos
-- Veja exemplos dos dois _slides_ seguintes
+1. Não estruturada
+  - Exemplo: cópias realizadas sem rotina
+1. Imagem completa
+  - Exemplo: deep freeze
+1. Incremental ou Diferencial
+  - Uma cópia completa, seguida de pequenas cópias apenas do que foi alterado
+1. Proteção contínua
+  - O sistema armazena uma lista de alterações no momento que elas são realizadas
 
 ---
-## Formatação **específica**
+## Exercício 1
 
-![](images/word-formatacao.png)
+### Ferramenta de _backup_ do Windows XP
 
----
-## Formatação **por estilos**
-
-![](images/word-formatacao-estilos.png)
-
----
-## Formatação **por estilos** (cont.)
-
-- Com a formatação por estilos, além de ter a facilidade de alterar várias
-  partes do documento de uma vez, também **estamos dizendo ao Word: isto aqui é
-  um título, isto aqui um subtítulo, isto aqui é corpo do texto etc.**
-- Dessa forma, conseguimos, por exemplo, gerar um **sumário automaticamente** e
-  com o número das páginas preenchido dinamicamente
+- Faça download dos [arquivos de exemplo](https://raw.githubusercontent.com/fegemo/cefet-lfui/master/src/MeusArquivos.zip)
+- Descompacte-os em sua Área de Trabalho em uma pasta chamada "Meus Arquivos"
+- Você deve criar um _backup_ da pasta "Meus Arquivos" usando o utilitário de
+  _backups_ do Windows
 
 ---
-# Parte 3:  Criando um sumário
+## Exercício 1 (cont.)
+
+- Após criado o _backup_, exclua a pasta "Meus Arquivos" da sua Área de Trabalho
+- Então, você deve **restaurar** o _backup_ para recuperar a pasta
+
+  Você deve entregar, **no Moodle**, um arquivo de texto contendo uma descrição
+  breve dos procedimentos para realização do _backup_ e restauração. Você deve
+  colocar capturas de tela também.
 
 ---
-## Sumário
+## Utilitário de _backup_ do Windows XP
 
-- Uma vez que você marcou quais são seus títulos e subtítulos, você pode gerar
-  o sumário automaticamente
-
-  ![](images/word-sumario.png)
+![](images/backup-1.jpg)
 
 ---
-# Parte 4: Adicionando referências e citações
+![](images/backup-2.jpg)
 
 ---
-## Preenchendo suas **fontes bibliográficas** (pt 1)
-
-![](images/word-bibliografia.png)
+![](images/backup-3.jpg)
 
 ---
-## Criando uma **Bibliografia** (pt 2)
-
-![](images/word-referencias.png)
+![](images/backup-4.jpg)
 
 ---
-## **Citando** no texto
-
-![](images/word-citar.png)
+![](images/backup-5.jpg)
 
 ---
-# Parte 5: Revisão de texto
+![](images/backup-6.jpg)
 
 ---
-## Revisão ortográfica e gramatical
-
-![](images/word-revisao-orto.png)
+![](images/backup-7.jpg)
 
 ---
-# Parte 6: Um Relatório Técnico (Exercício)
-
-- Entrega **até o final desta aula** via Moodle
-- Você deve entregar o seu documento em formato .docx
+![](images/backup-8.jpg)
 
 ---
-## Exercício
-
-  Você deve criar um texto científico com o conteúdo e formatação idênticos a
-  [este relatório técnico](https://drive.google.com/file/d/0B6-KCjtlxaKIS3F1VDM4MnV6cjQ/view?usp=sharing). A imagem a ser utilizada
-  é [esta aqui](images/word-grafico.png).
-
+![](images/backup-9.jpg)
 
 ---
-## Exercício (cont.)
-
-1. O documento deve usar a fonte Calibri (corpo) tamanho 10, com parágrafos
-   justificados
-1. Algumas listas possuem mais de uma coluna
-1. Palavras em negrito, itálico, etc. devem ser idênticas às do documento de
-   referência
-1. A capa deve ser semelhante à do documento de referência, mas não precisa ser
-   idêntica. Ela deve conter seu nome completos
-1. As páginas devem conter numeração no seu rodapé, do lado direito
+![](images/backup-10.jpg)
 
 ---
-## Exercício (cont.)
-
-1. O **sumário** deve ser criado **automaticamente**
-   - Portanto, utilize os **estilos de títulos** para criar os títulos das seções
-1. Você deve incluir a figura do gráfico referenciá-la com uma **referência
-   cruzada**
-1. A tabela deve possuir uma legenda (Tabela 1: Tabela com as sugestões...) e
-   ela deve ser referenciada por uma **referência cruzada** também
-   - Use **estilos de _Design_** para colorir a tabela
+![](images/backup-11.jpg)
 
 ---
-## Exercício (cont.)
+![](images/backup-12.jpg)
 
-1. A seção de **referências** deve ser criada **automaticamente**
-   - Portanto, utilize as ferramentas de bibliografia ao fazer as citações no
-    texto
-1. O documento de referência possui erros de escrita (ortografia e gramática).
-   Você deve encontrar e corrigir todos os erros
+---
+# Criptografia
+
+---
+## Criptografia
+
+- Etimologia: **cripto + grafia**
+  - kruptós (grego antigo): escondido, secreto
+  - graphia (latin): escrita
+- Criptografar
+  - Conversão de informação de um estado legível para um estado aparentemente
+    sem sentido
+- Descriptografar
+  - Conversão de informação aparentemente sem sentido para um estado legível
+
+---
+## Estratégias
+
+<ul>
+  <li><img style="float: right; width: 200px" src="images/crypto-symmetric.png">
+    Algoritmos de chave privada ou algoritmos simétricos
+
+    <p>Exemplos: DES, **AES**</p>
+  </li>
+  <li style="clear: both;">
+    <img style="float: right; width: 200px" src="images/crypto-asymmetric.png">
+    Algoritmos de chave pública ou algoritmos assimétricos
+    <p>Exemplos: RSA </p>
+  </li>
+</ul>
+
+---
+## Exercício 2
+
+Você deve criptografar uma mensagem [usando o algoritmo AES](http://aesencryption.net/) (_Advanced Encryption
+ Standard_) com seu número de matrícula como segredo e então enviá-la para seu colega ao
+lado. O colega que receber deve descriptografar a mensagem e responder de volta,
+ usando seu próprio número de matrícula como segredo.
+
+Você deve entregar uma captura da tela da mensagem que você enviou e outra da
+mensagem que você recebeu, já descriptografada.
+
+---
+## Exercício 3
+
+### Responda:
+
+Questão 1: Por que o tamanho dos arquivos da pasta "Meus Arquivos" ficou
+diferente do arquivo de _backup_ gerado?
+
+---
+## Exercício 4
+
+## Pesquise:
+
+Questão 2: Pesquise e disserte sobre o papel do algoritmo AES para a segurança
+da informação em redes WiFi. Sua resposta deve explicar questões como a que protocolo de
+segurança de rede ele está associado, por que é importante utilizar um algoritmo
+ de criptografia e quais outras utilizações (além de redes WiFi) podemos dar ao
+AES ou a outro algoritmo de criptografia.
+
+Você deve citar pelo menos 3 fontes de pesquisa que encontrar na Internet
+(bibliografia)
+
+---
+# Referências
+
+- [Ferramenta de Backup do Windows XP](http://www.baboo.com.br/tutorial/tutorial-de-windows/tutorial-windows-xp/ferramenta-de-backup-do-windows-xp-2/)
+- [Microsoft sobre Backup no Windows XP](https://www.microsoft.com/brasil/windowsxp/using/setup/learnmore/bott_03july14.mspx)
+- [Artigo da KB da Microsoft sobre o utilitário Ntbackup.msc](http://support2.microsoft.com/kb/308422/pt-br)

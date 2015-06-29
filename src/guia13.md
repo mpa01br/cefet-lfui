@@ -155,7 +155,7 @@ backdrop: terminal
     SO
   - Antes da criação das interfaces gráficas, havia apenas as textuais
 - Para Linux (e Unix) há algumas opções de _shell_, sendo a **_bash_** a mais comum
-- Além de expor os comando, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados 
+- Além de expor os comandos, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados 
   _shell scripts_
    
 ---
