@@ -430,17 +430,33 @@ img[alt^="left"] {
 .bespoke-slide[data-bespoke-backdrop="os-linux"] h1 {
   color: #fff;
 }
-.terminal.bespoke-backdrop {
+.terminal.bespoke-backdrop-active {
   background-image: url("../images/terminal-big.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   background-position-y: 0%;
 }
-.terminal.bespoke-backdrop.bespoke-backdrop-active {
+.terminal.bespoke-backdrop-active.bespoke-backdrop-active {
   height: 100%;
 }
 .bespoke-slide[data-bespoke-backdrop="terminal"] h1 {
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  text-shadow: 2px 1px #000;
+  background-color: rgba(255,255,255,0.65);
+}
+.cmd-and-powershell.bespoke-backdrop-active {
+  background-image: url("../images/cmd-and-powershell.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: 50% 0%;
+}
+.cmd-and-powershell.bespoke-backdrop-active.bespoke-backdrop-active {
+  height: 100%;
+}
+.bespoke-slide[data-bespoke-backdrop="cmd-and-powershell"] h1 {
   padding: 0.2em 0.5em;
   border-radius: 10px;
   text-shadow: 2px 1px #000;

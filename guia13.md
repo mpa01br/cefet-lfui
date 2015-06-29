@@ -155,7 +155,7 @@ backdrop: terminal
     SO
   - Antes da criação das interfaces gráficas, havia apenas as textuais
 - Para Linux (e Unix) há algumas opções de _shell_, sendo a **_bash_** a mais comum
-- Além de expor os comando, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados 
+- Além de expor os comandos, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados 
   _shell scripts_
    
 ---
@@ -313,7 +313,7 @@ backdrop: terminal
   nome do arquivo
   - Exemplo:
     ```
-    $ cp /home/aluno/frutas.txt /home/aluno/Área\ de\ trabalho/legumes.txt
+    $ cp /tmp/frutas.txt /tmp/arquivos/legumes.txt
     ```
     - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho 
       (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
