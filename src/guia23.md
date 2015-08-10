@@ -4,283 +4,317 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **23**
+## Guia **22**
 
-- Assunto: **Apresentações**: Powerpoint
+- Assunto: **Planilhas eletrônicas**: Excel
 - Objetivos:
-  1. Orientações de Apresentação de conteúdos
-  1. Criação de apresentações
-  1. Formatação de slides e conteúdo
-  1. Notas de apresentação
+  1. Conectar a fontes de dados diversas
+  1. Usar validação de dados
+  1. Usar formatação de células condicional
+  1. Praticar o uso de funções
 
 ---
 ## Enunciado
 
-- Você vai criar uma apresentação com 9 slides, conforme as orientações
-  descritas no restante desta apresentação.
-- Mas, primeiro, vejamos algumas recomendações para a criação de apresentações
+- Você deve criar a planilha abaixo que reune informações sobre **o que algumas
+  celebridades faziam antes de se tornar famosas** e também algumas informações
+  sobre seu **país de origem**
+- Você deve seguir os passos que serão descritos nos próximos _slides_
+
+  ![](images/excel-celebridades-fim.png)
 
 ---
-# Orientações de Apresentação de conteúdos
+## Motivação: Conectar a fontes de dados
+
+- Hoje vamos construir uma planilha no Microsoft Excel que acessa dados de
+  outros arquivos.
+  - Digamos que você precisa de uma coluna em sua planilha para dizer o país e
+    a capital onde uma pessoa nasceu
+    - Você pode digitar isso você mesmo
+    - Mas, se você já tiver essa informação em outro local do seu computador,
+      é mais adequado simplesmente reutilizar
 
 ---
-## Recomendações
+## Exercício - Parte **1**
 
-- Preferir utilizar tópicos, e não parágrafos grandes
-  - O uso de slides cheios de textos dificulta o acompanhamento da pessoa
-    que está assistindo a sua apresentação
-- Não usar textos com fontes menores que **24pt**
-  - Para que mesmo quem está no fundo da sala consiga enxergar
-- Usar um esquema de cores de alto contraste
-- Não "poluir" os slides com informação demais
-
----
-# 1º slide
-
----
-## Conteúdo
-
-- **Título**: Internet
-- **Corpo**: Autor (seu nome), matrícula, data de hoje
+- Baixar um arquivo texto que tem informações sobre algumas celebridades
+  - [celebridades.csv](attachments/guia17/celebridades.csv)
+- <img src="images/csv-abrir-notepad.png" style="float:right;margin-left:20px;margin-bottom:15px;">
+  Abra esse arquivo **usando um editor de texto simples**, como o `Notepad` ou
+  o `Notepad++`
+  - Repare o formato do arquivo: são apenas textos, separados por vírgula
+  - O formato <abbr title="Comma-separated values">`CSV`</abbr> é um formato
+    de arquivo comum para armazenar dados e ele é muito simples
+  - Tipicamente, o separador é a vírgula, mas outros caracteres podem ser
+    usados
 
 ---
-# 2º slide
+## Exercício - Parte 1 (cont.)
+
+- Criar um arquivo no Excel e salvá-lo com o nome `guia17.xlsx`
+- Agora, você deve importar as informações do arquivo `celebridades.csv` para
+  dentro do seu arquivo `guia17.xlsx`:
+  1. Na aba "Dados", na seção "Obter Dados Externos", clique no botão
+     "De Texto"
+     <img src="images/excel-barra-dados-importar-texto.png" style="display:block;margin:10px 0">
+  1. Uma janela para seleção de arquivo abrirá. Selecione `celebridades.csv`
 
 ---
-## Conteúdo
+## Exercício - Parte 1 (cont.)
 
-- Crie um slide de tópicos para o seguinte texto:
-  - _“A Internet é uma rede capaz de interligar todos os computadores do mundo.
-    O que faz a Internet tão poderosa assim é uma espécie de esperanto da
-    informática que atende pelas siglas TCP/IP (Protocolo de Controle de
-    Transferência/Protocolo Internet, em inglês). Todos os computadores que
-    entendem essa língua são capazes de trocar informações entre si. Assim
-    pode-se conectar máquinas de diferentes tipos, como PCs, Macs e Unix”_
-- Para isso forneça um título e os tópicos que resumem/descrevem o
-  texto informado.
+- Continuando (após selecionar `celebridades.csv`)...
+  1. Um assistente de importação será aberto. Aqui, devemos ajudar o Excel a
+     entender como o arquivo `CSV` está configurado
+  1. Faça a configuração de acordo com o que você perceba do arquivo, de forma
+     que faça sentido para você
+
+     ![](images/excel-importacao-csv1.png)
 
 ---
-## Exemplo de estruturação em tópicos
+## Exercício - Parte 1 (cont.)
 
-- **Titulo do slide**: O que é Internet
-- Corpo:
-  - Rede capaz de interligar os computadores do mundo
-  - Baseada na família de protocolos TCP/IP
-  - Conecta máquinas de diferentes tipos:
-    1. PCs
-    1. Macs
-    1. Unix
+- Continuando (após clicar em "Avançar")...
+  1. Na segunda tela do assistente, o Excel pergunta qual é o **caractere
+     delimitador** das informações
+  1. Selecione o caractere que delimita informações no arquivo
+     `celebridades.csv`
 
----
-# 3º slide
+     ![](images/excel-importacao-csv2.png)
 
 ---
-## Conteúdo
+## Exercício - Parte 1 (cont.)
 
-- Crie um slide de tópicos para o seguinte texto:
-  - _“A Internet é organizada na forma de uma malha. Se você pretende acessar
-    um computador no Japão, por exemplo, não é necessário fazer um
-    interurbano internacional. Basta conectar-se a um computador ligado
-    à Internet na sua cidade. Esse computador local está conectado a uma
-    máquina em outro estado (ou país) e assim por diante, traçando uma rota
-    até chegar ao destino. São máquinas de alta capacidade, com grande poder
-    de processamento e conexões velozes, conhecidas como servidores,
-    controladas por universidades, empresas e órgãos do governo.”_
-- Para isso forneça um título e os tópicos que resumem/descrevem o texto
-  informado
+- Continuando (após clicar em "Avançar")...
+  1. O Excel agora sabe quantas colunas (2) o arquivo `CSV` tem. Agora, ele
+     precisa saber o tipo de informação em cada coluna (texto, número, data
+     etc.)
+  1. Como as duas colunas contém apenas texto, selecione o **tipo de dados**
+     apropriado **para cada uma**
+
+     ![](images/excel-importacao-csv3.png)
 
 ---
-# 4º slide
+## Exercício - Parte 1 (cont.)
+
+- Continuando (após clicar em "Concluir")
+  1. <img src="images/excel-importacao-csv-resultado.png" style="float:right;margin:10px;">
+     Uma pequena janela abrirá perguntando onde quer colocar os dados
+     importados
+     - Selecione a primeira célula da primeira planilha. O resultado é
+       mostrado abaixo:
+
+  1. Renomeie a planilha "Plan1" para "Celebridades"
 
 ---
-## Conteúdo
+## Exercício - Parte **2**
 
-- Busque, na Internet, uma figura que mostre a malha da Internet no mundo e
-  inclua-a no slide 4
-- Além disso, forneça um título para o slide
-
----
-# 5º slide
-
----
-## Conteúdo
-
-- Dê o título: “Serviços da Internet” e crie um slide de tópicos, listando
-  os serviços descritos abaixo:
-  - Servidores
-  - Web
-  - Correio eletrônico
-  - Transferência de arquivos
+- Vamos criar uma nova linha para conter um cabeçalho das colunas
+  1. Crie uma nova linha acima da linha 1
+  1. Nas células:
+    - A1, escreva "Nome da Celebridade"
+    - B1, escreva "Antiga Profissão"
+    - C1, escreva "País de Origem"
+    - D1, escreva "Capital do País"
+    - E1, escreva "Pessoas/Km²"
 
 ---
-# 6º ao 9º slides
+## Exercício - Parte 2 (cont.)
 
-- Crie um slide para cada serviço listado no slide anterior. Para cada um,
-  apresente o título e o corpo, onde o “corpo”, deve conter uma lista de
-  tópicos que resume o serviço que está sendo detalhado
+1. Formate a planilha de forma que ela se pareça com a figura abaixo
 
----
-## Conteúdo do 6º slide
-
-- **Título**: Servidores
-- **Texto para transformação/criação de tópicos**: _Os servidores na Internet
-  podem oferecer vários serviços. Copiar arquivos, enviar mensagens
-  para outros usuários, participar de grupos de discussão e visitar
-  serviços de informação são os principais._
+   ![](images/excel-celebridades-1.png)
 
 ---
-## Conteúdo do 7º slide
+## Motivação: mais sobre fontes de dados externas
 
-- **Título**: Web
-- **Texto para transformação/criação de tópicos**: _O principal serviço da
-  Internet é a Web, a parte multimídia da rede. É na Web que você pode
-  ler jornais eletrônicos, fazer compras em shoppings virtuais e
-  consultar bancos de dados. É possível ainda saltar de um lugar a outro
-  na Internet por meio de páginas interligadas._
+- Agora, precisamos de uma lista de países, capitais e informação de
+  habitantes por km² de cada país para terminarmos de preencher a planilha
+- Para isso, vamos **usar um banco de dados que contém essas informações**
 
 ---
-## Conteúdo do 8º slide
+## Exercício - Parte **3**
 
-- **Título**: Correio eletrônico
-- **Texto para transformação/criação de tópicos**: _Com o correio eletrônico,
-  pode-se enviar mensagens para qualquer usuário da rede. O texto chega
-  ao destino em alguns minutos (ou horas, dependendo do tráfego) e o usuário
-  não precisa estar conectado para receber a carta. A mensagem fica
-  armazenada em uma caixa postal eletrônica até que o destinatário resolva
-  abrir o envelope digital._
-
-
----
-## Conteúdo do 9º slide
-
-- **Título**: Transferência de arquivos
-- **Texto para transformação/criação de tópicos**: _Com o FTP é possível
-  copiar programas gratuitos de servidores da rede. A maioria destes
-  servidores está localizada em universidades e contém todos os tipos
-  de software. Você pode encontrar desde utilitários anti-vírus, até
-  aplicativos completos, como editores de texto._
+- Baixe um banco de dados disponibilizado pelo professor que tem
+  informações sobre países:
+  - [`geography.accdb`](attachments/guia17/geography.accdb)
+- Abra esse arquivo **usando um editor de texto puro**, como o `Notepad++`
+  - Diferente de um arquivo `CSV`, um arquivo de banco de dados no formato
+    `ACCDB` é bastante complexo e codificado de forma binária
+    - Daí, não conseguimos extrair informação usando um editor de texto simples
+- Para visualizar este arquivo, precisamos do programa **Microsoft Access**,
+  que é **a ferramenta do pacote Office que usamos para criar bancos de dados**
 
 ---
-# Parte 2: Estilização
+## Exercício - Parte 3 (cont.)
+
+- Agora, vamos importar algumas informações do arquivo `geography.accdb`
+  para nossa planilha
+  1. Altere o nome da segunda planilha para "Países", em vez de "Plan2"
+  1. Exclua a terceira planilha (Plan3)
+  1. Na aba "Dados", na seção "Obter Dados Externos", selecione "Do Access"
 
 ---
-## Tema
+## Exercício - Parte 3 (cont.)
 
-- Vamos selecionar um tema pronto do Powerpoint para tornar a apresentação
-  mais atraente
-  - Na aba "Design", escolha um tema da seção "Temas"
+1. Selecione o arquivo que você baixou (`geography.accdb`)
+  - O arquivo `geography.accdb`, assim como outros tipos de bancos de dados,
+    organiza os dados em tabelas
+  - Uma nova janela será aberta, perguntando que tabela do arquivo
+    `geography.accdb` você deseja importar
 
-    ![](images/powerpoint-tema.png)
----
-## Número do slide e rodapé
-
-- Vamos inserir o número do slide e seu nome no rodapé de cada slide
-  - Na aba "Inserir", na seção "Texto", clique no botão "Cabeçalho e Rodapé"
-
-    ![](images/powerpoint-cabecalho-rodape.png)
-  - Uma janela será aberta para configurar as opções de cabeçalho e rodapé
+    ![](images/excel-importacao-access1.png)
+  - Selecione a tabela `Country` (país, em inglês) e clique "Ok"
 
 ---
-## Número do slide e rodapé
+## Exercício - Parte 3 (cont.)
 
-- (continuando da janela de opções de cabeçalho e rodapé)  
-  - Selecione "número de slide", "rodapé" e escreva seu nome no campo. Marque,
-    também, a opção para ocultar o número no primeiro slide
+- Continuando (depois de selecionar "Ok")
+  1. Uma nova janela abrirá, perguntando se você quer importar os dados
+     dos países como uma tabela, uma tabela dinâmica ou uma tabela dinâmica
+     e um gráfico
+     - Escolha apenas "Tabela" e selecione a primeira célula da planilha
+       "Países"
 
-    ![](images/powerpoint-opcoes-rodape.png)
-
----
-## Formatação de texo
-
-- Formate todos os títulos (de todos os slides) com a cor vermelha e centralizado
-
-  ![](images/powerpoint-formatacao.png)
+       ![](images/excel-importacao-access2.png)
 
 ---
-## Formatação de texo (cont.)
+## Exercício - Parte 3 (cont.)
 
-- Verifique que todos os seus textos obedecem a regra de pelo menos 24pt e os
-  corrija, caso necessário
-- Além disso, em frases grandes, destaque as partes mais importantes do texto
-  de forma que elas chamem mais atenção.
-  - Por exemplo:
+- A segunda planilha se parecerá com a figura abaixo:
 
-    _"A Internet é um conjunto de redes interconectadas de **abrangência
-      mundial**"_
+  ![](images/excel-celebridades-2.png)
 
 ---
-## Transição de slides
+## Recapitulando
 
-- Crie uma transição para os slides e aplique-a para todos eles.
-  - Você pode escolher a transição que quiser na aba "Transições" e
-    configurá-la quanto a velocidade, tipo de avanço (clique, tempo) e outras
-    coisas
-
-    ![](images/powerpoint-transicoes.png)
-
----
-## Animação de conteúdo
-
-- Personalize de alguma forma a animação da figura do slide 4.
-  - Por exemplo, você pode fazer com que a figura entre no slide saltitando
-    como um pônei.
-  - Para isso, selecione a imagem e use a aba "Animações"
-    ![](images/powerpoint-anim1.png)
+- No momento agora temos uma planilha com informações sobre as celebridades
+  (parcialmente preenchida) e outra planilha com dados sobre países
+- Agora, queremos preencher a coluna "País de Origem" da planilha "Celebridades"
+- Contudo, já que temos a informação de todos os países, **em vez de digitar**
+  os países nas colunas, vamos selecionar o país de uma lista, para facilitar
+  - Veja a seguir como conseguir isso na parte 4 do exercício
 
 ---
-## Animação de conteúdo (cont.)
+## Exercício - Parte **4**
 
-- <img src="images/powerpoint-anim2.png" style="float:right;margin-left:20px;">
-  (continuando da aba "Animações"...)
-  - Clique no botão "Estilos de Animação" e escolha uma **animação
-    de entrada**
-  - Repare que é possível pré-visualizar o efeito de animação para que fique
-    mais fácil escolher um
+- Vamos usar um recurso do Excel chamado **validação de dados** para restringir
+  os valores que podemos colocar em uma célula
+  - Mais especificamente, vamos falar para o Excel que a coluna
+    "País de Origem" aceita apenas os nomes dos países
 
----
-## Notas de apresentação
-
-- Um recurso interessante do Powerpoint é o uso de **anotações de apresentação**
-  - Ele permite que você escreva um texto complementar ao slide
-  - Esse texto não aparece na apresentação, mas pode aparecer quando você
-    mandar imprimir, por exemplo
-- Para incluir essas notas:
-  1. Vá até a aba "Exibição" e, na seção "Modos de Exibição de Apresentação",
-     selecione "Anotações" (veja figura no próximo slide)
-  1. Para este exercício, você deve colocar os textos completos que você
-     transformou em tópicos em seu respectivo slide
+1. <img src="images/excel-ordernar-tabela.png" style="float:right;margin:10px;">
+   Primeiramente, **ordene a tabela** de países de forma alfabética (planilha
+   "Países")
+1. Selecione as células `C2:C13` (da coluna "País de Origem" da planilha
+   "Celebridades")
 
 ---
-## Notas de apresentação (cont.)
+## Exercício - Parte 4 (cont.)
 
-![](images/powerpoint-notas.png)
+1. Na aba "Dados", seção "Ferramentas de Dados", clique no botão "Validação
+   de Dados"
 
----
-## Visualização
-
-- Para visualizar como ficou sua apresentação, você deve entrar no modo de
-  apresentação. Você pode fazer isso de duas formas:
-  1. Desde o primeiro slide
-    - Opção 1:
-
-      ![](images/powerpoint-modo-apres3.png)
-    - Opção 2: tecla `F5`
-  1. À partir do slide atual
+   ![](images/excel-barra-dados-validacao.png)
 
 ---
-## Visualização (cont.)
+## Exercício - Parte 4 (cont.)
 
-- (continuando visualização à partir do slide atual...)
-  - Opção 1:
+1. <img src="images/excel-validacao-dados1.png" style="float:right;margin-left:10px;margin-bottom:10px">
+   Uma janela aparecerá. Nela, devemos selecionar como queremos restringir os
+   valores a serem digitados nas células selecionadas
+   1. Na janela, selecione que você deseja permitir uma "Lista" de valores
+   1. Além disso, selecione a "Fonte" dos dados da lista como as células
+      que contêm nomes de países na planilha "Países" (`=Países!A2:A239`)
 
-    ![](images/powerpoint-modo-apres2.png)
-  - Opção 2: teclas `Shift+F5`
-  - Opção 3:
+---
+## Exercício - Parte 4 (cont.)
 
-    ![](images/powerpoint-modo-apres.png)
+- Continuando... (após clicar em "Ok")
+  1. Repare que agora, nas células da coluna "País de Origem", existe um botão
+     que dá acesso a uma lista de países:
+
+     ![](images/excel-validacao-dados2.png)
+  1. Agora, preencha o país de origem de cada celebridade
+    - Você pode consultar o Google para aquelas que não souber, ou simplesmente
+      selecionar qualquer país
+
+---
+## Recapitulando
+
+- Agora podemos selecionar o nome do país (em inglês, mas tudo bem) para cada
+  celebridade
+- Contudo, também precisamos saber qual é a capital dos países para colocar na
+  coluna "Capital do País"
+- A nossa planilha "Países" tem a relação de capital de cada país, então
+  podemos reutilizá-la
+  - Mas, vamos fazer isso sem precisar escrever as capitais nós mesmos.
+    Veja como fazer isso na parte 5
+
+---
+## Exercício - Parte **5**
+
+- Para preencher as células da coluna "Capital do País" de forma automática,
+  vamos usar uma função do Excel chamada <abbr title="Procura Vertical">`PROCV`</abbr>
+1. Selecione a primeira célula da coluna "Capital do País": `D2`
+   - A função `PROCV` procura, em uma tabela, o valor de uma outra coluna
+   - Ela precisa de 3 parâmetros:
+     ```
+     =PROCV(valor_procurado; matriz_tabela; número_coluna)
+     ```
+
+---
+## Exercício - Parte 5 (cont.)
+
+- Para usar a função `PROCV` na célula `D2` e buscar a capital do país que
+  está selecionado na célula `C2`:
+  ```
+  =PROCV(C2; Tabela_geography.accdb; 3)
+  ```
+- Veja como a planilha deve ficar:
+
+  ![](images/excel-celebridades-3.png)
+
+---
+## Exercício - Parte 5 (cont.)
+
+1. Copie a fórmula que você criou para a célula `D2` para `D3`, `D4` e todas as
+   outras células da coluna "Capital do País"
+   - Você pode selecionar a célula `D2` e arrastar o quadrado/triângulo do
+     canto inferior direito para as outras células (até `D13`)
+
+     ![](images/excel-celebridades-4.png)
+
+---
+## Exercício - Parte **6**
+
+1. Usando a mesma função (`PROCV`), preenha a coluna Pessoas/Km² usando as
+   colunas "Population" e "Area" da planilha "Países"
+   - Você vai precisar fazer algo como:
+     ```
+     =PROCV(...)/PROCV(...)
+     ```
+  - Como deve ficar a planilha:
+
+    ![](images/excel-celebridades-5.png)
+
+---
+## Exercício - Parte **7**
+
+- Agora vamos mostrar quais países são mais populosos (alto número de pessoas
+  por km²)
+- Vamos usar uma ferramenta de "Formatação Condicional"
+
+---
+## Exercício - Parte 7 (cont.)
+
+- o Excel pode formatar células de forma diferente dependendo do valor da
+  célula
+  1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
+  1. Selecione a opção de formatação condicional como na imagem abaixo:
+
+     ![](images/excel-formatacao-condicional.png)
 
 ---
 ## Finalizando...
 
-1. Salvar como guia18.pptx (formato de arquivo padrão do Powerpoint)
 1. Entregar **via Moodle** no horário **desta aula**
