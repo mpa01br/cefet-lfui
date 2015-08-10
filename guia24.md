@@ -4,29 +4,27 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **24**
+## Guia **23**
 
-- Assunto: **Apresentações**: Powerpoint - parte 2 e Prezi
+- Assunto: **Apresentações**: Powerpoint
 - Objetivos:
-  -	Tipos de Apresentação
-  - Slide mestre
-  - Gráficos, Tabelas e Organogramas
-  - Ferramentas alternativas
+  1. Orientações de Apresentação de conteúdos
+  1. Criação de apresentações
+  1. Formatação de slides e conteúdo
+  1. Notas de apresentação
 
 ---
 ## Enunciado
 
-- Na aula de hoje, você vai aprimorar a apresentação do Powerpoint que criou na
-  última aula e também criar uma versão alternativa dela usando uma ferramenta
-  online chamada Prezi  
-- Mas, primeiro, vamos relembrar algumas recomendações para a
-  criação de apresentações em geral
+- Você vai criar uma apresentação com 9 slides, conforme as orientações
+  descritas no restante desta apresentação.
+- Mas, primeiro, vejamos algumas recomendações para a criação de apresentações
 
 ---
 # Orientações de Apresentação de conteúdos
 
 ---
-## Recomendações (relembrando)
+## Recomendações
 
 - Preferir utilizar tópicos, e não parágrafos grandes
   - O uso de slides cheios de textos dificulta o acompanhamento da pessoa
@@ -37,159 +35,252 @@
 - Não "poluir" os slides com informação demais
 
 ---
-## Ponto de partida
-
-- Faça _download_ do seu trabalho da última aula (`guia18.pptx`). Você
-  consegue acessar o arquivo enviado, usando a interface do Moodle
-  - Caso não tenha vindo na última aula, peça a apresentação de um colega
+# 1º slide
 
 ---
-# Parte 1: Powerpoint - aula 2
+## Conteúdo
+
+- **Título**: Internet
+- **Corpo**: Autor (seu nome), matrícula, data de hoje
 
 ---
-## 1º passo
-
-- Vamos remover o tema que utilizamos na última aula, já que vamos
-  personalizar a apresentação por conta própria
-
-  ![](images/powerpoint-tema-remover.png)
+# 2º slide
 
 ---
-## 2º passo
+## Conteúdo
 
-- Crie um novo slide na apresentação na posição 10
-  - Título: "Processo do Protocolo HTTP"
-  - Conteúdo: a lista ordenada abaixo
-    1. Navegador resolve o nome do site para um IP
-    1. Navegador faz uma requisição GET para o IP
-    1. Servidor responde o GET com um arquivo
-
----
-## 3º passo - _SmartArts_
-
-- Agora, vamos melhorar a aparência das nossas listas de tópicos
-- À partir do Office 2007, o Powerpoint contém um recurso de personalização das
-  listas de tópico chamado **_SmartArt_**
-- Vamos transformar os tópicos do slide 10 em um "processo básico"
-
-  ![](images/powerpoint-smartart1.png)
+- Crie um slide de tópicos para o seguinte texto:
+  - _“A Internet é uma rede capaz de interligar todos os computadores do mundo.
+    O que faz a Internet tão poderosa assim é uma espécie de esperanto da
+    informática que atende pelas siglas TCP/IP (Protocolo de Controle de
+    Transferência/Protocolo Internet, em inglês). Todos os computadores que
+    entendem essa língua são capazes de trocar informações entre si. Assim
+    pode-se conectar máquinas de diferentes tipos, como PCs, Macs e Unix”_
+- Para isso forneça um título e os tópicos que resumem/descrevem o
+  texto informado.
 
 ---
-## 3º passo - _SmartArts_ (cont.)
+## Exemplo de estruturação em tópicos
 
-- <img src="powerpoint-smartart1.png" style="float:right;margin-left:20px">
-  Selecione "Mais Elementos Gráficos SmartArt..." para ter acesso à lista
-  completa de possibilidades de transformação
-- Na janela, selecione "Processo" e "Processo Básico" em seguida
-
-  ![](images/powerpoint-smartart3.png)
-
----
-## 3º passo - _SmartArts_
-
-- O slide ficará parecido com a figura abaixo:
-
-  ![](images/powerpoint-smartart4.png)
+- **Titulo do slide**: O que é Internet
+- Corpo:
+  - Rede capaz de interligar os computadores do mundo
+  - Baseada na família de protocolos TCP/IP
+  - Conecta máquinas de diferentes tipos:
+    1. PCs
+    1. Macs
+    1. Unix
 
 ---
-## 3º passo - _SmartArts_
-
-- Você ainda pode alterar as cores e os estilos das figuras criadas
-
-  ![](images/powerpoint-smartart5.png)
-- Altere seu _SmartArt_ para uma paleta de cores diferente e também use um
-  estilo diferente do padrão
+# 3º slide
 
 ---
-## 4º passo
+## Conteúdo
 
-- Escolha **outros 2 slides** que possuem uma lista de tópicos e **converta
-  suas listas para _SmartArt_**
-  - Na hora de escolher o _layout_ (tipo) do _SmartArt_, considere o
-    significado dos tópicos da lista
-    - Por exemplo, a lista do slide 10 representa um processo. Por isso,
-      escolhemos um _layout_ do tipo "processo"
-
----
-## 5º passo - Slide mestre
-
-- Agora, vamos colocar a logomarca do CEFET no canto inferior esquerdo de cada
-  slide
-  - Uma alternativa é inserir a imagem em cada slide
-    - Imagina se, em vez de 10 slides, tivéssemos 100?
-  - Outra forma, a que vamos utilizar, é por meio do **slide mestre**
-- Faça _download_ aqui da logo do CEFET:
-
-  ![](images/cefet.jpg)
+- Crie um slide de tópicos para o seguinte texto:
+  - _“A Internet é organizada na forma de uma malha. Se você pretende acessar
+    um computador no Japão, por exemplo, não é necessário fazer um
+    interurbano internacional. Basta conectar-se a um computador ligado
+    à Internet na sua cidade. Esse computador local está conectado a uma
+    máquina em outro estado (ou país) e assim por diante, traçando uma rota
+    até chegar ao destino. São máquinas de alta capacidade, com grande poder
+    de processamento e conexões velozes, conhecidas como servidores,
+    controladas por universidades, empresas e órgãos do governo.”_
+- Para isso forneça um título e os tópicos que resumem/descrevem o texto
+  informado
 
 ---
-## 5º passo - Slide mestre (cont.)
-
-- O **slide mestre** é como uma "forma de fazer bolo", só que de slides :)
-  - O termo correto é **_template_**, que algumas pessoas traduzem para modelo
-- Para acessar/alterar o slide mestre acesse a aba "Exibição", seção "Modos
-  de Exibição Mestres":
-
-  ![](images/powerpoint-slide-mestre1.png)
+# 4º slide
 
 ---
-## 5º passo - Slide mestre (cont.)
+## Conteúdo
 
-- No modo de slide mestre, o Powerpoint mostra todos os **tipos de slide** para
-  que possamos alterar um a um
-
-  ![](images/powerpoint-slide-mestre2.png)
-
----
-## 5º passo - Slide mestre (cont.)
-
-- Selecione o 3º tipo de slide - aquele que mostra um título no alto e uma
-  lista de tópicos no espaço de conteúdo
-- Insira a logomarca do CEFET e posicione-a no canto inferior esquerdo, como
-  na imagem
-
-  ![](images/powerpoint-slide-mestre3.png)
+- Busque, na Internet, uma figura que mostre a malha da Internet no mundo e
+  inclua-a no slide 4
+- Além disso, forneça um título para o slide
 
 ---
-## 5º passo - Slide mestre (cont.)
-
-- Vamos agora deixar a logomarca menos visível, de forma que ela não fique
-  chamando muita atenção do conteúdo dos slides
-  1. Selecione a imagem
-  1. Na aba "Formatação", seção "Ajustar", escolha a opção "Cor" e, em seguida,
-     a opção cinza claro
-
-     ![](images/powerpoint-imagem-apagada.png)
+# 5º slide
 
 ---
-## 5º passo - Slide mestre (cont.)
+## Conteúdo
 
-- Agora, vamos **sair do modo de slide mestre** e voltar ao modo normal
-  - Para isso, na aba "Slide Mestre", clique no botão "Fechar modo de exibição
-    mestre"
-
-  ![](images/powerpoint-slide-mestre4.png)
-
----
-## Entrega da **primeira parte**
-
-1. Salvar como guia19.pptx
-1. Entregar **via Moodle** no horário **desta aula**
+- Dê o título: “Serviços da Internet” e crie um slide de tópicos, listando
+  os serviços descritos abaixo:
+  - Servidores
+  - Web
+  - Correio eletrônico
+  - Transferência de arquivos
 
 ---
-# Parte 2: Prezi
+# 6º ao 9º slides
+
+- Crie um slide para cada serviço listado no slide anterior. Para cada um,
+  apresente o título e o corpo, onde o “corpo”, deve conter uma lista de
+  tópicos que resume o serviço que está sendo detalhado
 
 ---
-## Enunciado
+## Conteúdo do 6º slide
 
-- Você deve recriar a apresentação da última aula usando o Prezi
-- http://www.prezi.com
-- Para isso, você vai precisar criar uma conta gratuita no site
-- Use o mesmo conteúdo da apresentação `guia18.pptx`, porém aprenda e explore
-  os recursos exclusivos do Prezi para tornar sua apresentação mais chamativa
+- **Título**: Servidores
+- **Texto para transformação/criação de tópicos**: _Os servidores na Internet
+  podem oferecer vários serviços. Copiar arquivos, enviar mensagens
+  para outros usuários, participar de grupos de discussão e visitar
+  serviços de informação são os principais._
 
 ---
-## Entrega da **segunda parte**
+## Conteúdo do 7º slide
 
-1. Descubra qual o link da sua apresentação no Prezi
+- **Título**: Web
+- **Texto para transformação/criação de tópicos**: _O principal serviço da
+  Internet é a Web, a parte multimídia da rede. É na Web que você pode
+  ler jornais eletrônicos, fazer compras em shoppings virtuais e
+  consultar bancos de dados. É possível ainda saltar de um lugar a outro
+  na Internet por meio de páginas interligadas._
+
+---
+## Conteúdo do 8º slide
+
+- **Título**: Correio eletrônico
+- **Texto para transformação/criação de tópicos**: _Com o correio eletrônico,
+  pode-se enviar mensagens para qualquer usuário da rede. O texto chega
+  ao destino em alguns minutos (ou horas, dependendo do tráfego) e o usuário
+  não precisa estar conectado para receber a carta. A mensagem fica
+  armazenada em uma caixa postal eletrônica até que o destinatário resolva
+  abrir o envelope digital._
+
+
+---
+## Conteúdo do 9º slide
+
+- **Título**: Transferência de arquivos
+- **Texto para transformação/criação de tópicos**: _Com o FTP é possível
+  copiar programas gratuitos de servidores da rede. A maioria destes
+  servidores está localizada em universidades e contém todos os tipos
+  de software. Você pode encontrar desde utilitários anti-vírus, até
+  aplicativos completos, como editores de texto._
+
+---
+# Parte 2: Estilização
+
+---
+## Tema
+
+- Vamos selecionar um tema pronto do Powerpoint para tornar a apresentação
+  mais atraente
+  - Na aba "Design", escolha um tema da seção "Temas"
+
+    ![](images/powerpoint-tema.png)
+---
+## Número do slide e rodapé
+
+- Vamos inserir o número do slide e seu nome no rodapé de cada slide
+  - Na aba "Inserir", na seção "Texto", clique no botão "Cabeçalho e Rodapé"
+
+    ![](images/powerpoint-cabecalho-rodape.png)
+  - Uma janela será aberta para configurar as opções de cabeçalho e rodapé
+
+---
+## Número do slide e rodapé
+
+- (continuando da janela de opções de cabeçalho e rodapé)  
+  - Selecione "número de slide", "rodapé" e escreva seu nome no campo. Marque,
+    também, a opção para ocultar o número no primeiro slide
+
+    ![](images/powerpoint-opcoes-rodape.png)
+
+---
+## Formatação de texo
+
+- Formate todos os títulos (de todos os slides) com a cor vermelha e centralizado
+
+  ![](images/powerpoint-formatacao.png)
+
+---
+## Formatação de texo (cont.)
+
+- Verifique que todos os seus textos obedecem a regra de pelo menos 24pt e os
+  corrija, caso necessário
+- Além disso, em frases grandes, destaque as partes mais importantes do texto
+  de forma que elas chamem mais atenção.
+  - Por exemplo:
+
+    _"A Internet é um conjunto de redes interconectadas de **abrangência
+      mundial**"_
+
+---
+## Transição de slides
+
+- Crie uma transição para os slides e aplique-a para todos eles.
+  - Você pode escolher a transição que quiser na aba "Transições" e
+    configurá-la quanto a velocidade, tipo de avanço (clique, tempo) e outras
+    coisas
+
+    ![](images/powerpoint-transicoes.png)
+
+---
+## Animação de conteúdo
+
+- Personalize de alguma forma a animação da figura do slide 4.
+  - Por exemplo, você pode fazer com que a figura entre no slide saltitando
+    como um pônei.
+  - Para isso, selecione a imagem e use a aba "Animações"
+    ![](images/powerpoint-anim1.png)
+
+---
+## Animação de conteúdo (cont.)
+
+- <img src="images/powerpoint-anim2.png" style="float:right;margin-left:20px;">
+  (continuando da aba "Animações"...)
+  - Clique no botão "Estilos de Animação" e escolha uma **animação
+    de entrada**
+  - Repare que é possível pré-visualizar o efeito de animação para que fique
+    mais fácil escolher um
+
+---
+## Notas de apresentação
+
+- Um recurso interessante do Powerpoint é o uso de **anotações de apresentação**
+  - Ele permite que você escreva um texto complementar ao slide
+  - Esse texto não aparece na apresentação, mas pode aparecer quando você
+    mandar imprimir, por exemplo
+- Para incluir essas notas:
+  1. Vá até a aba "Exibição" e, na seção "Modos de Exibição de Apresentação",
+     selecione "Anotações" (veja figura no próximo slide)
+  1. Para este exercício, você deve colocar os textos completos que você
+     transformou em tópicos em seu respectivo slide
+
+---
+## Notas de apresentação (cont.)
+
+![](images/powerpoint-notas.png)
+
+---
+## Visualização
+
+- Para visualizar como ficou sua apresentação, você deve entrar no modo de
+  apresentação. Você pode fazer isso de duas formas:
+  1. Desde o primeiro slide
+    - Opção 1:
+
+      ![](images/powerpoint-modo-apres3.png)
+    - Opção 2: tecla `F5`
+  1. À partir do slide atual
+
+---
+## Visualização (cont.)
+
+- (continuando visualização à partir do slide atual...)
+  - Opção 1:
+
+    ![](images/powerpoint-modo-apres2.png)
+  - Opção 2: teclas `Shift+F5`
+  - Opção 3:
+
+    ![](images/powerpoint-modo-apres.png)
+
+---
+## Finalizando...
+
+1. Salvar como guia18.pptx (formato de arquivo padrão do Powerpoint)
 1. Entregar **via Moodle** no horário **desta aula**
