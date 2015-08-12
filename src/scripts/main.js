@@ -10,6 +10,8 @@ var bespoke = require('bespoke'),
     state = require('bespoke-state'),
     markdown = require('bespoke-meta-markdown'),
     backdrop = require('bespoke-backdrop'),
+    overview = require('bespoke-overview'),
+    search = require('bespoke-search'),
     tutorial = require('./tutorial'),
     easter = require('./easter'),
     gifs = require('./stoppable-gifs');
@@ -39,12 +41,20 @@ bespoke.from('article', [
   keys(),
   touch(),
   bullets('li, .bullet'),
-  //scale(),
   hash(),
   progress(),
   state(),
   backdrop(),
-  tutorial(document.getElementsByClassName('tutorial')[0], 10)
+  search(),
+  overview(),
+  tutorial(document.getElementsByClassName('tutorial')[0], 10),
+  function() {
+    var deck = arguments[0],
+      delayedScale = function() {
+        return scale('zoom')(deck);
+      };
+    setTimeout(delayedScale, 700);
+  }
 ]);
 
 easter();
