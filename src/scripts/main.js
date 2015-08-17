@@ -31,7 +31,7 @@ if (queryString && presentationEl) {
 }
 
 // Bespoke.js
-bespoke.from('article', [
+window.deck = bespoke.from('article', [
   markdown({
     backdrop: function(slide, value) {
       slide.setAttribute('data-bespoke-backdrop', value);
