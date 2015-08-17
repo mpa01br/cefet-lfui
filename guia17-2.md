@@ -85,8 +85,6 @@ qual é o propósito deles.
 
 Entregar via **Moodle**
 
-[Link para entrega](http://moodle.cefetmg.br/mod/assignment/view.php?id=13128)
-
 ---
 # Para aprender mais...
 ---

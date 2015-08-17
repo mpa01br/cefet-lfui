@@ -192,8 +192,9 @@ Localização:
 ## Exercício (sem entrega)
 
 1. Você deve **localizar o arquivo _hosts_** e **criar uma entrada nele** para
-   que o nome "fessor" (sem àspas) aponte para o _notebook_ do professor.
+   que o nome "fessor" (sem àspas) aponte para o endereço IP do _notebook_ do professor
 2. Acessar, no seu navegador, o computador do professor na porta 8081
+  - Ou seja, entrar em http://fessor:8081/
 
 ---
 <!--
@@ -226,4 +227,4 @@ backdrop: bitten4
 
 ---
 ...e agora? Acho que a resposta está em outro lugar... Que tal voltar para os
-slides 15 e 16?
+slides 20 e 21?
