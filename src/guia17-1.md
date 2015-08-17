@@ -226,4 +226,4 @@ backdrop: bitten4
 
 ---
 ...e agora? Acho que a resposta está em outro lugar... Que tal voltar para os
-slides 15 e 16?
+slides 20 e 21?
