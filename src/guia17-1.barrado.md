@@ -4,7 +4,7 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 11
+## Guia 17
 
 - Assunto: **Segurança da Informação**
 - Objetivos:
