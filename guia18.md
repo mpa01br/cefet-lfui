@@ -4,9 +4,9 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 17
+## Guia 18
 
-- Assunto: **Backup** (Cópia de Segurança)
+- Assunto: **Backup** (Cópia de Segurança) e **Criptografia**
 - Objetivos:
   1. Entender o processo de _backup_
   1. Conhecer as etapas e os tipos diferentes de _backup_
@@ -35,9 +35,9 @@
   1. Uma cópia de arquivos que foi realizada no passado
   1. O processo de criação de cópias (de segurança) de arquivos
 - Propósitos
-  - Primário: recuperar dados que foram perdidos por exclusão ou corrompimento
+  - **Primário: recuperar dados que foram perdidos por exclusão ou corrupção**
     - Exemplos: ataque, exclusão acidental, dano no disco rígido etc.
-  - Secundário: recuperar dados de um momento anterior
+  - **Secundário: recuperar dados de um momento anterior**
     - Exemplos: desfazer-se das últimas alterações, manter histórico de
       modificações
 
@@ -46,22 +46,24 @@
 
 - A cópia dos arquivos pode ocupar muito espaço
 - Em vez de fazer uma cópia simples, os arquivos são
-  1. Comprimidos, para ocupar menos espaço
-  1. Deduplicados, para evitar cópias idênticas do mesmo conteúdo
+  1. **Comprimidos**, para ocupar menos espaço
+  1. **Deduplicados**, para evitar cópias idênticas do mesmo conteúdo
   1. **Criptografados**, para proteger os dados contra acesso ilegítimo
 
 ---
 ## Tipos de Mídia
 
-- Fita magnética
-- Disco rígico
-- Disco óptico
-- SSD
-- Remoto
-- Disquete
+- Pode-se armazenar os arquivos de _backup_ em diversos tipos de mídia. Alguns
+  exemplos:
+  - Fita magnética (ainda é bem comum em _mainframes_)
+  - Disco rígico
+  - Disco óptico
+  - SSD
+  - Remoto (_e.g._, na nuvem)
+  - Disquete (alguém usa isso? :)
 
 ---
-## Estratégias
+## Estratégias de criação de _backups_
 
 1. Não estruturada
   - Exemplo: cópias realizadas sem rotina
@@ -75,12 +77,12 @@
 ---
 ## Exercício 1
 
-### Ferramenta de _backup_ do Windows XP
+### Ferramenta de _backup_ do **Windows XP** (ou para [Windows 7](http://www.howtogeek.com/howto/1838/using-backup-and-restore-in-windows-7/))
 
 - Faça download dos [arquivos de exemplo](https://raw.githubusercontent.com/fegemo/cefet-lfui/master/src/MeusArquivos.zip)
-- Descompacte-os em sua Área de Trabalho em uma pasta chamada "Meus Arquivos"
+- Descompacte-os **em sua Área de Trabalho** em uma pasta chamada "Meus Arquivos"
 - Você deve criar um _backup_ da pasta "Meus Arquivos" usando o utilitário de
-  _backups_ do Windows
+  _backups_ do Windows (XP ou 7)
 
 ---
 ## Exercício 1 (cont.)
@@ -93,7 +95,7 @@
   colocar capturas de tela também.
 
 ---
-## Utilitário de _backup_ do Windows XP
+## Utilitário de _backup_ do **Windows XP** (ou para [Windows 7](http://www.howtogeek.com/howto/1838/using-backup-and-restore-in-windows-7/))
 
 ![](images/backup-1.jpg)
 
@@ -152,12 +154,12 @@
   <li><img style="float: right; width: 200px" src="images/crypto-symmetric.png">
     Algoritmos de chave privada ou algoritmos simétricos
 
-    <p>Exemplos: DES, **AES**</p>
+    <p>Exemplos: Algoritmos DES e **AES**</p>
   </li>
   <li style="clear: both;">
     <img style="float: right; width: 200px" src="images/crypto-asymmetric.png">
     Algoritmos de chave pública ou algoritmos assimétricos
-    <p>Exemplos: RSA </p>
+    <p>Exemplo: Algoritmo RSA </p>
   </li>
 </ul>
 
@@ -191,12 +193,13 @@ segurança de rede ele está associado, por que é importante utilizar um algori
  de criptografia e quais outras utilizações (além de redes WiFi) podemos dar ao
 AES ou a outro algoritmo de criptografia.
 
-Você deve citar pelo menos 3 fontes de pesquisa que encontrar na Internet
+Você deve citar pelo menos 2 fontes de pesquisa que encontrar na Internet
 (bibliografia)
 
 ---
 # Referências
 
 - [Ferramenta de Backup do Windows XP](http://www.baboo.com.br/tutorial/tutorial-de-windows/tutorial-windows-xp/ferramenta-de-backup-do-windows-xp-2/)
+- [Ferramenta de Backup do Windows 7](http://www.howtogeek.com/howto/1838/using-backup-and-restore-in-windows-7/)
 - [Microsoft sobre Backup no Windows XP](https://www.microsoft.com/brasil/windowsxp/using/setup/learnmore/bott_03july14.mspx)
 - [Artigo da KB da Microsoft sobre o utilitário Ntbackup.msc](http://support2.microsoft.com/kb/308422/pt-br)
