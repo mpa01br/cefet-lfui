@@ -22,7 +22,7 @@
 1. Criando um sumário (1 min)
 1. Adicionando referências e citações (2 min)
 1. Revisão de texto (1 min)
-1. Um relatório técnico (70 min)
+1. **Exercício:** Um relatório técnico (60 min)
    <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
@@ -183,4 +183,4 @@
    - Portanto, utilize as ferramentas de bibliografia ao fazer as citações no
     texto
 1. O documento de referência possui erros de escrita (ortografia e gramática).
-   Você deve encontrar e corrigir todos os erros
+   Você deve **encontrar e corrigir todos os erros**
