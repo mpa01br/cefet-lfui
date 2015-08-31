@@ -149,9 +149,10 @@
 ## Exercício
 
   Você deve criar um texto científico com o conteúdo e formatação idênticos a
-  [este relatório técnico](https://drive.google.com/file/d/0B6-KCjtlxaKIS3F1VDM4MnV6cjQ/view?usp=sharing). A imagem a ser utilizada
+  [este relatório técnico][rel]. A imagem a ser utilizada
   é [esta aqui](images/word-grafico.png).
 
+[rel]: attachments/relatorio.zip
 
 ---
 ## Exercício (cont.)
