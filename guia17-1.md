@@ -4,7 +4,7 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 16
+## Guia 17
 
 - Assunto: **Segurança da Informação**
 - Objetivos:
@@ -93,11 +93,11 @@ A segurança da informação perpassa por 3 grandes pilares:
 ---
 ## Em destaque: **Utilize senhas difíceis**
 
-- [As 25 senhas mais usadas](http://olhardigital.uol.com.br/fique_seguro/noticia/lista-revela-as-25-senhas-mais-usadas-na-web/46332) 
+- [As 25 senhas mais usadas](http://olhardigital.uol.com.br/fique_seguro/noticia/lista-revela-as-25-senhas-mais-usadas-na-web/46332)
   na Internet em 2014 (América do Norte e Europa Ocidental) - as mais usadas primeiro:
 <ul class="multi-column-list-3">
 1. **123456** <br>  
-2. **password** <br> 
+2. **password** <br>
 3. 12345 <br>
 4. 12345678 <br>
 5. **qwerty**  <br>
@@ -130,31 +130,31 @@ A segurança da informação perpassa por 3 grandes pilares:
 ## Qual o problema?
 
 - Computadores são identificados na rede por um endereço IP
-- Servidores de sites na Internet são computadores que ficam ligados 24/7 e 
+- Servidores de sites na Internet são computadores que ficam ligados 24/7 e
   possuem os arquivos dos sites (.html, .js, .css etc.) em um diretório especial
-  - Um servidor de sites precisa estar sempre conectado à Internet e deve possuir 
+  - Um servidor de sites precisa estar sempre conectado à Internet e deve possuir
     um IP público
-- Para acessar um site, podemos simplesmente digitar o IP do seu servidor em 
+- Para acessar um site, podemos simplesmente digitar o IP do seu servidor em
   um navegador (Chrome, Firefox, <abbr title="Internet Explorer">IE</abbr>)
 - Contudo, **ninguém quer precisar decorar os endereços IP para acessar sites**
-  - Assim, precisamos de alguma **forma de mapear "nomes" (_e.g._, www.google.com) 
+  - Assim, precisamos de alguma **forma de mapear "nomes" (_e.g._, www.google.com)
     de sites em endereços IP**
-  
+
 ---
 ## Servidor de DNS
 
-- Os serviços de DNS (_Domain Name System_) da Internet são **grandes bancos de dados 
+- Os serviços de DNS (_Domain Name System_) da Internet são **grandes bancos de dados
   espalhados em servidores localizados em várias partes mundo**
-- Assim que o nome de um site é digitado no navegador, o computador solicita ao 
-  **servidor de DNS do provedor de acesso** (_e.g._, GVT) para encontrar qual o endereço 
+- Assim que o nome de um site é digitado no navegador, o computador solicita ao
+  **servidor de DNS do provedor de acesso** (_e.g._, GVT) para encontrar qual o endereço
   IP do servidor desse site
-  - Caso o servidor DNS do provedor não saiba, ele se comunica a um próximo servidor que 
+  - Caso o servidor DNS do provedor não saiba, ele se comunica a um próximo servidor que
     possa saber qual é o IP do site solicitado
     - Isso tem o nome de **resolução de DNS**
-    
+
 ---
 ## Resolução de DNS
- 
+
 ![](images/dns.png)
 
 - Veja a explicação no próximo slide
@@ -172,12 +172,12 @@ A segurança da informação perpassa por 3 grandes pilares:
 ---
 ## Resolução local
 
-- O sistema operacional, seja ele qual for, antes de tentar resolver DNS 
-  perguntando ao servidor do provedor de acesso, olha para um arquivo dentro 
+- O sistema operacional, seja ele qual for, antes de tentar resolver DNS
+  perguntando ao servidor do provedor de acesso, olha para um arquivo dentro
   do próprio computador que contém mapeamento de nomes para endereços IP
   - A isso, dá-se o nome de **resolução local de DNS**
   - O nome desse arquivo é _**hosts**_
-  
+
 ---
 ## O arquivo _hosts_
 
