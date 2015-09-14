@@ -146,4 +146,4 @@ gulp.task('deploy', function(done) {
 
 gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments', 'favicon' ]);
 gulp.task('serve', ['connect', 'watch']);
-gulp.task('default', ['build']);
+gulp.task('default', ['serve']);

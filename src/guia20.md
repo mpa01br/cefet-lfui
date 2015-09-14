@@ -4,7 +4,7 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia 19
+## Guia 20
 
 - Assunto: **Processador de texto**: Word
 - Objetivos:
@@ -66,7 +66,7 @@
     orientador
 - A aba **Revisão** dá acesso a esse e a alguns outros recursos no Word
 
-  ![](images/word-controlar-alteracoes.png)
+  ![fullscreen-1](images/word-controlar-alteracoes.png)
 
 ---
 ## Ferramentas de revisão (cont.)
@@ -74,15 +74,15 @@
 - Para usar
   - Você deve ativar o **controle de alterações**
 
-    ![](images/word-controlar-alteracoes2.png)
+    ![fullscreen-2](images/word-controlar-alteracoes2.png)
 
 ---
 ## Ferramentas de revisão (cont.)
 
-  - **Toda alteração** que você fizer no documento ficará **marcada**. Por
-    exemplo:
+- **Toda alteração** que você fizer no documento ficará **marcada**. Por
+  exemplo:
 
-    ![](images/word-alteracoes-controladas.png)
+  ![bigimage-3](images/word-alteracoes-controladas.png)
 
 ---
 ## Ferramentas de revisão (cont.)
@@ -90,7 +90,10 @@
 - Você também pode escrever **comentários** sobre trechos do texto, com
   sugestões de alteração mais complexas ou com explicações sobre suas alterações
 
-  ![](images/word-alteracoes-comentarios.png)
+  ![bigimage-3](images/word-alteracoes-comentarios.png)
+
+---
+## Ferramentas de revisão (cont.)
 
 - Finda sua revisão, você deve **desativar o controle de alterações**
 - Salvar o currículo do colega: `curriculum-vitae-colega-parte3.docx`
@@ -98,7 +101,7 @@
 ---
 # Parte 4: Enviar o currículo revisado do colega de volta para ele
 
-- Enviar por e-mail
+- Enviar por e-mail ao colega 
 
 ---
 # Parte 5: Receber seu currículo revisado e aplicar/recusar as sugestões
@@ -110,7 +113,7 @@
   no seu currículo. Além disso, você também deve ler eventuais comentários que
   ele tenha realizado e optar por fazer mais modificações
 
-  ![](images/word-aceitando-rejeitando.png)
+  ![bigimage-3](images/word-aceitando-rejeitando.png)
 
 ---
 ## Aplicando/rejeitando alterações (cont.)
@@ -135,4 +138,5 @@
   configurando o arquivo como **versão final**
 - Você deve também critpografá-lo usando **os últimos 4 dígitos do seu
   número de matrícula**
-- Salvar como: `curriculum-vitae-parte6.docx`
+- Salvar como: `curriculum-vitae-parte6-XYZW.docx`
+  - Em que XYZW são os 4 últimos dígitos da matrícula
