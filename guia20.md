@@ -101,7 +101,7 @@
 ---
 # Parte 4: Enviar o currículo revisado do colega de volta para ele
 
-- Enviar por e-mail ao colega
+- Enviar por e-mail ao colega 
 
 ---
 # Parte 5: Receber seu currículo revisado e aplicar/recusar as sugestões

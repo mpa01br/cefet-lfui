@@ -4,9 +4,9 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **20**
+## Guia **21**
 
-- Assunto: **Planilhas eletrônicas**: Excel
+- Assunto: **Planilhas eletrônicas**: Excel (parte 1)
 - Objetivos:
   1. Conhecer os conceitos básicos
   1. Praticar formatação básica, preenchimento de células, referências
@@ -26,19 +26,18 @@
 ---
 ## O que é o Excel?
 
-- O Excel é o programa de planilha eletrônica do Microsoft Office
+- O Excel é o programa de **planilha eletrônica** do Microsoft Office
   - Você pode fornecer dados (em geral, numéricos) em uma planilha e
-    manipulá-los para produzir determinados resultados
-
+    **manipulá-los para produzir determinados resultados**
 - Outras funcionalidades
-  - Funções, que podem ser utilizadas para criar fórmulas para executar
-    cálculos complexos
-  - Geração de gráficos dinâmicos a partir de tabelas
-  - Importação e exportação de planilhas em vários formatos, incluindo
+  - **Funções**, que podem ser utilizadas para criar **fórmulas** para executar
+    **cálculos complexos**
+  - Geração de **gráficos dinâmicos** a partir de tabelas
+  - **Importação e exportação de planilhas** em vários formatos, incluindo
     HTML, CSV, PDF, entre outros...
 
 ---
-## Interface
+## Interface do Excel (2010)
 
 ![](images/excel-interface.png)
 
@@ -52,7 +51,7 @@
 - Cada documento do excel pode conter várias planilhas (abas)
 
 ---
-## Seleção de Células
+## Selecionando Células
 
 - Célula única
   - Clique com o botão esquerdo do mouse sobre a célula
@@ -62,7 +61,7 @@
   1. Pressione e arraste o botão esquerdo do mouse por outras células
 
 ---
-## Seleção de Células (cont.)
+## Selecionando Células (cont.)
 
 - Grupo de células não-contínuas
   1. Selecione a primeira célula
@@ -72,7 +71,7 @@
 ![](images/excel-selecao-nao-continua.png)
 
 ---
-## Seleção de linhas e colunas
+## Selecionando linhas e colunas inteiras
 
 1. Clique no cabeçalho da primeira linha ou coluna que deseja selecionar
 1. Arraste até a última linha ou coluna a contemplar
@@ -80,7 +79,7 @@
 ![](images/excel-selecao-linha-coluna.png)
 
 ---
-## Seleção de planilha inteira
+## Selecionando a planilha inteira
 
 - Clique entre o cabeçalho das colunas e linhas da planilha
 
@@ -119,10 +118,10 @@
 ---
 ## Formatação
 
+![](images/excel-barra-formatacao.png)
+
 - A formatação é realizada nas células que estiverem selecionadas
 - O conjunto de ferramentas de formatação é bastante semelhante àquele que vimos do Word
-
-![](images/excel-barra-formatacao.png)
 
 ---
 ## Formatação (cont.)
@@ -132,12 +131,17 @@
 ![](images/excel-form-numero.png)
 
 ---
-## Mesclando células
+## **Mesclando** células
 
-- Mesclar Células (Unir 2 ou mais células)
+- Mesclar células (Unir 2 ou mais células) **pode ser feito em 2 passos:**
   1. Selecione as células que deverão ser unidas
-  1. Clique no ícone da barra de ferramentas
-![](images/excel-mesclando.png)
+    ![](images/excel-mesclando.png)
+
+---
+## **Mesclando** células (passo 2)
+
+1. Clique no ícone **Mesclar** da barra de ferramentas
+  ![](images/excel-botao-mesclar.png)
 
 ---
 # Fórmulas
@@ -145,14 +149,20 @@
 ---
 ## Fórmulas simples
 
-- Todas as fórmulas no Calc devem começar com o caractere = (igual), pois é desta maneira que programa entenderá que a entrada é uma fórmula e não um texto.
-- Exemplo de Fórmulas
-
-  <img src="images/excel-operadores.png" style="width: 300px;">
+- **Uma fórmula é uma instrução para o Excel fazer um cálculo**, em vez de
+  guardar um número
+  - Por exemplo, uma fórmula pode conter a **soma de todos os gastos** feitos
+    para ir ao **Rock In Rio 2015**
+    ![](images/excel-formula.png)
 
 ---
 ## Fórmulas: operadores aritméticos
 
+- Todas as fórmulas no Excel devem começar com o caractere `=` (igual),
+  pois é desta maneira que programa entenderá que a entrada é uma fórmula
+  e não um texto ou número
+- <img src="images/excel-operadores.png" style="width: 300px; float:right;">
+  Exemplo de Fórmulas
 - Operadores Aritméticos
   - \+ Soma
   - \- Subtração
@@ -164,13 +174,12 @@
 ---
 ## Somando valores de células
 
-- Somando Valores de Células
+- Somando valores de células (exemplo RiR):
   1. Coloque igual (=) na célula que vai receber o cálculo da soma
   1. Selecione o primeiro valor (em uma célula)
   1. Pressione mais (+)
   1. Selecione o segundo valor (em uma célula)
   1. Pressione Enter
-
 - **PS**: Se você deseja somar mais de duas células, repita os passos 2 e 3 (i.e., selecionar os valores e colocando “+” entre eles) e só digite Enter quando todos os valores que você deseja somar estiverem na lista
 
 ---
@@ -195,7 +204,7 @@
 ---
 ## Exercício **1**
 
-- Crie um arquivo no Excel com o nome `guia15.xslx`
+- Crie um arquivo no Excel com o nome `guia-excel-pt1.xslx`
 - Deixe apenas a primeira planilha e exclua as outras duas
   <img src="images/excel-planilhas.png" style="width: 300px">
 - Construa, na primeira planilha, a tabela abaixo:
@@ -206,13 +215,13 @@
 
 - Pede-se:
   1. A coluna Imposto deve ser preenchida da seguinte forma:
-     - Se Categoria = 1, imposto é 10%
-     - Se Categoria = 2, imposto é 15%
-  2. Calcule a coluna Total Produto = somatório das vendas em MG, RJ e SP
+     - Se Categoria = 1, imposto é 10% (0,1)
+     - Se Categoria = 2, imposto é 15% (0,15)
+  2. Calcule a coluna **Total Produto** = somatório das vendas em MG, RJ e SP
      de cada produto. O total produto deve possuir 2 casas decimais e
-     separador de milhares.
-  3. Calcule a linha Total região = somatório das vendas de cada estado.
-     O total região deve possuir 2 casas decimais e separador de milhares.
+     separador de milhares
+  3. Calcule a linha **Total região** = somatório das vendas de cada estado.
+     O total região deve possuir 2 casas decimais e separador de milhares
 
 ---
 ## Exercício **2**
@@ -225,9 +234,10 @@
 ## Exercício **2** (cont.)
 
 - Pede-se:
-  1. No fim da Tabela, crie as colunas: Valor Juros e Valor a Pagar
+  1. No fim da Tabela, crie duas colunas: **Valor Juros e Valor a Pagar**
   1. Calcule, para cada linha das colunas criadas:
-    1. Valor Juros = (Dias Atr \* Perc.Juros) \* Valor
-    1. Valor a pagar = Valor + Valor Juros
-  1. Insira uma linha antes da linha do TOTAL. Escreva média na coluna A
-     dessa linha. Na coluna F calcule a média do valor dos juros.
+    1. **Valor Juros** = (Dias Atr \* Perc.Juros) \* Valor
+    1. **Valor a pagar** = Valor + Valor Juros
+  1. Insira uma **linha antes da linha do TOTAL**
+    1. Escreva "MÉDIA" na coluna A dessa linha
+    1. Na **coluna F calcule a média do valor dos juros**
