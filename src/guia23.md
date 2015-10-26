@@ -38,7 +38,7 @@
 ## Exercício - Parte **1**
 
 - Baixar um arquivo texto que tem informações sobre algumas celebridades
-  - [celebridades.csv](attachments/guia17/celebridades.csv)
+  - [celebridades.csv](attachments/guia23/celebridades.csv)
 - <img src="images/csv-abrir-notepad.png" style="float:right;margin-left:20px;margin-bottom:15px;">
   Abra esse arquivo **usando um editor de texto simples**, como o `Notepad` ou
   o `Notepad++`
@@ -51,9 +51,9 @@
 ---
 ## Exercício - Parte 1 (cont.)
 
-- Criar um arquivo no Excel e salvá-lo com o nome `guia17.xlsx`
+- Criar um arquivo no Excel e salvá-lo com o nome `guia23.xlsx`
 - Agora, você deve importar as informações do arquivo `celebridades.csv` para
-  dentro do seu arquivo `guia17.xlsx`:
+  dentro do seu arquivo `guia23.xlsx`:
   1. Na aba "Dados", na seção "Obter Dados Externos", clique no botão
      "De Texto"
      <img src="images/excel-barra-dados-importar-texto.png" style="display:block;margin:10px 0">
@@ -136,7 +136,7 @@
 
 - Baixe um banco de dados disponibilizado pelo professor que tem
   informações sobre países:
-  - [`geography.accdb`](attachments/guia17/geography.accdb)
+  - [`geography.accdb`](attachments/guia23/geography.accdb)
 - Abra esse arquivo **usando um editor de texto puro**, como o `Notepad++`
   - Diferente de um arquivo `CSV`, um arquivo de banco de dados no formato
     `ACCDB` é bastante complexo e codificado de forma binária
@@ -271,7 +271,6 @@
   =PROCV(C2; Tabela_geography.accdb; 3)
   ```
 - Veja como a planilha deve ficar:
-
   ![](images/excel-celebridades-3.png)
 
 ---
@@ -294,7 +293,6 @@
      =PROCV(...)/PROCV(...)
      ```
   - Como deve ficar a planilha:
-
     ![](images/excel-celebridades-5.png)
 
 ---
