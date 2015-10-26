@@ -4,7 +4,7 @@
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **22**
+## Guia **23**
 
 - Assunto: **Planilhas eletrônicas**: Excel
 - Objetivos:
