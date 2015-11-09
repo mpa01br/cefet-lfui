@@ -1,10 +1,10 @@
-# Informática - REDES
+# Informática e Redes
 
 - Disciplina: **Laboratório de Fundamentos de Informática**
 - Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
 
 ---
-## Guia **23**
+## Guia **24**
 
 - Assunto: **Apresentações**: Powerpoint
 - Objetivos:
@@ -282,5 +282,5 @@
 ---
 ## Finalizando...
 
-1. Salvar como guia18.pptx (formato de arquivo padrão do Powerpoint)
+1. Salvar como guia-powerpoint-1.pptx (formato de arquivo padrão do Powerpoint)
 1. Entregar **via Moodle** no horário **desta aula**
