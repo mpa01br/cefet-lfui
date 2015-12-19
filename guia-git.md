@@ -47,12 +47,12 @@
 ---
 ## VCS Centralizado _vs_ Distribuído
 
-![](images/vcs-types.png)
+![](../../images/vcs-types.png)
 
 ---
 ## VCS Centralizado _vs_ Distribuído
 
-![](images/vcs-types2.png)
+![](../../images/vcs-types2.png)
 
 
 ---
@@ -84,17 +84,17 @@
 ---
 ## Configurando o GitHub para usar seu usuário (1)
 
-![](images/git-configuring-client1.png)
+![](../../images/git-configuring-client1.png)
 
 ---
 ## Configurando o GitHub para usar seu usuário (2)
 
-![](images/git-configuring-client2.png)
+![](../../images/git-configuring-client2.png)
 
 ---
 ## Configurando o GitHub para usar seu usuário (3)
 
-![](images/git-configuring-client3.png)
+![](../../images/git-configuring-client3.png)
 
 ---
 <!--
@@ -126,8 +126,8 @@
 - Objetivos:
   - Git: **gerenciar e compartilhar código** entre membros de uma equipe
   - GitHub: **hospedar** repositórios Git
-- ![right](images/logo-github.png)
-  ![right](images/logo-git.png)
+- ![right](../../images/logo-github.png)
+  ![right](../../images/logo-git.png)
   Logomarcas:
 
 
@@ -164,7 +164,7 @@
 ---
 ## Fazendo o _fork_ do repositório do professor
 
-![](images/github-fork-repo.png)
+![](../../images/github-fork-repo.png)
 
 ---
 ## Exercício 2
@@ -189,12 +189,12 @@
 ---
 ## **Clonando** um repositório usando a <u>**linha de comando**</u>
 
-![](images/git-clone-terminal.png)
+![](../../images/git-clone-terminal.png)
 
 ---
 ## **Clonando** um repositório usando a <u>**interface gráfica**</u>
 
-![](images/git-clone-interface.png)
+![](../../images/git-clone-interface.png)
 
 ---
 ## Exercício 2 (continuando)
@@ -247,7 +247,7 @@
   git status
   ```
   - Resultado:
-    ![](images/git-status1.png)
+    ![](../../images/git-status1.png)
 
 ---
 <!--
@@ -281,7 +281,7 @@
   ```
   - O argumento `-m "..."` é um texto que descreve o que essas alterações
     estão fazendo
-  ![](images/git-commit1.png)
+  ![](../../images/git-commit1.png)
 
 ---
 ## Exercício 2 (verificando histórico de _commits_)
@@ -320,7 +320,7 @@
 
 - O resultado no terminal deve ser parecido com:
 
-![](images/git-push.png)
+![](../../images/git-push.png)
 
 
 ---
