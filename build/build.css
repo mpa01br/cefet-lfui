@@ -14,7 +14,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 .hljs,
 .hljs-tag,
-.css .hljs-rules,
+.css .hljs-rule,
 .css .hljs-value,
 .aspectj .hljs-function,
 .css .hljs-function
@@ -91,6 +91,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs-aspect .hljs-keyword:first-child,
 .hljs-constant,
 .hljs-typename,
+.hljs-name,
 .css .hljs-attribute {
   color: #66d9ef;
 }
@@ -129,7 +130,6 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 }
 
 .hljs-comment,
-.hljs-javadoc,
 .hljs-annotation,
 .hljs-decorator,
 .hljs-pi,
@@ -311,13 +311,11 @@ img[alt^="left"] {
 .note:before {
   left: 10px;
   -webkit-transform: rotate(-1deg);
-      -ms-transform: rotate(-1deg);
           transform: rotate(-1deg);
 }
 .note:after {
   right: 10px;
   -webkit-transform: rotate(1deg);
-      -ms-transform: rotate(1deg);
           transform: rotate(1deg);
 }
 .note h1 {
