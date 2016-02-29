@@ -11,7 +11,7 @@ var bespoke = require('bespoke'),
     markdown = require('bespoke-meta-markdown'),
     backdrop = require('bespoke-backdrop'),
     overview = require('bespoke-overview'),
-    search = require('bespoke-search'),
+    //search = require('bespoke-search'),
     tutorial = require('./tutorial'),
     easter = require('./easter'),
     gifs = require('./stoppable-gifs');
@@ -57,7 +57,7 @@ window.deck = bespoke.from('article', [
   progress(),
   state(),
   backdrop(),
-  search(),
+  //search(),
   overview(),
   tutorial(document.getElementsByClassName('tutorial')[0], 10)
   // ,

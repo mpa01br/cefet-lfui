@@ -2,53 +2,55 @@ var pkg = require('./package.json'),
   gulp = require('gulp'),
   gutil = require('gulp-util'),
   plumber = require('gulp-plumber'),
-  rimraf = require('gulp-rimraf'),
   rename = require('gulp-rename'),
   connect = require('gulp-connect'),
   uglify = require('gulp-uglify'),
   stylus = require('gulp-stylus'),
   autoprefixer = require('gulp-autoprefixer'),
   csso = require('gulp-csso'),
+  source = require('vinyl-source-stream'),
+  buffer = require('vinyl-buffer'),
+  del = require('del'),
   through = require('through'),
   opn = require('opn'),
   ghpages = require('gh-pages'),
   path = require('path'),
-  browserify = require('gulp-browserify'),
-  debowerify = require('debowerify'),
+  browserify = require('browserify'),
   isDist = process.argv.indexOf('serve') === -1;
 
 
-gulp.task('js', ['clean:js'], function() {
-  return gulp.src('src/scripts/main.js')
+gulp.task('js', function() {
+  return browserify('src/scripts/main.js', { debug: !isDist })
+    .bundle()
     .pipe(isDist ? through() : plumber())
-    .pipe(browserify({ transform: ['debowerify'], debug: !isDist }))
+    .pipe(source('build.js'))
+    .pipe(buffer())
     .pipe(isDist ? uglify() : through())
-    .pipe(rename('build.js'))
     .pipe(gulp.dest('dist/build'))
     .pipe(connect.reload());
 });
 
-gulp.task('html', ['clean:html'], function() {
+gulp.task('html', function() {
   return gulp.src('src/index.html')
     .pipe(isDist ? through() : plumber())
     .pipe(gulp.dest('dist'))
     .pipe(connect.reload());
 });
 
-gulp.task('md', ['clean:md'], function() {
+gulp.task('md', function() {
   return gulp.src(['src/**/*.md', 'README.md'])
     .pipe(isDist ? through() : plumber())
     .pipe(gulp.dest('dist'))
     .pipe(connect.reload());
 });
 
-gulp.task('css', ['clean:css'], function() {
+gulp.task('css', function() {
   return gulp.src('src/styles/main.styl')
     .pipe(isDist ? through() : plumber())
     .pipe(stylus({
-      // Allow CSS to be imported from node_modules and bower_components
+      // Allow CSS to be imported from node_modules
       'include css': true,
-      'paths': ['./node_modules', './bower_components']
+      'paths': ['./node_modules']
     }))
     .pipe(autoprefixer('last 2 versions', { map: false }))
     .pipe(isDist ? csso() : through())
@@ -57,13 +59,13 @@ gulp.task('css', ['clean:css'], function() {
     .pipe(connect.reload());
 });
 
-gulp.task('images', ['clean:images'], function() {
+gulp.task('images', function() {
   return gulp.src('src/images/**/*')
     .pipe(gulp.dest('dist/images'))
     .pipe(connect.reload());
 });
 
-gulp.task('attachments', ['clean:attachments'], function() {
+gulp.task('attachments', function() {
   return gulp.src(['src/attachments/**/*'])
     .pipe(isDist ? through() : plumber())
     .pipe(gulp.dest('dist/attachments'))
@@ -76,46 +78,8 @@ gulp.task('favicon', function() {
     .pipe(connect.reload());
 });
 
-gulp.task('bower', function() {
-  return gulp.src(['bower_components/**/*'])
-    .pipe(isDist ? through() : plumber())
-    .pipe(gulp.dest('dist/bower_components'))
-    .pipe(connect.reload());
-});
-
 gulp.task('clean', function() {
-  return gulp.src('dist')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:html', function() {
-  return gulp.src('dist/index.html')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:md', function() {
-  return gulp.src('dist/**/*.md')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:js', function() {
-  return gulp.src('dist/build/build.js')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:css', function() {
-  return gulp.src('dist/build/build.css')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:images', function() {
-  return gulp.src('dist/images')
-    .pipe(rimraf());
-});
-
-gulp.task('clean:attachments', function() {
-  return gulp.src('dist/attachments')
-    .pipe(rimraf());
+  return del('dist');
 });
 
 gulp.task('connect', ['build'], function(done) {
@@ -134,10 +98,7 @@ gulp.task('watch', function() {
   gulp.watch('README.md', ['md']);
   gulp.watch('src/styles/**/*.styl', ['css']);
   gulp.watch('src/images/**/*', ['images']);
-  gulp.watch([
-    'src/scripts/**/*.js',
-    'bespoke-theme-*/dist/*.js' // Allow themes to be developed in parallel
-  ], ['js']);
+  gulp.watch('src/scripts/**/*.js', ['js']);
 });
 
 gulp.task('deploy', function(done) {
