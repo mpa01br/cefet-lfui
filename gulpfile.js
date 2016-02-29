@@ -89,7 +89,7 @@ gulp.task('connect', ['build'], function(done) {
     port: 8081
   });
 
-  opn('http://localhost:8081', done);
+  opn('http://localhost:8081/index.html', done);
 });
 
 gulp.task('watch', function() {
