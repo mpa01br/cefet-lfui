@@ -10,7 +10,7 @@ var bespoke = require('bespoke'),
     state = require('bespoke-state'),
     markdown = require('bespoke-meta-markdown'),
     backdrop = require('bespoke-backdrop'),
-    overview = require('bespoke-overview'),
+    overview = require('bespoke-simple-overview'),
     //search = require('bespoke-search'),
     tutorial = require('./tutorial'),
     easter = require('./easter'),
@@ -52,13 +52,15 @@ window.deck = bespoke.from('article', [
     });
   },
   touch(),
+  overview({
+    insertStyles: false
+  }),
   bullets('li, .bullet'),
   hash(),
   progress(),
   state(),
   backdrop(),
   //search(),
-  overview(),
   tutorial(document.getElementsByClassName('tutorial')[0], 10)
   // ,
   // function() {
