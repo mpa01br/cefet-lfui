@@ -44,7 +44,7 @@
     "gulp-stylus": "^2.0.6",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.6",
-    "opn": "^4.0.0",
+    "opn": "^4.0.1",
     "through": "^2.3.8",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
