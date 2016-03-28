@@ -12,6 +12,7 @@ var bespoke = require('bespoke'),
     backdrop = require('bespoke-backdrop'),
     overview = require('bespoke-simple-overview'),
     //search = require('bespoke-search'),
+    math = require('bespoke-math'),
     tutorial = require('./tutorial'),
     easter = require('./easter'),
     gifs = require('./stoppable-gifs');
@@ -61,6 +62,7 @@ window.deck = bespoke.from('article', [
   state(),
   backdrop(),
   //search(),
+  math(),
   tutorial(document.getElementsByClassName('tutorial')[0], 10)
   // ,
   // function() {
