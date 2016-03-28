@@ -1,9 +1,3 @@
-# Informática e Redes
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Aula 0, Guia 1
 
 - Assunto: Introdução à disciplina

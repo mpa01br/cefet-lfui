@@ -1,9 +1,3 @@
-# Informática e Redes
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 3
 
 - Assunto: **História dos Computadores Pessoais**
@@ -18,7 +12,7 @@
 - Vamos assistir a **segunda** parte do documentário **O Triunfo dos Nerds**
   - Assistir com o professor ou
   - [O Triunfo dos Nerds no Youtube](https://www.youtube.com/watch?v=-H9LaXTyA3I)
- 
+
 ---
 ## Exercício
 

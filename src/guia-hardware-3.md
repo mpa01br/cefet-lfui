@@ -1,9 +1,3 @@
-# Informática
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 10
 
 - Assunto: CPU e memória principal
@@ -11,7 +5,7 @@
   1. Entender que partes são essenciais para um computador
   1. Conhecer o funcionamento do processador
   1. Conhecer a hierarquia de memória
-  
+
 ---
 # Arquitetura de um computador
 
@@ -37,7 +31,7 @@
 - O computador possui armazenamento (ou memória) primário (RAM, ROM, Cache) e secundário (HD, Flash, DVD-ROM etc.)
   - A CPU tem uma relação muito próxima com o armazenamento primário
 - Para entender o que signfica **instruções de programas**, vamos pegar um pequeno desvio...
-  
+
 ---
 <!--
 backdrop: detour
@@ -104,7 +98,7 @@ backdrop: detour
 
 ## O que é uma instrução?
 
-- Como mencionamos, o **processador executa instruções dos programas** que 
+- Como mencionamos, o **processador executa instruções dos programas** que
   eventualmente são carregados na memória
 - Cada linha do arquivo **assembly** possui uma instrução
   - Exemplos de instruções:
@@ -118,7 +112,7 @@ backdrop: detour
     ```
 - Vocês terão muitas oportunidades para brincar com **assembly** =)
   - Veja [algumas instruções][x86_64] dos processadores Intel/AMD
-  
+
 [x86_64]: https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 
 ---
@@ -128,17 +122,17 @@ backdrop: detour
   - Usa sinais elétricos para coordenar a execução de instruções pelo processador
   - Comunica-se com a unidade lógica e aritmética e com a memória
 - A **unidade lógica e aritmética** (ou ALU):
-  - Executa operações com números binários, sejam elas lógicas (AND, OR, NOT etc.) 
+  - Executa operações com números binários, sejam elas lógicas (AND, OR, NOT etc.)
     ou aritméticas (soma, multiplicação etc.)
   - Além dessas operações, a ALU pode realizar comparações
-    - Isto é essencial para que seja possível **tomar decisões diferentes dependendo 
+    - Isto é essencial para que seja possível **tomar decisões diferentes dependendo
       de certas condições**
 - Além delas, o processador possui **registradores** (próx. slide)
-  
+
 ---
 ## **Registradores**
 
-- Áreas de armazenamento temporário **dentro do processador** com altíssima velocidade de acesso 
+- Áreas de armazenamento temporário **dentro do processador** com altíssima velocidade de acesso
 - Dentro do processador, servem para **armazenar os operandos e resultados das instruções**
 - Analogia com a caixa registradora de lojas:
   _"Um lugar conveniente, temporário, para armazenar o que é usado nas transações"_
@@ -159,12 +153,12 @@ backdrop: detour
   ```
 - Uma instrução normalmente referencia registradores de origem e destino. Por exemplo:
   ```x86asm
-  movl %rsp, %rbp     ;; O conteúdo do registrador %rbp 
+  movl %rsp, %rbp     ;; O conteúdo do registrador %rbp
                       ;; recebe o valor que está no %rsp
   ```
 
-  
-  
+
+
 ---
 # Memória
 
@@ -178,7 +172,7 @@ backdrop: detour
   1. **Registradores** armazenam os dados da **operação sendo executada**
   1. **RAM** armazena o código e as variáveis do **programa sendo executado**
   1. **HD** armazena o código dos programas que podem a vir serem **executados no futuro**
-  
+
 ---
 ## Hierarquia de memória
 
@@ -187,14 +181,14 @@ backdrop: detour
   - Se fosse tecnicamente e economicamente viável, teríamos apenas uma memória, super rápida, super grande
   - Mas memórias rápidas são muito caras
   - E precisamos de memórias grandes para armazenar grandes volumes de dados
-  
+
 ---
 ## RAM (_Random Access Memory_)
 
 ![](images/ram.png)
 
-- A RAM (ou memória de acesso aleatório) é um tipo de armazenamento **volátil**: 
-  <abbr title="id est (isto é)">_i.e._</abbr>, ela perde os dados na ausência 
+- A RAM (ou memória de acesso aleatório) é um tipo de armazenamento **volátil**:
+  <abbr title="id est (isto é)">_i.e._</abbr>, ela perde os dados na ausência
   de energia elétrica
   - Assim como registradores e _cache_
 - Ela **armazena as instruções e os dados dos programas** (as variáveis) que estão sendo executados
@@ -205,21 +199,21 @@ backdrop: detour
 ---
 ## Preparação para execução de instruções
 
-- Assim que executamos um programa, seu código (instruções), que está em memória 
-  secundária (<abbr title="exempli gratia (por exemplo)">_e.g._</abbr>, no HD), 
+- Assim que executamos um programa, seu código (instruções), que está em memória
+  secundária (<abbr title="exempli gratia (por exemplo)">_e.g._</abbr>, no HD),
   é trazido para a memória primária (<abbr title="exempli gratia (por exemplo)">_e.g._</abbr>, para a RAM)
 - Lembre-se que uma instrução é algo como:
   ```x86asm
   addl orig, dest
   ```
-  - Que soma o número contido no registrador `orig` ao número em `dest` e coloca 
+  - Que soma o número contido no registrador `orig` ao número em `dest` e coloca
     o resultado da soma no registrador `dest`
-  
+
 ---
 ## Ciclo do processador
 
 - Então, para cada instrução, o processador faz 4 etapas:
-  1. A unidade de controle obtém a instrução 
+  1. A unidade de controle obtém a instrução
   1. A unidade de controle decodifica a instrução e busca os operandos na memória
   1. A unidade de controle transfere os dados para registradores e a ALU executa a instrução
   1. A unidade de controle armazena o resultado da operação da ALU em um registrador ou na RAM
@@ -231,14 +225,14 @@ backdrop: detour
 ![](images/processador-ciclo.png)
 
 ---
-## Ciclo do processador e o **_clock_ do sistema** 
+## Ciclo do processador e o **_clock_ do sistema**
 
-- O processador possui o _clock_ do sistema que produz um **pulso elétrico a uma taxa fixa 
+- O processador possui o _clock_ do sistema que produz um **pulso elétrico a uma taxa fixa
   para sincronizar todas as operações do computador**
   - O _clock_ do sistema não tem a ver com o relógio
-- O _clock_, medido em **ciclos por segundo** (Hz), determina a velocidade com que o processador consegue executar 
+- O _clock_, medido em **ciclos por segundo** (Hz), determina a velocidade com que o processador consegue executar
   as 4 fases de uma instrução
-  - O processador de um computador pessoal hoje em dia trabalha em aprox. 2,4GHz (Giga Hertz, ou 1 bilhão de ciclos por segundo) 
+  - O processador de um computador pessoal hoje em dia trabalha em aprox. 2,4GHz (Giga Hertz, ou 1 bilhão de ciclos por segundo)
 - Se a RAM está fora do processador, como eles se comunicam?
 
 ---
@@ -252,4 +246,3 @@ backdrop: detour
 - É uma placa de circuitos com um conjunto de chips e conexões que **organizam as atividades do computador**
 - **Todos os componentes e dispositivos** do computador se **conectam** a ela
   - Processador, memória, disco rígido, drive de DVD, fonte, dispositivos de entrada e saída etc.
-  

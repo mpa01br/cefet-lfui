@@ -1,9 +1,3 @@
-# Informática - REDES
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia **24**
 
 - Assunto: **Apresentações**: Powerpoint - parte 2 e Prezi

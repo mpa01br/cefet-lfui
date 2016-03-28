@@ -1,16 +1,10 @@
-# Informática
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 12
 
 - Assunto: **Sistemas Operacionais**
 - Objetivo:
   1. Descrever as funções de um sistema operacional
   1. Conhecer os sistemas operacionais de computadores pessoais mais comuns
-  
+
 ---
 <!--
 backdrop: os-icons
@@ -22,13 +16,13 @@ backdrop: os-icons
 ## Por que precisamos de um SO?
 
 - Um computador é formado por _hardware_ e _software_
-- Para que programas possam ser executados pelo processador, eles precisam 
+- Para que programas possam ser executados pelo processador, eles precisam
   usar os diversos recursos do computador:
   1. Usar a Memória RAM (memória primária);
   1. Carregar/escrever arquivos no disco rígido (memória secundária);
   1. Exibir informações em um monitor (dispositivo saída), etc.
 - Contudo, os **programas tradicionais** não conseguem **se comunicar com o _hardware_**
-- Além disso, o que acontece se dois programas precisam usar o mesmo recurso (e.g., o teclado) 
+- Além disso, o que acontece se dois programas precisam usar o mesmo recurso (e.g., o teclado)
   ao mesmo tempo?
   - Precisamos de alguém para **gerenciar a utilização de recursos**...
 
@@ -36,14 +30,14 @@ backdrop: os-icons
 ## **Definição** de um SO
 
 <p class="note" style="width: 63%">
-  Um sistema operacional é um conjunto de programas que se encontra **entre o _software_ 
-  aplicativo e o _hardware_**, como um intermediário; é o _software_ fundamental que 
+  Um sistema operacional é um conjunto de programas que se encontra **entre o _software_
+  aplicativo e o _hardware_**, como um intermediário; é o _software_ fundamental que
   **controla** o acesso a todos os **recursos de _hardware_ e _software_**.
 </p>
 
 - O **_kernel_** (núcleo) é a parte mais importante de um SO
   - É um **programa residente** (está sempre na RAM, em execução)
-  - Controla todo o sistema e, quando necessário, carrega da memória secundária 
+  - Controla todo o sistema e, quando necessário, carrega da memória secundária
     para a primária outros programas (não residentes)
 
 ---
@@ -87,7 +81,7 @@ backdrop: os-windows
 ## Windows
 
 - Criado (1985) por Bill Gates e Paul Allen na empresa Microsoft
-- É um produto comercial e devido a sua estratégia de marketing, vem instalado em 
+- É um produto comercial e devido a sua estratégia de marketing, vem instalado em
   grande parte dos computadores pessoais vendidos
 - Inicialmente, o Windows era apenas uma interface gráfica para o SO MS-DOS
   - A partir do Windows 95, ele se tornou um SO
@@ -112,7 +106,7 @@ backdrop: os-unix
 - <figure class="portrait right">
     <img src="images/dennis-ritchie.png" alt="Foto de Dennis Ritchie">
   </figure>
-  Criado (1971) por Ken Thompson e Dennis Ritchie (criador da linguagem C) na empresa de 
+  Criado (1971) por Ken Thompson e Dennis Ritchie (criador da linguagem C) na empresa de
   telecomunicações estadounidense AT&amp;T
 - Sistema multiusuário, inicialmente com apenas interface de linha de comando
   - Atualmente, existem interfaces gráficas para o Unix
@@ -132,7 +126,7 @@ backdrop: os-linux
 - <figure class="portrait right">
     <img src="images/linus-torvalds.jpg" alt="Foto de Linus Torvalds">
   </figure>
-  Criado (1991) por Linus Torvalds (vulgo Harry Potter), então estudante 
+  Criado (1991) por Linus Torvalds (vulgo Harry Potter), então estudante
   na Finlândia, baseado no Unix
 - Extremamente estável (assim como Unix)
 - O código fonte do _kernel_ foi disponibilizado público e gratuitamente
@@ -145,12 +139,12 @@ backdrop: os-linux
     <li>Unity</li>
     <li>Cinnamon</li>
   </ul>
-  
+
 ---
 ## Linux (distribuições)
 
-- Como Linus inicialmente disponibilizou apenas o _kernel_, 
-  algumas empresas e organizações criaram os outros pedaços que faltavam no SO 
+- Como Linus inicialmente disponibilizou apenas o _kernel_,
+  algumas empresas e organizações criaram os outros pedaços que faltavam no SO
   e os disponibilizaram (a grande maioria em **código aberto**)
   - Ao conjunto de **_kernel_ + outras coisas** deu-se o nome de **distribuição**
 - Exemplos de distribuição do linux:
@@ -160,13 +154,13 @@ backdrop: os-linux
   1. [Ubuntu](http://ubuntu-br.org/)
     - Gratuito, baseado na distribuição Debian
     - Mantido pela empresa Canonical Ltd e pela Ubuntu Foundation
-     
-     
+
+
 ---
 ## Linux (distribuições)
 
 1. [Fedora](https://getfedora.org/)
-  - Produzido pela empresa [Red Hat](http://www.redhat.com/en), é gratuito, mas 
+  - Produzido pela empresa [Red Hat](http://www.redhat.com/en), é gratuito, mas
     tem um plano de suporte que é pago
 1. Kurumin
   - Distribuição brasileira (existem várias outras)
@@ -174,7 +168,7 @@ backdrop: os-linux
   - Descontinuada :(
 1. BrDesktop
   - Também brasileira e baseado no Debian
-  
+
 ---
 <!--
 backdrop: os-mac
@@ -188,7 +182,7 @@ backdrop: os-mac
 - Criado (1984) a mantido pela empresa Apple Inc.
 - Foi o segundo SO a possuir uma interface gráfica
   - O primeiro foi protótipo Alto, da Xerox
-- Criou o conceito de **área de trabalho** (_desktop_), em uma 
+- Criou o conceito de **área de trabalho** (_desktop_), em uma
   referência a uma mesa de escritório
 - A partir da versão 10, passou a ser baseado no Unix
 

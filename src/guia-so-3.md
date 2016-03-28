@@ -1,21 +1,15 @@
-# Informática
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 14
 
 - Assunto: Linha de comando no **Windows**
 - Objetivo:
   1. Conhecer a organização de pastas do Windows
   1. Conhecer e exercitar os comandos _shell_ no Windows
-  
+
 ---
 # Estrutura dos diretórios no Windows
 
 ---
-## Diretórios na **pasta raiz (C:)** 
+## Diretórios na **pasta raiz (C:)**
 
 ![](images/estrutura-diretorios-windows.png)
 
@@ -33,14 +27,14 @@ backdrop: cmd-and-powershell
   - Ele era o primeiro aplicativo iniciado pelo SO quando o computador ligava
   - A interface gráfica do Windows era um programa iniciado pelo COMMAND.COM
 - Nas versões NT do Windows (Windows 2000 em diante), o _shell_ passou a ser o <u>**cmd.exe**</u>
-  - O _shell_ passou a ser uma emulação do MS-DOS e era chamado pelo usuário apenas 
+  - O _shell_ passou a ser uma emulação do MS-DOS e era chamado pelo usuário apenas
     se ele quisesse/precisasse
   - Veja a **foto da direita** (fundo preto) do _slide_ anterior
 
 ---
 ## Histórico de _shell_ para Windows (2/3)
 
-- Além de expor os comandos, o _shell_ também pode executar pequenos programas interpretados (_vs_ compilados) chamados 
+- Além de expor os comandos, o _shell_ também pode executar pequenos programas interpretados (_vs_ compilados) chamados
   **arquivos de processamento em lote** (ou `.bat`)
   - Exemplo de arquivo `.bat`:
     ```bat
@@ -50,7 +44,7 @@ backdrop: cmd-and-powershell
     else ( echo Site funcionando  )
     ```
     - Baixar [essa versão do `.bat`](attachments/guia14/google-online.bat) e outra que recebe o [site como parâmetro](attachments/guia14/site-online.bat)
-     
+
 ---
 ## Histórico de _shell_ para Windows (3/3)
 
@@ -59,7 +53,7 @@ backdrop: cmd-and-powershell
   - Dá acesso a funções da plataforma .NET (linguagens C#, Visual Basic etc.)
   - Suporta praticamente todos os comandos de `cmd.exe` e **vários do `bash` (Linux)**
   - O `cmd.exe` continua presente no Windows, mesmo com o PowerShell
-   
+
 ---
 ## Abrindo um _shell_
 
@@ -87,7 +81,7 @@ backdrop: cmd-and-powershell
 |:----------------------|:------------------------------|:---------------------|----------------------------------------------|
 | **`exit`**            | `exit`                        | `exit`               | Encerra a sessão (fecha a tela do _prompt_)  |
 | **`cls`**             | `cls`, `clear`                | `clear`, `reset`     | Limpa a tela                                 |
-  
+
 ---
 ## Comandos de sessão (2/2)
 
@@ -112,7 +106,7 @@ backdrop: cmd-and-powershell
   ```
   C:\> help comando
   ```
-  - Exemplo: 
+  - Exemplo:
     ```
     C:\> help shutdown
     ```
@@ -163,7 +157,7 @@ backdrop: cmd-and-powershell
 ---
 ## Navegação no **sistema de arquivos** (3/5)
 
-- **Nomes especiais** de diretórios: 
+- **Nomes especiais** de diretórios:
   - `.`
     - O próprio diretório corrente
   - `..`
@@ -177,7 +171,7 @@ backdrop: cmd-and-powershell
       C:\Users\Flavio> cd ../..
       C:\>
       ```
-      
+
 ---
 ## Navegação no sistema de arquivos (4/5)
 
@@ -248,7 +242,7 @@ backdrop: cmd-and-powershell
 ---
 ## Alteração no sistema de arquivos (3/5)
 
-- **Copia** `nome_arquivo` para a pasta especificada por `destino_da_copia`, opcionalmente mudando o 
+- **Copia** `nome_arquivo` para a pasta especificada por `destino_da_copia`, opcionalmente mudando o
     nome do arquivo
   ```
   C:\> copy nome_arquivo destino_da_copia
@@ -257,7 +251,7 @@ backdrop: cmd-and-powershell
     ```
     C:\> copy frutas.txt .\arquivos\legumes.txt
     ```
-    - Copiou o arquivo `frutas.txt` da pasta do raiz para a pasta `arquivos`, alterando o nome 
+    - Copiou o arquivo `frutas.txt` da pasta do raiz para a pasta `arquivos`, alterando o nome
       do arquivo para `legumes.txt`
 
 | cmd.exe               | PowerShell                    | bash (Linux)         | Descrição do comando                         |
@@ -268,7 +262,7 @@ backdrop: cmd-and-powershell
 ---
 ## Alteração no sistema de arquivos (4/5)
 
-- **Move** `nome_arquivo` para uma nova pasta especificada por `nova_pasta_arquivo`, opcionalmente mudando o 
+- **Move** `nome_arquivo` para uma nova pasta especificada por `nova_pasta_arquivo`, opcionalmente mudando o
     nome do arquivo
   ```
   C:\> move nome_arquivo nova_pasta_arquivo
@@ -278,7 +272,7 @@ backdrop: cmd-and-powershell
     C:\> move legumes.txt Ingredientes\vegetais.txt
     ```
     - Moveu o arquivo de `legumes.txt` para a pasta `C:\Ingredientes\` com o nome `vegetais.txt`
-    
+
 | cmd.exe               | PowerShell                    | bash (Linux)         | Descrição do comando                         |
 |:----------------------|:------------------------------|:---------------------|----------------------------------------------|
 | move                  | mi, move, mv                  | mv                   | Move arquivos / diretórios para outro lugar  |
@@ -295,7 +289,7 @@ backdrop: cmd-and-powershell
     C:\> ren legumes.txt vegetables.txt
     ```
     - Alterou o nome do arquivo de `legumes.txt` para `vegetables.txt`
-    
+
 | cmd.exe               | PowerShell                    | bash (Linux)         | Descrição do comando                         |
 |:----------------------|:------------------------------|:---------------------|----------------------------------------------|
 | ren, rename           | rni, ren, mv                  | mv                   | Renomeia um arquivo / diretório              |
@@ -339,5 +333,4 @@ backdrop: cmd-and-powershell
      `trabalhos` que está dentro de `aluno`
   1. Apague o arquivo `texto.txt` que está no diretório `aluno`
   1. Exclua o diretório `aluno` juntamente com os seus sub-diretórios
-- Envie os comandos executados em cada etapa pelo **Moodle** 
-
+- Envie os comandos executados em cada etapa pelo **Moodle**
