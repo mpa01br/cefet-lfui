@@ -14,6 +14,7 @@ var bespoke = require('bespoke'),
     //search = require('bespoke-search'),
     math = require('bespoke-math'),
     tutorial = require('./tutorial'),
+    proceed = require('./bespoke-proceed'),
     easter = require('./easter'),
     gifs = require('./stoppable-gifs');
 
@@ -36,27 +37,35 @@ window.deck = bespoke.from('article', [
   markdown({
     backdrop: function(slide, value) {
       slide.setAttribute('data-bespoke-backdrop', value);
+    },
+    bespokeEvent: function(slide, events) {
+      setTimeout(function() {
+        events.split(' ').forEach(function(event) {
+          deck.fire(event);
+        });
+      },800);
     }
   }),
   fancy(),
   keys(),
   function() {
-    var deck = arguments[0];
-    document.addEventListener('keydown', function(e) {
-      if ((e.which == 40) || // DOWN
-          (e.which == 38)) { // UP
-        deck.fire('bullets.disable');
-        if (e.which == 40) deck.next();
-        else deck.prev();
-        deck.fire('bullets.enable');
-      }
-    });
+    // var deck = arguments[0];
+    // document.addEventListener('keydown', function(e) {
+    //   if ((e.which == 40) || // DOWN
+    //       (e.which == 38)) { // UP
+    //     deck.fire('bullets.disable');
+    //     if (e.which == 40) deck.next();
+    //     else deck.prev();
+    //     deck.fire('bullets.enable');
+    //   }
+    // });
   },
   touch(),
   overview({
     insertStyles: false
   }),
-  bullets('li, .bullet'),
+  //bullets('li, .bullet'),
+  proceed(),
   hash(),
   progress(),
   state(),

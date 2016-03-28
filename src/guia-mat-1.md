@@ -32,6 +32,8 @@
     - <span class="math">0, 1, 2, 3</span>
 
 ---
+<input type="hidden" class="bespoke-proceed-condition" value="[ { &quot;operation&quot;: &quot;equal&quot;, &quot;operands&quot;: [&quot;#numeros-com-8-digitos-binarios&quot;, 256] } ]">
+
 ## Agrupamento de bits
 
 - Cada novo dígito que usarmos, nos permite contar o dobro de números
@@ -41,6 +43,8 @@
     - 3 dígitos, contamos 8 números (<span class="math">0</span> a <span class="math">7</span>)
     - 4 dígitos, contamos 16 números (<span class="math">0</span> a <span class="math">15</span>)
 - Se agruparmos 8 dígitos, quantos números conseguimos contar?
+
+  Resposta: <input type="number" id="numeros-com-8-digitos-binarios" value="1" step="1" min="0" max="1024">
 
 ---
 ## Bytes
@@ -64,6 +68,8 @@
   ![](images/conversao-binario-decimal.png)
 
 ---
+<input type="hidden" class="bespoke-proceed-condition" value="[ { &quot;operation&quot;: &quot;equal&quot;, &quot;operands&quot;: [&quot;#numero-bits-para-26-letras&quot;, 5] } ]">
+
 # Codificação
 
 - Agora sabemos que os processadores só conhecem números, e no formato
@@ -76,6 +82,8 @@
     - Se consideramos um alfabeto de 26 letras, **quantos bits precisamos**
       para representar todas elas?
       - 1? 2? 3? 4? 5?
+        Resposta:   <input type="number" id="numero-bits-para-26-letras" value="1" step="1" min="0" max="1024">
+
 
 ---
 # Codificação
