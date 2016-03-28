@@ -94,8 +94,7 @@ gulp.task('connect', ['build'], function(done) {
 
 gulp.task('watch', function() {
   gulp.watch('src/**/*.html', ['html']);
-  gulp.watch('src/**/*.md', ['md']);
-  gulp.watch('README.md', ['md']);
+  gulp.watch(['src/**/*.md', 'README.md'], ['md']);
   gulp.watch('src/styles/**/*.styl', ['css']);
   gulp.watch('src/images/**/*', ['images']);
   gulp.watch('src/scripts/**/*.js', ['js']);
