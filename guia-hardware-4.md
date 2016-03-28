@@ -1,16 +1,10 @@
-# Informática
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 11
 
 - Assunto: Componentes de armazenamento e outros
 - Objetivo:
   1. Conhecer as formas de armazenamento de dados
   1. Conhecer a comunicação entre componentes
-  
+
 ---
 # Arquitetura de um computador
 
@@ -29,7 +23,7 @@
 ---
 ## O Gabinete (Chassis ou unidade de sistema)
 
-- Normalmente feito de **aço ou alumínio**, serve para encapsular a maior parte 
+- Normalmente feito de **aço ou alumínio**, serve para encapsular a maior parte
   dos componentes de um computador
 - Seu tamanho varia de acordo com o **fator de forma**
   - AT (1984): 30,5cm x 33cm
@@ -46,7 +40,7 @@
 ## Fonte de alimentação
 
 - Responsável pelo fornecimento de energia elétrica aos componentes
-- Converte a corrente elétrica alternada ("da tomada") para contínua (como se fosse 
+- Converte a corrente elétrica alternada ("da tomada") para contínua (como se fosse
   uma bateria)
   - Reduz a tensão de 110/220V para 5-12V (Volts)
 - O tipo de fonte usada em computadores é a **chaveada** (_vs._ linear)
@@ -58,7 +52,7 @@
 
 
 - ![right](images/fonte-conectores.png)
-  Da fonte, saem cabos de energia com diferentes tensões que devem ser ligados 
+  Da fonte, saem cabos de energia com diferentes tensões que devem ser ligados
   aos diversos componentes do computador
 
 
@@ -70,7 +64,7 @@
     <li>Disco rígido</li>
     <li>Drives (DVD etc.)</li>
   </ul>
-  
+
 ---
 # Memória Primária
 
@@ -83,7 +77,7 @@
   - Cada circuito pode estar conduzindo eletricidade ou não
     - Com isso, representa-se 0s e 1s e armazena-se números binários
 - <abbr title="Random Access Memory">RAM</abbr>: memória de acesso aleatório
-- <abbr title="Read-Only Memory">ROM</abbr>: memória somente de leitura 
+- <abbr title="Read-Only Memory">ROM</abbr>: memória somente de leitura
   - Veja detalhes a seguir
 
 ---
@@ -110,7 +104,7 @@
   - Agiliza a transferência de dados
     - Mais dados podem sair/entrar da memória ao mesmo tempo
   - É o que usamos hoje em dia
-  
+
 ---
 ## ROM
 
@@ -128,14 +122,14 @@
 ---
 ## Disco Rígido (_HD_, ou _hard disk_)
 
-- Representam os dados como pontos magnetizados na superfície de um disco 
+- Representam os dados como pontos magnetizados na superfície de um disco
   que gira
   - Um ponto magnetizado representa 1 e ausência de magnetização representa 0
-- "Ler" dados do disco implica em converter os pontos (magnetizados ou não) 
+- "Ler" dados do disco implica em converter os pontos (magnetizados ou não)
   e convertê-los em impulsos elétricos que podem ser enviados ao processador
-- A leitura é feita de forma sequencial - para se ler algo que foi escrito 
+- A leitura é feita de forma sequencial - para se ler algo que foi escrito
   "no fim" do disco, deve-se percorrer o caminho até chegar lá
-  - Diferentemente, a R**A**M permite o acesso a qualquer ponto (aleatório) 
+  - Diferentemente, a R**A**M permite o acesso a qualquer ponto (aleatório)
     com a mesma velocidade
 
 ---
@@ -144,7 +138,7 @@
 ![](images/hd-open.png)
 
 - Em vez de 1 disco, o HD é composto por uma pilha deles
-- Um braço (para cada disco) lê ou escreve as informações, movimentando-se mais 
+- Um braço (para cada disco) lê ou escreve as informações, movimentando-se mais
   para o centro ou para a ponta do disco
 
 ---
@@ -167,14 +161,14 @@
   1. **Barramento de sistema**
     - Fios que conectam os componentes (por onde os dados são transferidos)
   1. **Barramentos** (ou _slots_ - espaços reservados) para **expansão**
-    - Por onde podem ser conectados novos componentes, para assimilar novas funcionalidades 
+    - Por onde podem ser conectados novos componentes, para assimilar novas funcionalidades
       ao computador
 
 ---
 ## Barramento do sistema
 
 - Em inglês, barramento é _bus_ (ônibus)
-  - É o **meio de transporte** de todos os dados trafegando entre a memória principal 
+  - É o **meio de transporte** de todos os dados trafegando entre a memória principal
     e o processador
 - Formado por um conjunto de percursos elétricos (fios) paralelos
   - Geralmente, feitos por um revestimento de cobre na superfície da placa mãe

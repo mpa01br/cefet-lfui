@@ -1,9 +1,3 @@
-# Informática e Redes
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia **Git**
 
 - Assunto: Sistemas de Controle de Versão (<abbr title="Control Version System">CVS</abbr>)

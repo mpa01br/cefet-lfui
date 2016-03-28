@@ -1,9 +1,3 @@
-# Informática - REDES
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia **21**
 
 - Assunto: **Planilhas eletrônicas**: Excel (parte 1)

@@ -1,9 +1,3 @@
-# Informática - REDES
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 18
 
 - Assunto: **Backup** (Cópia de Segurança) e **Criptografia**

@@ -1,9 +1,3 @@
-# Informática e Redes de Computadores
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 20
 
 - Assunto: **Processador de texto**: Word

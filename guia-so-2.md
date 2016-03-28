@@ -1,9 +1,3 @@
-# Informática
-
-- Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
-
----
 ## Guia 13
 
 - Assunto: **O Linux**
@@ -11,7 +5,7 @@
   1. Conhecer a história do sistema operacional
   1. Conhecer a organização de pastas do Linux
   1. Conhecer e exercitar os comandos _shell_ no Linux
-  
+
 ---
 # A história
 
@@ -21,22 +15,22 @@
 <figure class="portrait right">
   <img src="images/richard-stallman.jpg" alt="Foto de Richard Stallman">
 </figure>
-  
-- Em 1984, um programador chamado **Richard Stallman** decide criar um sistema operacional em que qualquer 
+
+- Em 1984, um programador chamado **Richard Stallman** decide criar um sistema operacional em que qualquer
   pessoa poderia **copiar, usar, modificar e distribuir**
-  - Na época, Richard contribuía com pesquisas no laboratório de inteligência artificial do MIT 
+  - Na época, Richard contribuía com pesquisas no laboratório de inteligência artificial do MIT
     (_Massachusetts Institute of Technology_)
-    
+
 ---
 <img src="images/fsf.svg" width="500">
 
 - Em 1985, Richard Stallman fundou a _Free Software Foundation_ (fundação de _software_ livre)
-  - Sem fins lucrativos, voltada ao desenvolvimento de _software_ livre 
+  - Sem fins lucrativos, voltada ao desenvolvimento de _software_ livre
 - ![right](images/gnu.png)
   Em contraposição ao Unix, cujo código era fechado, a fundação desenvolveu o projeto <abbr title="GNU is not Unix">GNU</abbr>
   - O GNU é um sistema operacional cuja idéia é ser completamente aberto e gratuito
   - O problema é que ainda faltava a parte mais importante de um SO: o **_kernel_**
-  
+
 ---
 # Linus Torvalds
 
@@ -44,23 +38,23 @@
   <img src="images/linus-torvalds.jpg" alt="Foto de Linus Torvalds">
 </figure>
 
-- Em 1991, **Linus Torvalds**, então estudante de matemática na Universidade de Helsinki (Finlândia), desenvolveu 
+- Em 1991, **Linus Torvalds**, então estudante de matemática na Universidade de Helsinki (Finlândia), desenvolveu
   o Linux (Linus + Unix)
-  - Linus se baseou no trabalho de **Andrew Tanenbaum**, que desenvolveu o Minix - um mini sistema operacional com 
+  - Linus se baseou no trabalho de **Andrew Tanenbaum**, que desenvolveu o Minix - um mini sistema operacional com
     objetivo de ensinar como um SO funciona
 
 ---
 
 ![](images/gnu-linux.png)
 
-- Em 1992, o _kernel_ desenvolvido por Linus **(o Linux) foi integrado ao sistema operacional GNU**, fazendo assim 
+- Em 1992, o _kernel_ desenvolvido por Linus **(o Linux) foi integrado ao sistema operacional GNU**, fazendo assim
   surgir o **primeiro SO totalmente gratuito e livre** para a arquitetura de computadores Intel x86
 
 ---
 # Estrutura dos diretórios no Linux
 
 ---
-## Diretórios na **pasta raiz** 
+## Diretórios na **pasta raiz**
 
 ![](images/estrutura-diretorios-linux.png)
 
@@ -69,7 +63,7 @@
 
 - Todos os arquivos e diretórios do Linux partem de uma única origem: o diretório raiz
 - Representado pela barra (/)
-- O único usuário do sistema capaz de criar ou mover arquivos do diretório raiz é o _root_, ou seja, o 
+- O único usuário do sistema capaz de criar ou mover arquivos do diretório raiz é o _root_, ou seja, o
   usuário-administrador
   - Isso evita que usuários comuns cometam erros e acabem comprometendo a integridade de todo o sistema de arquivos
 
@@ -89,7 +83,7 @@
 ## Os diretórios **/usr** e **/tmp**
 
 - `/usr` - programas diversos (instalados pelo usuário - <u>us</u>e<u>r</u>)
-  - O `/usr` reúne **executáveis, bibliotecas e até documentação** de _software_ usado pelos usuários ou administradores 
+  - O `/usr` reúne **executáveis, bibliotecas e até documentação** de _software_ usado pelos usuários ou administradores
     do sistema
   - Além disso, sempre que você compilar e instalar um programa a partir do código-fonte, ele será instalado neste diretório
 - `/tmp` - arquivos <u>t</u>e<u>mp</u>orários
@@ -108,28 +102,28 @@
 ## Os diretórios **/media**, **/mnt** e **/dev**
 
 - `/media`, `/mnt` - mídias
-  - Para acessar os arquivos de um CD, _pendrive_ ou disco rígido presente em outra máquina da rede, é 
+  - Para acessar os arquivos de um CD, _pendrive_ ou disco rígido presente em outra máquina da rede, é
     torná-lo acessível como se fosse apenas mais um diretório no sistema (a isso, chamamos de "montar")
     - Em **`/media`** ficam montadas todas as **mídias removíveis**, como dispositivos USB e DVDs de dados
-    - Já o diretório **`/mnt`** fica reservado aos administradores que precisam montar temporariamente 
+    - Já o diretório **`/mnt`** fica reservado aos administradores que precisam montar temporariamente
       um **sistema de arquivos externo**
 - `/dev` - dispositivos
   - Pasta que contém arquivos que representam **dispositivos de _hardware_** (_<u>dev</u>ices_, em inglês)
- 
+
 ---
 ## Os diretórios **/etc**, **/proc** e **/var**
 
 - `/etc` - configurações
-  - Diretório com **arquivos de configuração** que podem ser usados por todo _software_, além de _scripts_ 
+  - Diretório com **arquivos de configuração** que podem ser usados por todo _software_, além de _scripts_
     especiais para iniciar ou interromper módulos e programas diversos
 - `/proc` - processos
-  - Nesse diretório são encontrados arquivos que revelam **informações sobre os recursos e <u>proc</u>essos em 
+  - Nesse diretório são encontrados arquivos que revelam **informações sobre os recursos e <u>proc</u>essos em
     execução**
     - Por exemplo, para saber há quanto tempo o Linux está sendo usado, basta ler o arquivo `/proc/uptime`
 - `/var` - arquivos com tamanho variável
   - Todo **arquivo que aumenta de tamanho ao longo do tempo** está no diretório de arquivos <u>var</u>iáveis
   - Um bom exemplo são os _logs_ do sistema
-    
+
 ---
 ## Os diretórios **/home** e **/root**
 
@@ -138,8 +132,8 @@
   - Vale notar que o diretório pessoal do usuário administrador (`/root`)não fica no mesmo local
 - `/root`
   - É a pasta do administrador do sistema
-  - Somente o usuário _root_ poderá acessá-la 
-   
+  - Somente o usuário _root_ poderá acessá-la
+
 ---
 <!--
 backdrop: terminal
@@ -151,13 +145,13 @@ backdrop: terminal
 ## O que é **_shell_**
 
 - O _shell_ é uma **interface de usuário <u>textual</u>** (não-gráfica) muito comum aos sistemas operacionais
-  - Ela dá **acesso ao sistema de arquivos e ao controle de processos e programas** expostos pelo 
+  - Ela dá **acesso ao sistema de arquivos e ao controle de processos e programas** expostos pelo
     SO
   - Antes da criação das interfaces gráficas, havia apenas as textuais
 - Para Linux (e Unix) há algumas opções de _shell_, sendo a **_bash_** a mais comum
-- Além de expor os comandos, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados 
+- Além de expor os comandos, o _shell_ também executa pequenos programas interpretados (_vs_ compilados) chamados
   _shell scripts_
-   
+
 ---
 ## Várias opções de _shell_ para Linux/Unix
 
@@ -170,17 +164,17 @@ backdrop: terminal
 - **Bash**, ou Bourne Again Shell
   - Melhorias em relação ao Bourne Shell
   - Desenvolvido no projeto GNU
-  
+
 ---
 ## Abrindo um _shell_
 
-- Na lista de programas do Linux, procure por `terminal`, `bash` ou `shell` e 
+- Na lista de programas do Linux, procure por `terminal`, `bash` ou `shell` e
   inicie o programa
   - No teclado:  <kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> ou <kbd>Super</kbd><kbd>T</kbd>
 - Assim, será aberto o **_prompt_ de comandos**, indicando o tipo de usuário que está executando:
   - O símbolo `$`: usuário normal
   - O símbolo `#`: usuário administrador (_root_)
-  
+
 ---
 ## Comandos de sessão (1/3)
 
@@ -192,7 +186,7 @@ backdrop: terminal
   $ clear
   ```
   Limpa a tela do _shell_
-  
+
 ---
 ## Comandos de sessão (2/3)
 
@@ -204,7 +198,7 @@ backdrop: terminal
   $ logout
   ```
   Encerra a sessão do usuário corrente
-  
+
 ---
 ## Comandos de sessão (3/3)
 
@@ -224,7 +218,7 @@ backdrop: terminal
   $ man comando
   ```
   Mostra ajuda completa (como um <u>man</u>ual) sobre o `comando`
-  - Exemplo: 
+  - Exemplo:
     ```
     $ man exit
     ```
@@ -286,7 +280,7 @@ backdrop: terminal
   ```
   $ ls -la
   ```
-  
+
 ---
 ## Comandos no sistema de arquivos (4/6)
 
@@ -309,13 +303,13 @@ backdrop: terminal
 - ```
   $ cp nome_arquivo destino_da_copia
   ```
-  **<u>C</u>o<u>p</u>ia** `nome_arquivo` para a pasta especificada por `destino_da_copia`, opcionalmente mudando o 
+  **<u>C</u>o<u>p</u>ia** `nome_arquivo` para a pasta especificada por `destino_da_copia`, opcionalmente mudando o
   nome do arquivo
   - Exemplo:
     ```
     $ cp /tmp/frutas.txt /tmp/arquivos/legumes.txt
     ```
-    - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho 
+    - Copiou o arquivo `frutas.txt` da pasta do usuário (`/home/aluno/`) para sua área de trabalho
       (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
 
 ---
@@ -324,7 +318,7 @@ backdrop: terminal
 - ```
   $ mv nome_arquivo nova_pasta_arquivo
   ```
-  **<u>M</u>o<u>v</u>e** `nome_arquivo` para uma nova pasta especificada por `nova_pasta_arquivo`, opcionalmente mudando o 
+  **<u>M</u>o<u>v</u>e** `nome_arquivo` para uma nova pasta especificada por `nova_pasta_arquivo`, opcionalmente mudando o
   nome do arquivo
   - Exemplo:
     ```
@@ -332,12 +326,12 @@ backdrop: terminal
     $ mv legumes.txt vegetables.txt
     ```
     - Alterou o nome do arquivo de `legumes.txt` para `vegetables.txt`, permanecendo na mesma pasta
-    
+
 
 ---
 ## Facilidades do _bash_
 
-- Ao escrever um comando ou um endereço para um arquivo, podemos apertar <kbd>Tab</kbd> e o _bash_ 
+- Ao escrever um comando ou um endereço para um arquivo, podemos apertar <kbd>Tab</kbd> e o _bash_
   tentará **completar automaticamente**. Por exemplo:
   ```
   $ cd /h
@@ -361,7 +355,7 @@ backdrop: terminal
     $ cat nome_arquivo | less
     ```
 - Para **abrir arquivos** usando seu **"editor padrão"**, o comando depende da interface gráfica sendo usada
-  - Em Cinnamon: `xdg-open nome_arquivo` 
+  - Em Cinnamon: `xdg-open nome_arquivo`
   - Em Gnome: `gnome-open nome_arquivo`
   - Em KDE: `kde-open nome_arquivo`
 
@@ -387,5 +381,4 @@ backdrop: terminal
      `trabalhos` que está dentro de `aluno`
   1. Apague o arquivo `texto.txt` que está no diretório `aluno`
   1. Exclua o diretório `aluno` juntamente com os seus sub-diretórios
-- Envie os comandos executados em cada etapa pelo **Moodle** 
-
+- Envie os comandos executados em cada etapa pelo **Moodle**
