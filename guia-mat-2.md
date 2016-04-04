@@ -1,10 +1,9 @@
-## Guia 6
+## Guia Matemática: **Conversão entre Bases**
 
 - Assunto: Sistemas de numeração
 - Objetivos:
   1. Praticar a conversão de números entre bases
   1. Praticar aritmética binária
-
 
 ---
 ## Roteiro
@@ -62,8 +61,8 @@
     1. Binário ou hexadecimal (parte da esquerda)
     1. Textual, usando a tabela ASCII (parte da direita)
   - <img src="images/descbin-tela.png" style="float:right; height:200px">
-    Veja um exemplo:
-  - Para executar, você deve passar alguns **argumentos em linha de comando** para o programa. Por exemplo:
+    Para executar, você deve passar alguns **argumentos em linha de comando**
+    para o programa. Por exemplo:
     ```
     C:\> descbin.exe b arquivo.txt
     ```
@@ -72,8 +71,8 @@
 ## Exercício 1 (cont.)
 
 1. Compile e execute o programa e o utilize para ler 2 arquivos:
-  - Um arquivo de texto (por exemplo, um arquivo musica.txt)
-  - Um arquivo não textual (por exemplo, um foto, um pdf, um docx)
+  - Um arquivo de **texto puro** (por exemplo, um arquivo `musica.txt`)
+  - Um arquivo **binário** (por exemplo, uma foto, um `pdf`, um `docx`)
 1. Você deve entregar, no Moodle, **4 _screenshots_ da saída do programa**, sendo elas para:
   - o arquivo textual, no formato binário
   - o arquivo textual, no formato hexadecimal
@@ -118,10 +117,10 @@
 ---
 ## Decimal para **binário**
 
-- Para converter um número decimal para binário, devemos fazer consecutivas divisões por 2
-  até que o quociente seja 1
-  - O número binário será a _concatenação_ do último quociente (1) com os restos das divisões
-    anteriores, na ordem inversa com que apareceram
+- Para converter um número decimal para binário, devemos fazer consecutivas
+  divisões por 2 até que o quociente seja 1
+  - O número binário será a _concatenação_ do último quociente (1) com os
+    restos das divisões anteriores, na ordem inversa com que apareceram
 - <img src="images/conversao-decimal-binario.gif" style="float:right;" class="stoppable-gif">
   Exemplo:
 
@@ -129,8 +128,8 @@
 ---
 ## Decimal para **hexadecimal** ou **octal**
 
-- A conversão de decimal para hexadecimal, octal ou qualquer outra base segue o mesmo procedimento
-  da conversão para binário
+- A conversão de decimal para hexadecimal, octal ou qualquer outra base
+  segue o mesmo procedimento da conversão para binário
   - Contudo o divisor será 16, 8 ou o número de outra base
   - Para-se de dividir quando o quociente fica menor que o divisor
 - <img src="images/conversao-decimal-hexadecimal.gif" style="float:right;" class="stoppable-gif">
