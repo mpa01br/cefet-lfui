@@ -1,6 +1,6 @@
-## Guia 9
+## Guia Hardware: E/S
 
-- Assunto: Dispositivos de entrada e saída
+- Assunto: Dispositivos de entrada e saída (E/S)
 - Objetivo:
   1. Conhecer os periféricos de entrada e saída
 
@@ -159,27 +159,29 @@
 
 - Aproveitou-se a tecnologia usada para criar as **televisões**
 - ![right](images/monitor-crt-funcionamento.png)
-  [Assista um vídeo](https://www.youtube.com/watch?v=Gnl1vuwjHto) (em inglês) sobre como funciona um monitor (ou tv)
-  com a tecnologia CRT
+  [Assista um vídeo](https://www.youtube.com/watch?v=Gnl1vuwjHto)
+  (em inglês) sobre como funciona um monitor (ou tv) com a tecnologia CRT
 - É necessário que ele:
   - **seja grande**, para acomodar o canhão de energia (cátodo)
-  - **tenha a tela curva**, para que a energia percorra sempre a mesma distância até a tela
+  - **tenha a tela curva**, para que a energia percorra sempre a mesma
+    distância até a tela
 
 ---
 ## Outros monitores
 
 - _Liquid Cristal Display_ (LCD)
   - Cada pixel são três (rgb) "orifícios" que permitem passagem de luz branca
-  - Demonstração: [Desmontando um monitor de LCD (Enginner Guy)](https://www.youtube.com/watch?v=jiejNAUwcQ8)
+  - Demonstração:
+    [Desmontando um monitor de LCD (Enginner Guy)](https://www.youtube.com/watch?v=jiejNAUwcQ8)
 - Plasma
   - Composto por um grande número de lâmpadas de neon
-  - Cada pixel tem uma célula de fósforo que é incandencida por raios violeta emitidos pelo plasma
+  - Cada pixel tem uma célula de fósforo que é incandecida por raios
+    violeta emitidos pelo plasma
 
 ---
 ## Impressora
 
 - Um dispositivo para geração de imagens em papel
-
 - Tipos mais comuns:
   1. Impressão a janto de tinta
   1. Impressão a laser
