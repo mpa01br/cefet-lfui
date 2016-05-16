@@ -1,4 +1,4 @@
-## Guia 10
+## Guia Hardware: **CPU  e Memória Principal**
 
 - Assunto: CPU e memória principal
 - Objetivo:
