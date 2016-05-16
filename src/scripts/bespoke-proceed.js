@@ -1,5 +1,4 @@
 module.exports = function() {
-
   function getChildNumber(node) {
     return Array.prototype.indexOf.call(node.parentElement.children, node);
   }

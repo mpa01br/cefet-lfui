@@ -1,4 +1,4 @@
-## Guia 11
+## Guia Hardware: **Componentes de Armazenamento e Outros**
 
 - Assunto: Componentes de armazenamento e outros
 - Objetivo:
@@ -25,10 +25,11 @@
 
 - Normalmente feito de **aço ou alumínio**, serve para encapsular a maior parte
   dos componentes de um computador
-- Seu tamanho varia de acordo com o **fator de forma**
+- Seu tamanho varia de acordo com o **fator de forma**:
   - AT (1984): 30,5cm x 33cm
   - ATX (1996): 30,5cm x 24,4cm
-    - Este é o fator de forma usado na maior parte dos computadores pessoais _desktop_
+    - Este é o fator de forma usado na maior parte dos computadores pessoais
+      _desktop_
   - MicroATX (1996): 24,4cm x 24,4cm
 
 ---
@@ -39,9 +40,9 @@
 ---
 ## Fonte de alimentação
 
-- Responsável pelo fornecimento de energia elétrica aos componentes
-- Converte a corrente elétrica alternada ("da tomada") para contínua (como se fosse
-  uma bateria)
+- Responsável pelo **fornecimento de energia elétrica** aos componentes
+- Converte a corrente elétrica alternada ("da tomada") para contínua (como
+  se fosse uma bateria)
   - Reduz a tensão de 110/220V para 5-12V (Volts)
 - O tipo de fonte usada em computadores é a **chaveada** (_vs._ linear)
   - Ela é mais eficiente, mais leve e gera menos calor
@@ -49,12 +50,9 @@
 ---
 ## Conectores da fonte
 
-
-
 - ![right](images/fonte-conectores.png)
   Da fonte, saem cabos de energia com diferentes tensões que devem ser ligados
   aos diversos componentes do computador
-
 
   <ul class="multi-column-list-3">
     <li>Placa mãe</li>
@@ -69,7 +67,7 @@
 # Memória Primária
 
 ---
-## A tecnologia da RAM e da ROM
+## A tecnologia da **RAM** e da **ROM**
 
 - A memória primária é aquela de apoio ao processador
 - Elas são feitas de um material semicondutor (o silício)
@@ -122,14 +120,14 @@
 ---
 ## Disco Rígido (_HD_, ou _hard disk_)
 
-- Representam os dados como pontos magnetizados na superfície de um disco
+- Representam os dados como **pontos magnetizados** na superfície de um disco
   que gira
   - Um ponto magnetizado representa 1 e ausência de magnetização representa 0
 - "Ler" dados do disco implica em converter os pontos (magnetizados ou não)
-  e convertê-los em impulsos elétricos que podem ser enviados ao processador
-- A leitura é feita de forma sequencial - para se ler algo que foi escrito
-  "no fim" do disco, deve-se percorrer o caminho até chegar lá
-  - Diferentemente, a R**A**M permite o acesso a qualquer ponto (aleatório)
+  em impulsos elétricos que podem ser enviados ao processador
+- A **leitura** é feita de forma **sequencial** - para se ler algo que foi
+  escrito "no fim" do disco, deve-se **percorrer o caminho até chegar lá**
+  - Diferentemente, a R**A**M permite o acesso a qualquer ponto (**A** leatório)
     com a mesma velocidade
 
 ---
@@ -155,6 +153,11 @@
 ---
 # Placa mãe
 
+![](images/placa-mae.png)
+
+---
+## Visão Geral da Placa Mãe
+
 - Pode ser entendida em 3 partes:
   1. **Chipsets** de controle (_north/south bridge_)
     - Gerenciam a comunicação entre componentes
@@ -165,7 +168,7 @@
       ao computador
 
 ---
-## Barramento do sistema
+## **Barramento do sistema**
 
 - Em inglês, barramento é _bus_ (ônibus)
   - É o **meio de transporte** de todos os dados trafegando entre a memória principal
