@@ -5,13 +5,13 @@
   <title>Olá, eu sou o José</title>
   <style>
 	  html {
-		height: 100%;
+		  height: 100%;
 	  }
 	  body {
-		background-image: linear-gradient(to right bottom, #D8D8CC, #fefefe);
+		  background-image: linear-gradient(to right bottom, #D8D8CC, #fefefe);
 	  }
 	  button {
-		padding: 5px;
+		  padding: 5px;
 	  }
   </style>
 </head>
@@ -26,10 +26,18 @@
   <hr>
   <p><strong>Enquete:</strong> qual é a interface gráfica para Linx mais bonita?</p>
   <ul>
-	<li><label><input type="radio" name="int">KDE</label></li>
-	<li><label><input type="radio" name="int">Gnome</label></li>
-	<li><label><input type="radio" name="int">Cinnamon</label></li>
-	<li><label><input type="radio" name="int">Unity</label></li>
+  	<li>
+      <label><input type="radio" name="int">KDE</label>
+    </li>
+  	<li>
+      <label><input type="radio" name="int">Gnome</label>
+    </li>
+  	<li>
+      <label><input type="radio" name="int">Cinnamon</label>
+    </li>
+  	<li>
+      <label><input type="radio" name="int">Unity</label>
+    </li>
   </ul>
   <button disabled>Enviar meu voto \o/</button>
 </body>
