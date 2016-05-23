@@ -438,6 +438,9 @@ img[alt$="bigimage-3"] {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  background-size: contain;
+  background-color: #fff;
+  background-position: 50% 50%;
 }
 .os-icons.bespoke-backdrop.bespoke-backdrop-active {
   height: 100%;
@@ -447,6 +450,9 @@ img[alt$="bigimage-3"] {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  background-size: cover;
+  background-color: #fff;
+  background-position: 100% 50%;
 }
 .os-mac.bespoke-backdrop.bespoke-backdrop-active {
   height: 100%;
@@ -481,12 +487,18 @@ img[alt$="bigimage-3"] {
   height: 100%;
 }
 .bespoke-slide[data-bespoke-backdrop="os-windows"],
+.bespoke-slide[data-bespoke-backdrop="os-unix"],
+.bespoke-slide[data-bespoke-backdrop="os-mac"],
 .bespoke-slide[data-bespoke-backdrop="os-linux"] {
   color: #fff;
 }
 .bespoke-slide[data-bespoke-backdrop="os-windows"] h1,
+.bespoke-slide[data-bespoke-backdrop="os-unix"] h1,
+.bespoke-slide[data-bespoke-backdrop="os-mac"] h1,
 .bespoke-slide[data-bespoke-backdrop="os-linux"] h1 {
   color: #fff;
+  font-weight: bolder;
+  text-shadow: 2px 2px #000;
 }
 .terminal.bespoke-backdrop-active {
   background-image: url("../images/terminal-big.jpg");
