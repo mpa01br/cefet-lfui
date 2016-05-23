@@ -80,9 +80,9 @@ backdrop: os-windows
 ---
 ## Windows
 
-- Criado (1985) por Bill Gates e Paul Allen na empresa Microsoft
-- É um produto comercial e devido a sua estratégia de marketing, vem instalado em
-  grande parte dos computadores pessoais vendidos
+- Criado (1985) por **Bill Gates e Paul Allen** na empresa **Microsoft**
+- É um produto comercial e devido à sua estratégia de marketing, vem
+  instalado em grande parte dos computadores pessoais vendidos
 - Inicialmente, o Windows era apenas uma interface gráfica para o SO MS-DOS
   - A partir do Windows 95, ele se tornou um SO
   - Hoje em dia, existe um simulador do MS-DOS dentro do Windows
@@ -141,7 +141,7 @@ backdrop: os-linux
   </ul>
 
 ---
-## Linux (distribuições)
+## Linux (**distribuições**)
 
 - Como Linus inicialmente disponibilizou apenas o _kernel_,
   algumas empresas e organizações criaram os outros pedaços que faltavam no SO

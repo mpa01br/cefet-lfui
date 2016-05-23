@@ -269,9 +269,15 @@ full-dimension-backdrop(repeat)
 .os-icons.bespoke-backdrop
   background-image url(../images/os-icons.jpg)
   full-dimension-backdrop(false)
+  background-size contain
+  background-color white
+  background-position 50% 50%
 .os-mac.bespoke-backdrop
   background-image url(../images/os-mac.jpg)
   full-dimension-backdrop(false)
+  background-size cover
+  background-color white
+  background-position 100% 50%
 .os-windows.bespoke-backdrop
   background-image url(../images/os-windows.jpg)
   full-dimension-backdrop(false)
@@ -285,10 +291,14 @@ full-dimension-backdrop(repeat)
   background-position-y 100%
 
 .bespoke-slide[data-bespoke-backdrop="os-windows"],
+.bespoke-slide[data-bespoke-backdrop="os-unix"],
+.bespoke-slide[data-bespoke-backdrop="os-mac"],
 .bespoke-slide[data-bespoke-backdrop="os-linux"]
   color white
   h1
     color white
+    font-weight bolder
+    text-shadow 2px 2px black
 
 .terminal.bespoke-backdrop-active
   background-image url(../images/terminal-big.jpg)
