@@ -1,4 +1,4 @@
-## Guia 13
+# Guia Sistemas Operacionais 2: **Linux**
 
 - Assunto: **O Linux**
 - Objetivo:
@@ -61,11 +61,13 @@
 ---
 ## O diretório **raiz (/)**
 
-- Todos os arquivos e diretórios do Linux partem de uma única origem: o diretório raiz
+- Todos os arquivos e diretórios do Linux partem de uma única origem: o
+  diretório raiz
 - Representado pela barra (/)
-- O único usuário do sistema capaz de criar ou mover arquivos do diretório raiz é o _root_, ou seja, o
-  usuário-administrador
-  - Isso evita que usuários comuns cometam erros e acabem comprometendo a integridade de todo o sistema de arquivos
+- O único usuário do sistema capaz de criar ou mover arquivos do
+  diretório raiz é o **usuário _root_**, ou seja, o **usuário-administrador**
+  - Isso evita que usuários comuns cometam erros e acabem comprometendo
+    a integridade de todo o sistema de arquivos
 
 ---
 ## Os diretórios **/bin** e **/sbin**
@@ -73,55 +75,68 @@
 - `/bin` - <u>bin</u>ários executáveis
   - Contém os arquivos executáveis (<u>bin</u>ários) do sistema
     - Entre eles, os comandos _bash_, tais como `ls`, `cat` e `cd`
-    - Há também utilitários para configuração do sistema e gerenciamento de arquivos
+    - Há também utilitários para configuração do sistema e gerenciamento
+      de arquivos
 - `/sbin` - <u>bin</u>ários do <u>s</u>istema
-  - Contém arquivos executáveis necessários para o _boot_, para recuperação e reparações
+  - Contém arquivos executáveis necessários para o _boot_, para recuperação
+    e reparações
   - Entre eles, `fdisk` e `ifconfig`
-  - Somente podem ser executados pelo usuário _root_, o administrador do sistema
+  - Somente podem ser executados pelo usuário _root_, o
+    administrador do sistema
 
 ---
 ## Os diretórios **/usr** e **/tmp**
 
 - `/usr` - programas diversos (instalados pelo usuário - <u>us</u>e<u>r</u>)
-  - O `/usr` reúne **executáveis, bibliotecas e até documentação** de _software_ usado pelos usuários ou administradores
-    do sistema
-  - Além disso, sempre que você compilar e instalar um programa a partir do código-fonte, ele será instalado neste diretório
+  - O `/usr` reúne **executáveis, bibliotecas e até documentação** de
+    _software_ usado pelos usuários ou administradores do sistema
+  - Além disso, sempre que você compilar e instalar um programa a partir
+    do código-fonte, ele será instalado neste diretório
 - `/tmp` - arquivos <u>t</u>e<u>mp</u>orários
-  - Contém todos os **arquivos temporários** gerados por aplicativos que tenham sido usados pelos usuários
+  - Contém todos os **arquivos temporários** gerados por aplicativos
+    que tenham sido usados pelos usuários
 
 ---
 ## Os diretórios **/boot** e **/lib**
 
 - `/boot` - inicialização
-  - Arquivos relacionados à inicialização do sistema, ou seja, ao processo de _boot_ do Linux
+  - Arquivos relacionados à inicialização do sistema, ou seja, ao
+    processo de _boot_ do Linux
 - `/lib` - bibliotecas
-  – Contém as **bibliotecas** necessárias para **executar os programas** das pastas `/bin, /sbin` e outras
+  - Contém as **bibliotecas** necessárias para **executar os programas**
+    das pastas `/bin, /sbin` e outras
   - Sem ela, os programas não funcionam corretamente
 
 ---
 ## Os diretórios **/media**, **/mnt** e **/dev**
 
 - `/media`, `/mnt` - mídias
-  - Para acessar os arquivos de um CD, _pendrive_ ou disco rígido presente em outra máquina da rede, é
-    torná-lo acessível como se fosse apenas mais um diretório no sistema (a isso, chamamos de "montar")
-    - Em **`/media`** ficam montadas todas as **mídias removíveis**, como dispositivos USB e DVDs de dados
-    - Já o diretório **`/mnt`** fica reservado aos administradores que precisam montar temporariamente
-      um **sistema de arquivos externo**
+  - Para acessar os arquivos de um CD, _pendrive_ ou disco rígido presente
+    em outra máquina da rede, é necessário torná-lo acessível como se
+    fosse apenas mais um diretório no sistema (a isso, chamamos de "montar")
+    - Em **`/media`** ficam montadas todas as **mídias removíveis**,
+      como dispositivos USB e DVDs de dados
+    - Já o diretório **`/mnt`** fica reservado aos administradores
+      que precisam montar temporariamente um **sistema de arquivos externo**
 - `/dev` - dispositivos
-  - Pasta que contém arquivos que representam **dispositivos de _hardware_** (_<u>dev</u>ices_, em inglês)
+  - Pasta que contém arquivos que representam **dispositivos de _hardware_**
+    (_<u>dev</u>ices_, em inglês)
 
 ---
 ## Os diretórios **/etc**, **/proc** e **/var**
 
 - `/etc` - configurações
-  - Diretório com **arquivos de configuração** que podem ser usados por todo _software_, além de _scripts_
+  - Diretório com **arquivos de configuração** que podem ser usados por
+    todo _software_, além de _scripts_
     especiais para iniciar ou interromper módulos e programas diversos
 - `/proc` - processos
-  - Nesse diretório são encontrados arquivos que revelam **informações sobre os recursos e <u>proc</u>essos em
-    execução**
-    - Por exemplo, para saber há quanto tempo o Linux está sendo usado, basta ler o arquivo `/proc/uptime`
+  - Nesse diretório são encontrados arquivos que revelam **informações sobre
+    os recursos e <u>proc</u>essos em execução**
+    - Por exemplo, para saber há quanto tempo o Linux está sendo usado,
+      basta ler o arquivo `/proc/uptime`
 - `/var` - arquivos com tamanho variável
-  - Todo **arquivo que aumenta de tamanho ao longo do tempo** está no diretório de arquivos <u>var</u>iáveis
+  - Todo **arquivo que aumenta de tamanho ao longo do tempo** está no
+    diretório de arquivos <u>var</u>iáveis
   - Um bom exemplo são os _logs_ do sistema
 
 ---
@@ -129,7 +144,8 @@
 
 - `/home` - arquivos pessoais
   - Arquivos pessoais, como documentos e fotografias
-  - Vale notar que o diretório pessoal do usuário administrador (`/root`)não fica no mesmo local
+  - Vale notar que o diretório pessoal do usuário administrador (`/root`)
+    não fica no mesmo local
 - `/root`
   - É a pasta do administrador do sistema
   - Somente o usuário _root_ poderá acessá-la
@@ -170,7 +186,8 @@ backdrop: terminal
 
 - Na lista de programas do Linux, procure por `terminal`, `bash` ou `shell` e
   inicie o programa
-  - No teclado:  <kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> ou <kbd>Super</kbd><kbd>T</kbd>
+  - No teclado:  pode ser <kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> ou <kbd>Super</kbd><kbd>T</kbd>
+    - "super" é a "tecla Windows"
 - Assim, será aberto o **_prompt_ de comandos**, indicando o tipo de usuário que está executando:
   - O símbolo `$`: usuário normal
   - O símbolo `#`: usuário administrador (_root_)
@@ -229,6 +246,10 @@ backdrop: terminal
   Mostra ajuda mais simples sobre o `comando`
 
 ---
+<!--
+  link: cmds1
+-->
+
 ## Comandos no sistema de arquivos (1/6)
 
 - ```
@@ -246,6 +267,10 @@ backdrop: terminal
     - Muda para o diretório `/usr/bin`
 
 ---
+<!--
+  link: cmds2
+-->
+
 ## Comandos no sistema de arquivos (2/6)
 
 - ```
@@ -264,6 +289,10 @@ backdrop: terminal
     ```
 
 ---
+<!--
+  link: cmds3
+-->
+
 ## Comandos no sistema de arquivos (3/6)
 
 - ```
@@ -282,6 +311,10 @@ backdrop: terminal
   ```
 
 ---
+<!--
+  link: cmds4
+-->
+
 ## Comandos no sistema de arquivos (4/6)
 
 - ```
@@ -298,6 +331,10 @@ backdrop: terminal
     ```
 
 ---
+<!--
+  link: cmds5
+-->
+
 ## Comandos no sistema de arquivos (5/6)
 
 - ```
@@ -313,6 +350,10 @@ backdrop: terminal
       (`/home/aluno/Área de trabalho`), alterando o nome para `legumes.txt`
 
 ---
+<!--
+  link: cmds6
+-->
+
 ## Comandos no sistema de arquivos (6/6)
 
 - ```
@@ -365,20 +406,21 @@ backdrop: terminal
 ---
 ## Atividade (parte 1/2)
 
-- Utilizando comandos no terminal, anote a sequência de comandos utilizados em cada atividade:
-  1. Crie um diretório chamado `aluno` em sua área de trabalho (área de trabalho: `/home/aluno/Área de trabalho`)
+- Utilizando comandos no terminal, <u>**anote**</u> a sequência de
+  comandos utilizados em cada atividade:
+  1. [Crie um diretório](#cmds4) chamado `aluno` em sua área de trabalho (área de trabalho: `/home/aluno/Área de trabalho`)
   1. Utilizando o comando `gedit texto.txt`, crie um arquivo texto dentro do seu
      diretório `aluno`
-  1. Crie um novo diretório dentro do diretório `aluno` com o nome `trabalhos`
+  1. Crie um [novo diretório](#cmds4) dentro do diretório `aluno` com o nome `trabalhos`
 
 ---
 ## Atividade (parte 2/2)
 
 - Continuando...
-  1. Copie o arquivo `texto.txt` para o mesmo diretório `aluno` mas trocando o seu
+  1. [Copie o arquivo](#cmds5) `texto.txt` para o mesmo diretório `aluno` mas trocando o seu
      nome para texto `copia.txt`
-  1. Mova o arquivo texto `copia.txt` que está no diretório `aluno` para o diretório
+  1. [Mova o arquivo](#cmds6) texto `copia.txt` que está no diretório `aluno` para o diretório
      `trabalhos` que está dentro de `aluno`
-  1. Apague o arquivo `texto.txt` que está no diretório `aluno`
-  1. Exclua o diretório `aluno` juntamente com os seus sub-diretórios
+  1. [Apague o arquivo](#cmds4) `texto.txt` que está no diretório `aluno`
+  1. [Exclua o diretório](#cmds4) `aluno` juntamente com os seus sub-diretórios
 - Envie os comandos executados em cada etapa pelo **Moodle**

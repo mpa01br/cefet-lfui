@@ -44,6 +44,9 @@ window.deck = bespoke.from('article', [
           deck.fire(event);
         });
       },800);
+    },
+    link: function(slide, nameOfLink) {
+      slide.setAttribute('data-bespoke-hash', nameOfLink);
     }
   }),
   fancy(),
