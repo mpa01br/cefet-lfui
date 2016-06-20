@@ -1,4 +1,4 @@
-## Guia 17
+## Guia Internet 2
 
 - Assunto: **Segurança da Informação**
 - Objetivos:
@@ -169,8 +169,9 @@ A segurança da informação perpassa por 3 grandes pilares:
 - O sistema operacional, seja ele qual for, antes de tentar resolver DNS
   perguntando ao servidor do provedor de acesso, olha para um arquivo dentro
   do próprio computador que contém mapeamento de nomes para endereços IP
-  - A isso, dá-se o nome de **resolução local de DNS**
-  - O nome desse arquivo é _**hosts**_
+  - A isso, dá-se o nome de **resolução <u>local</u> de DNS**
+  - ![right](images/arquivo-hosts.png)
+    O nome desse arquivo é _**hosts**_
 
 ---
 ## O arquivo _hosts_

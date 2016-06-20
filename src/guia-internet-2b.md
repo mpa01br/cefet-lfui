@@ -72,7 +72,7 @@ suas respostas que conversamos mais cedo.
 ## Atividade
 
 1. Abra o "Gerenciador de Tarefas" do Windows
-1. Na aba de "Processos", consulte duas entradas diferentes da lista (e.g., alg.exe, winlogon.exe)
+1. Na aba de "Processos", consulte duas entradas diferentes da lista (<abbr title="Por exemplo">e.g.</abbr>, `alg.exe`, `winlogon.exe`)
 na Internet para saber se os arquivos são legítimos ou se são maliciosos
 1. Envie os arquivos relativos aos dois processos para o site VirusTotal para saber se a sua cópia desses arquivos está infectada ou sã
 
