@@ -16,7 +16,7 @@ var pkg = require('./package.json'),
   ghpages = require('gh-pages'),
   path = require('path'),
   browserify = require('browserify'),
-  isDist = process.argv.indexOf('serve') === -1;
+  isDist = process.argv.indexOf('dev') === -1;
 
 
 gulp.task('js', function() {
@@ -82,7 +82,7 @@ gulp.task('clean', function() {
   return del('dist');
 });
 
-gulp.task('connect', ['build'], function(done) {
+gulp.task('serve', ['build'], function(done) {
   connect.server({
     root: ['dist'],
     livereload: true,
@@ -105,5 +105,4 @@ gulp.task('deploy', function(done) {
 });
 
 gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments', 'favicon' ]);
-gulp.task('serve', ['connect', 'watch']);
-gulp.task('default', ['serve']);
+gulp.task('dev', ['serve', 'watch']);
