@@ -169,12 +169,13 @@
 1. A tabela deve possuir uma legenda (Tabela 1: Tabela com as sugestões...) e
    ela deve ser referenciada por uma **referência cruzada** também
    - Use **estilos de _Design_** para colorir a tabela
+   1. O documento de referência possui erros de escrita (ortografia e gramática).
+      Você deve **encontrar e corrigir todos os erros**
 
----
+<!--
 ## Exercício (cont.)
 
 1. A seção de **referências** deve ser criada **automaticamente**
    - Portanto, utilize as ferramentas de bibliografia ao fazer as citações no
     texto
-1. O documento de referência possui erros de escrita (ortografia e gramática).
-   Você deve **encontrar e corrigir todos os erros**
+-->
