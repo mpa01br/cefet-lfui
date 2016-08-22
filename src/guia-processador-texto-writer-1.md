@@ -1,6 +1,6 @@
-## Guia 18
+## Guia Processador de Texto - 1
 
-- Assunto: **Processador de texto**: Word
+- Assunto: **Processador de texto**: Writer
 - Objetivos:
   1. Criar, editar, carregar e salvar documentos
   1. Praticar formatação de texto, criação de tabela, uso de estilos, inserção
@@ -25,7 +25,7 @@
 ---
 ## Menu Arquivo
 
-![](images/word-menu-arquivo.png)
+![](images/writer-menu-arquivo.png)
 
 ---
 ## Menu Arquivo &gt; Opção **Novo** (cont.)
@@ -68,31 +68,36 @@
 ## Duas formas para formatar texto
 
 - Você pode alterar a fonte, uso de negrito, itálico, sublinhado, tachado,
-  tamanho, espaçamento, bordas e várias outras coisas de duas formas
-  - Específica
-    - Alteramos a formatação dos elementos que estão selecionados
-    - Ideal para textos pequenos
-  - Com estilos
-    - Alteramos a formatação de "partes" da página como: parágrafos, títulos,
-      subtítulos etc.
-    - Ideal para textos maiores, mais técnicos ou científicos
-- Veja exemplos dos dois _slides_ seguintes
+  tamanho, espaçamento, bordas e várias outras coisas **de duas formas**:
+  - (i) Específica:
+    - Alteramos a **formatação dos elementos <u>que estão selecionados</u>**
+    - Ideal para <u>textos pequenos</u>
+  - (ii) Com estilos:
+    - Alteramos a **formatação de "partes" da página** como: parágrafos,
+      títulos, subtítulos etc.
+    - Ideal para <u>textos maiores</u>, mais técnicos ou científicos
+- Veja exemplos dos dois nos _slides_ seguintes...
 
 ---
-## Formatação **específica**
+## Formatação (i) **específica**
 
-![](images/word-formatacao.png)
+![](images/writer-formatacao.png)
 
 ---
-## Formatação **por estilos**
+## Formatação (ii) **por estilos** (1/2)
 
-![](images/word-formatacao-estilos.png)
+![](images/writer-formatacao-estilos-1.png)
+
+---
+## Formatação (ii) **por estilos** (2/2)
+
+![](images/writer-formatacao-estilos-2.png)
 
 ---
 ## Formatação **por estilos** (cont.)
 
 - Com a formatação por estilos, além de ter a facilidade de alterar várias
-  partes do documento de uma vez, também **estamos dizendo ao Word: isto aqui é
+  partes do documento de uma vez, também **estamos dizendo ao Writer: isto aqui é
   um título, isto aqui um subtítulo, isto aqui é corpo do texto etc.**
 - Dessa forma, conseguimos, por exemplo, gerar um **sumário automaticamente** e
   com o número das páginas preenchido dinamicamente
@@ -101,41 +106,45 @@
 # Parte 3:  Criando um sumário
 
 ---
-## Sumário
+## Sumário (1/2)
 
 - Uma vez que você marcou quais são seus títulos e subtítulos, você pode gerar
   o sumário automaticamente
 
-  ![](images/word-sumario.png)
+  ![](images/writer-sumario.png)
 
----
+## Sumário (2/2)
+
+![](images/writer-sumario-2.png)
+
+<!--
 # Parte 4: Adicionando referências e citações
 
----
 ## Preenchendo suas **fontes bibliográficas** (pt 1)
 
 ![](images/word-bibliografia.png)
 
----
+
 ## Criando uma **Bibliografia** (pt 2)
 
 ![](images/word-referencias.png)
 
----
+
 ## **Citando** no texto
 
 ![](images/word-citar.png)
 
+-->
 ---
-# Parte 5: Revisão de texto
+# Parte 4: Revisão de texto
 
 ---
 ## Revisão ortográfica e gramatical
 
-![](images/word-revisao-orto.png)
+![](images/writer-revisao-orto.png)
 
 ---
-# Parte 6: Um Relatório Técnico (Exercício)
+# Parte 5: Um Relatório Técnico (Exercício)
 
 - Entrega **até o final desta aula** via Moodle
 - Você deve entregar o seu documento em formato .docx
