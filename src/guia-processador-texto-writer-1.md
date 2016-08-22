@@ -54,13 +54,6 @@
 - Para carregar um arquivo, você pode acessar a opção **Abrir** e selecionar o
   documento do sistema de arquivos (pasta e nome do arquivo)
 
-## Menu Arquivo &gt; Opção **Informações**
-
-- Possibilita a configuração de proteção do documento
-  - Você pode criptografa-lo e apenas quem tiver uma senha pode abri-lo
-  - Você pode impedir que modificações sejam feitas ao documento
-  - Você pode associar uma assinatura digital
-
 ---
 # Parte 2: Formatação do texto e estilos de _design_
 
@@ -84,14 +77,9 @@
 ![](images/writer-formatacao.png)
 
 ---
-## Formatação (ii) **por estilos** (1/2)
+## Formatação (ii) **por estilos**
 
 ![](images/writer-formatacao-estilos-1.png)
-
----
-## Formatação (ii) **por estilos** (2/2)
-
-![](images/writer-formatacao-estilos-2.png)
 
 ---
 ## Formatação **por estilos** (cont.)
@@ -113,6 +101,7 @@
 
   ![](images/writer-sumario.png)
 
+---
 ## Sumário (2/2)
 
 ![](images/writer-sumario-2.png)
