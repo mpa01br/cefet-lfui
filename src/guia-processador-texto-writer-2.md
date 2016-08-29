@@ -25,8 +25,9 @@
   1. O currículo do seu colega revisado (`curriculum-vitae-colega-parte3.odt`, da Parte 3)
   1. O seu currículo após as alterações (`curriculum-vitae-parte5.odt`, da Parte 5)
 
-- Atenção: como você deve enviar 3 versões diferentes do seu documento (+1 do
-  seu colega), você vai precisar criar arquivos diferentes ("Salvar Como")
+- Atenção: como você deve enviar 2 versões diferentes do seu documento (+1 do
+  seu colega), você vai <u>precisar criar arquivos diferentes</u>
+  (**"Salvar Como"**)
 
 ---
 # Parte 1
