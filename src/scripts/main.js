@@ -67,7 +67,7 @@ window.deck = bespoke.from('article', [
   overview({
     insertStyles: false
   }),
-  //bullets('li, .bullet'),
+  bullets('.bullet'),
   proceed(),
   hash(),
   progress(),
