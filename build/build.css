@@ -273,6 +273,18 @@ kbd:hover {
   top: 4px;
   box-shadow: 0 0 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
 }
+figure.bulleted-image {
+  position: relative;
+}
+figure.bulleted-image>img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+figure.bulleted-image>img.bespoke-bullet-current {
+  opacity: 1;
+}
 table.ascii th {
   background-color: #607d8b;
   color: #fff;
