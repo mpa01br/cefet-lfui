@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Olá, eu sou o José</title>
+  <style>
+	  html {
+		height: 100%;
+	  }
+	  body {
+		background-image: linear-gradient(to right bottom, #D8D8CC, #fefefe);
+	  }
+	  button {
+		padding: 5px;
+	  }
+  </style>
+</head>
+<body>
+  <h1>Olá, eu sou o José</h1>
+  <p>
+    Esta é uma página
+    bastante simples!
+  </p>
+  <img src="unicornio.png" alt="Aqui deveria haver um unicórnio :)" />
+  <p>E agora com um <span style="color: brown; font-weight: bold;">unicórnio ;)</span></p>
+  <hr>
+  <p><strong>Enquete:</strong> qual é a interface gráfica para Linx mais bonita?</p>
+  <ul>
+	<li><label><input type="radio" name="int">KDE</label></li>
+	<li><label><input type="radio" name="int">Gnome</label></li>
+	<li><label><input type="radio" name="int">Cinnamon</label></li>
+	<li><label><input type="radio" name="int">Unity</label></li>
+  </ul>
+  <button disabled>Enviar meu voto \o/</button>
+</body>
+</html>
