@@ -209,8 +209,8 @@
 
 - Pede-se:
   1. A coluna Imposto deve ser preenchida da seguinte forma:
-     - Se Categoria = 1, imposto é 10% (0,1)
-     - Se Categoria = 2, imposto é 15% (0,15)
+     - Se Categoria = 1, imposto é 10% (0,1) vezes o "Total Produto"
+     - Se Categoria = 2, imposto é 15% (0,15) vezes o "Total Produto"
   2. Calcule a coluna **Total Produto** = somatório das vendas em MG, RJ e SP
      de cada produto. O total produto deve possuir 2 casas decimais e
      separador de milhares
