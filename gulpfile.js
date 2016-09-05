@@ -65,6 +65,12 @@ gulp.task('images', function() {
     .pipe(connect.reload());
 });
 
+gulp.task('videos', function() {
+  return gulp.src('src/videos/**/*')
+    .pipe(gulp.dest('dist/videos'))
+    .pipe(connect.reload());
+});
+
 gulp.task('attachments', function() {
   return gulp.src(['src/attachments/**/*'])
     .pipe(isDist ? through() : plumber())
@@ -97,6 +103,7 @@ gulp.task('watch', function() {
   gulp.watch(['src/**/*.md', 'README.md'], ['md']);
   gulp.watch('src/styles/**/*.styl', ['css']);
   gulp.watch('src/images/**/*', ['images']);
+  gulp.watch('src/videos/**/*', ['videos']);
   gulp.watch('src/scripts/**/*.js', ['js']);
 });
 
@@ -104,5 +111,6 @@ gulp.task('deploy', function(done) {
   ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
 });
 
-gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'attachments', 'favicon' ]);
+gulp.task('build', ['js', 'html', 'md', 'css', 'images', 'videos',
+  'attachments', 'favicon' ]);
 gulp.task('dev', ['serve', 'watch']);
