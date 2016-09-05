@@ -93,8 +93,8 @@
 ---
 ## Apagando linhas e colunas
 
-1. <video autoplay controls="false" loop poster="../../images/calc-exclusion-poster.png" style="float:right;">
-    <source src="../../videos/calc-exclusion.webm" type="video/webm">
+1. <video autoplay controls="false" loop poster="images/calc-exclusion-poster.png" style="float:right;">
+    <source src="videos/calc-exclusion.webm" type="video/webm">
   </video>
   Selecione a coluna ou a linha que quer apagar
 1. Clique com o botão direito no identificador da coluna ou linha
@@ -103,8 +103,8 @@
 ---
 ## Preenchimento automático de células
 
-1. <video autoplay controls="false" loop poster="../../images/calc-autofill-poster.png" style="float:right;">
-    <source src="../../videos/calc-autofill.webm" type="video/webm">
+1. <video autoplay controls="false" loop poster="images/calc-autofill-poster.png" style="float:right;">
+    <source src="videos/calc-autofill.webm" type="video/webm">
   </video>
   Preencha a(s) célula(s) com os valores iniciais da sequência
 1. Selecione a(s) célula(s) preenchida(s)
@@ -173,8 +173,8 @@
 ---
 ## Somando valores de células
 
-- <video autoplay controls="false" loop poster="../../images/calc-formula-poster.png" style="float:right;">
-    <source src="../../videos/calc-formula.webm" type="video/webm">
+- <video autoplay controls="false" loop poster="images/calc-formula-poster.png" style="float:right;">
+    <source src="videos/calc-formula.webm" type="video/webm">
   </video>
   Somando valores de células (exemplo RiR):
   1. Coloque igual (=) na célula que vai receber o cálculo da soma
@@ -187,8 +187,8 @@
 ---
 ## Somando usando a função SOMA()
 
-- <video autoplay controls="false" loop poster="../../images/calc-add-function-poster.png" style="float:right;">
-    <source src="../../videos/calc-add-function.webm" type="video/webm">
+- <video autoplay controls="false" loop poster="images/calc-add-function-poster.png" style="float:right;">
+    <source src="videos/calc-add-function.webm" type="video/webm">
   </video>
   Além das fórmulas, existem funções, como a `SOMA(células)`
   - Passa-se um **intervalo de células** (_e.g._, `B3:B8`) para a função
@@ -200,8 +200,8 @@
 ## Copiando fórmula entre células
 
 - Uma fórmula, pode ser copiada para outras células de uma mesma linha ou coluna
-- <video autoplay controls="false" loop poster="../../images/calc-copy-formula-poster.png" style="float:right;">
-    <source src="../../videos/calc-copy-formula.webm" type="video/webm">
+- <video autoplay controls="false" loop poster="images/calc-copy-formula-poster.png" style="float:right;">
+    <source src="videos/calc-copy-formula.webm" type="video/webm">
   </video>
   Para isso basta:
   1. Selecionar a célula onde a fórmula foi inserida
