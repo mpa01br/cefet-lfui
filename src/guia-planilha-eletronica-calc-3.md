@@ -33,15 +33,17 @@
 ## Exercício - **parte 3**
 
 - Ordene alfabeticamente por nome da música
-  - ![](images/calc-classificacao.png)
-    Faça isso em 30 segundos em vez de 30 minutos:
+  - Faça isso em 30 segundos em vez de 30 minutos:
+
+    ![](images/calc-classificacao.png)
+
 
 ---
 ## Exercício - **parte 4**
 
 - Crie uma visão da tabela mostrando apenas as músicas do seu
   **estilo de música favorito** (apenas 1)
-  - ![](images/calc-filtro.png)
+  - ![right](images/calc-filtro.png)
     Para isso, crie um filtro por coluna:
 - Tire uma _screenshot_ da tabela "filtrada" pelo estilo preferido
 - Cole a _screenshot_ em uma segunda planilha no mesmo arquivo
@@ -74,4 +76,7 @@
 - Crie uma tabela dinâmica mostrando a **soma das escutas
   de músicas** para cada álbum de cada banda
 
-  
+---
+## Entrega
+
+- Entrega via **Moodle** até o final **desta aula**
