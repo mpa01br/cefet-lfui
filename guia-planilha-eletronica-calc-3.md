@@ -10,13 +10,13 @@
 ## Exercício - **parte 1**
 
 - Crie uma planilha contendo **as 30 músicas que você mais escutou** nos últimos tempos
-  - Você deve ter músicas de pelo menos 3 bandas e 3 estilos
+  - Você deve ter músicas de pelo menos 3 bandas e 2 estilos
     diferentes
 - Organize assim:
   1. Primeira linha: cabeçalho com nome das colunas
   1. Demais: uma música por linha
   1. Colunas:
-    - Número da música (de 1 a 30)
+    - Número da música (de 1 a 12)
     - Música
     - Banda
     - Album
