@@ -15,7 +15,7 @@
   sobre seu **país de origem**
 - Você deve seguir os passos que serão descritos nos próximos _slides_
 
-  ![](images/excel-celebridades-fim.png)
+  ![](images/calc-celebridades-fim.png)
 
 ---
 ## Motivação: Conectar a fontes de dados
@@ -206,7 +206,7 @@
   =PROCV(C2;Países.$A$1:$K$248;4)
   ```
 - Veja como a planilha deve ficar:
-  ![](images/excel-celebridades-3.png)
+  ![](images/calc-celebridades-3.png)
 
 ---
 ## Exercício - Parte 5 (cont.)
@@ -230,25 +230,25 @@
   - Como deve ficar a planilha:
     ![](images/excel-celebridades-5.png)
 
-<!--
+---
 ## Exercício - Parte **7**
 
 - Agora vamos mostrar quais países são mais populosos (alto número de pessoas
   por km²)
 - Vamos usar uma ferramenta de "Formatação Condicional"
 
-
+---
 ## Exercício - Parte 7 (cont.)
 
-- o Excel pode formatar células de forma diferente dependendo do valor da
+- ![right](images/calc-formatacao-condicional-1.png)
+  O Calc pode formatar células de forma diferente dependendo do valor da
   célula
   1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
-  1. Selecione a opção de formatação condicional como na imagem abaixo:
+  1. Selecione a opção de formatação condicional como na imagem à direita:
 
-     ![](images/excel-formatacao-condicional.png)
-
--->
 ---
-## Finalizando...
+## Resultado Final
+
+![](images/calc-formatacao-condicional-2.png)
 
 1. Entregar **via Moodle** no horário **desta aula**
