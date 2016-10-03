@@ -244,11 +244,14 @@
   O Calc pode formatar células de forma diferente dependendo do valor da
   célula
   1. Selecione as células `E2:E13` (coluna "Pessoas/Km²")
-  1. Selecione a opção de formatação condicional como na imagem à direita:
+  1. Selecione o <u>menu</u> **"Formatar"**, então **"Formatação Condicional"**,
+    então **"Escala de Cores..."**
+    - Uma janela será aberta para configurar a formatação condicional
+  1. Configure as cores <u>como na imagem</u>
 
 ---
 ## Resultado Final
 
 ![](images/calc-formatacao-condicional-2.png)
 
-1. Entregar **via Moodle** no horário **desta aula**
+Entregar **via Moodle** no horário **desta aula**
