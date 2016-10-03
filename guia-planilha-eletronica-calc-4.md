@@ -216,19 +216,15 @@
    - Você pode selecionar a célula `D2` e arrastar o quadrado/triângulo do
      canto inferior direito para as outras células (até `D13`)
 
-     ![](images/excel-celebridades-4.png)
-
 ---
 ## Exercício - Parte **6**
 
 1. Usando a mesma função (`PROCV`), preenha a coluna Pessoas/Km² usando as
-   colunas "Population" e "Area" da planilha "Países"
+   colunas "População" e "Área" da planilha "Países"
    - Você vai precisar fazer algo como:
      ```
      =PROCV(...)/PROCV(...)
      ```
-  - Como deve ficar a planilha:
-    ![](images/excel-celebridades-5.png)
 
 ---
 ## Exercício - Parte **7**
