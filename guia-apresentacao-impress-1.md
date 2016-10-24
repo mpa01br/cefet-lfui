@@ -1,6 +1,6 @@
-## Guia **24**
+## Guia Apresentações - 1
 
-- Assunto: **Apresentações**: Powerpoint
+- Assunto: **Programas de Apresentações**: Impress
 - Objetivos:
   1. Orientações de Apresentação de conteúdos
   1. Criação de apresentações
@@ -12,7 +12,8 @@
 
 - Você vai criar uma apresentação com 9 slides, conforme as orientações
   descritas no restante desta apresentação.
-- Mas, primeiro, vejamos algumas recomendações para a criação de apresentações
+- Mas, primeiro, vejamos algumas <u>recomendações para a criação de
+  apresentações</u>
 
 ---
 # Orientações de Apresentação de conteúdos
@@ -20,13 +21,13 @@
 ---
 ## Recomendações
 
-- Preferir utilizar tópicos, e não parágrafos grandes
+- Preferir **utilizar tópicos**, e não parágrafos grandes
   - O uso de slides cheios de textos dificulta o acompanhamento da pessoa
     que está assistindo a sua apresentação
 - Não usar textos com fontes menores que **24pt**
-  - Para que mesmo quem está no fundo da sala consiga enxergar
-- Usar um esquema de cores de alto contraste
-- Não "poluir" os slides com informação demais
+  - Para que mesmo quem está no fundo da sala **consiga enxergar**
+- Usar um esquema de cores de **alto contraste**
+- **Não "poluir"** os slides com informação demais
 
 ---
 # 1º slide
@@ -43,7 +44,7 @@
 ---
 ## Conteúdo
 
-- Crie um slide de tópicos para o seguinte texto:
+- Crie um slide <u>de tópicos</u> para o seguinte texto:
   - _“A Internet é uma rede capaz de interligar todos os computadores do mundo.
     O que faz a Internet tão poderosa assim é uma espécie de esperanto da
     informática que atende pelas siglas TCP/IP (Protocolo de Controle de
@@ -56,7 +57,7 @@
 ---
 ## Exemplo de estruturação em tópicos
 
-- **Titulo do slide**: O que é Internet
+- **Título do slide**: O que é Internet
 - Corpo:
   - Rede capaz de interligar os computadores do mundo
   - Baseada na família de protocolos TCP/IP
@@ -111,7 +112,8 @@
 
 - Crie um slide para cada serviço listado no slide anterior. Para cada um,
   apresente o título e o corpo, onde o “corpo”, deve conter uma lista de
-  tópicos que resume o serviço que está sendo detalhado
+  tópicos que resume o serviço que está sendo detalhado (esses passos estão
+  descritos a seguir)
 
 ---
 ## Conteúdo do 6º slide
@@ -160,43 +162,35 @@
 ---
 ## Tema
 
-- Vamos selecionar um tema pronto do Powerpoint para tornar a apresentação
+- Vamos **selecionar um tema** pronto do Impress para tornar a apresentação
   mais atraente
-  - Na aba "Design", escolha um tema da seção "Temas"
 
-    ![](images/powerpoint-tema.png)
+![](images/impress-tema.png)
+
+
 ---
 ## Número do slide e rodapé
 
 - Vamos inserir o número do slide e seu nome no rodapé de cada slide
-  - Na aba "Inserir", na seção "Texto", clique no botão "Cabeçalho e Rodapé"
-
-    ![](images/powerpoint-cabecalho-rodape.png)
+  - ![right](images/impress-cabecalho-rodape.png)
+    No menu "Inserir", clique na **opção "Número da página..."**
   - Uma janela será aberta para configurar as opções de cabeçalho e rodapé
-
+    - (continua no próximo slide)
 ---
 ## Número do slide e rodapé
 
-- (continuando da janela de opções de cabeçalho e rodapé)  
-  - Selecione "número de slide", "rodapé" e escreva seu nome no campo. Marque,
-    também, a opção para ocultar o número no primeiro slide
+- Selecione "Número de slide", "rodapé" e escreva seu nome no campo. Marque,
+  também, a opção para ocultar o número no primeiro slide
 
-    ![](images/powerpoint-opcoes-rodape.png)
+![](images/impress-opcoes-rodape.png)
 
 ---
 ## Formatação de texo
 
-- Formate todos os títulos (de todos os slides) com a cor vermelha e centralizado
-
-  ![](images/powerpoint-formatacao.png)
-
----
-## Formatação de texo (cont.)
-
 - Verifique que todos os seus textos obedecem a regra de pelo menos 24pt e os
   corrija, caso necessário
-- Além disso, em frases grandes, destaque as partes mais importantes do texto
-  de forma que elas chamem mais atenção.
+- Além disso, **em frases grandes, destaque as partes mais importantes**
+  do texto de forma que elas chamem mais atenção.
   - Por exemplo:
 
     _"A Internet é um conjunto de redes interconectadas de **abrangência
@@ -205,61 +199,63 @@
 ---
 ## Transição de slides
 
-- Crie uma transição para os slides e aplique-a para todos eles.
+- ![right](images/impress-transicoes.png)
+  Crie uma transição para os slides e aplique-a para todos eles.
   - Você pode escolher a transição que quiser na aba "Transições" e
     configurá-la quanto a velocidade, tipo de avanço (clique, tempo) e outras
     coisas
 
-    ![](images/powerpoint-transicoes.png)
+
 
 ---
 ## Animação de conteúdo
 
 - Personalize de alguma forma a animação da figura do slide 4.
-  - Por exemplo, você pode fazer com que a figura entre no slide saltitando
+  - ![right](images/impress-anim1.png)
+    Por exemplo, você pode fazer com que a figura entre no slide saltitando
     como um pônei.
-  - Para isso, selecione a imagem e use a aba "Animações"
-    ![](images/powerpoint-anim1.png)
+  - Para isso, selecione a imagem e use o painel "Animações"
+
 
 ---
 ## Animação de conteúdo (cont.)
 
-- <img src="images/powerpoint-anim2.png" style="float:right;margin-left:20px;">
+- <img src="images/impress-anim2.png" style="float:right;margin-left:20px;">
   (continuando da aba "Animações"...)
-  - Clique no botão "Estilos de Animação" e escolha uma **animação
-    de entrada**
+  - Escolha um **efeito de entrada** ou então um **efeito de caminho
+    de movimento**
   - Repare que é possível pré-visualizar o efeito de animação para que fique
     mais fácil escolher um
 
 ---
 ## Notas de apresentação
 
-- Um recurso interessante do Powerpoint é o uso de **anotações de apresentação**
-  - Ele permite que você escreva um texto complementar ao slide
+- Um recurso interessante do Impress é o uso de **anotações de apresentação**
+  - Ele permite que você escreva **um texto <u>complementar</u> ao slide**
   - Esse texto não aparece na apresentação, mas pode aparecer quando você
     mandar imprimir, por exemplo
 - Para incluir essas notas:
-  1. Vá até a aba "Exibição" e, na seção "Modos de Exibição de Apresentação",
-     selecione "Anotações" (veja figura no próximo slide)
-  1. Para este exercício, você deve colocar os textos completos que você
-     transformou em tópicos em seu respectivo slide
+  1. ![right](images/impress-notas-menu.png)
+    Vá até o menu "Exibir" e selecione a opção "Exibição de Notas"
+  1. Para este exercício, você deve **colocar os textos completos que você
+     transformou em tópicos** em seu respectivo slide
 
 ---
 ## Notas de apresentação (cont.)
 
-![](images/powerpoint-notas.png)
+![](images/impress-notas.png)
 
 ---
 ## Visualização
 
 - Para visualizar como ficou sua apresentação, você deve entrar no modo de
   apresentação. Você pode fazer isso de duas formas:
-  1. Desde o primeiro slide
+  1. Começar desde o primeiro slide
     - Opção 1:
 
-      ![](images/powerpoint-modo-apres3.png)
+      ![](images/impress-modo-apres3.png)
     - Opção 2: tecla `F5`
-  1. À partir do slide atual
+  1. Começar a partir do slide atual (e.g., retomar a apresentação)
 
 ---
 ## Visualização (cont.)
@@ -267,14 +263,11 @@
 - (continuando visualização à partir do slide atual...)
   - Opção 1:
 
-    ![](images/powerpoint-modo-apres2.png)
+    ![](images/impress-modo-apres2.png)
   - Opção 2: teclas `Shift+F5`
-  - Opção 3:
-
-    ![](images/powerpoint-modo-apres.png)
 
 ---
 ## Finalizando...
 
-1. Salvar como guia-powerpoint-1.pptx (formato de arquivo padrão do Powerpoint)
+1. Salvar como `guia-impress-1.odp` (formato de arquivo padrão do Impress)
 1. Entregar **via Moodle** no horário **desta aula**
