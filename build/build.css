@@ -184,37 +184,48 @@ li li li li {
 }
 .tutorial.tutorial-on {
   opacity: 1;
-  animation: bounce 1s ease-out 0s infinite alternate;
+  -webkit-animation: bounce 1s ease-out 0s infinite alternate;
+          animation: bounce 1s ease-out 0s infinite alternate;
 }
 .multi-column-list-2 {
-  -moz-column-count: 2;
-       column-count: 2;
-  -moz-column-gap: 3em;
-       column-gap: 3em;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;
 }
 .multi-column-list-3 {
-  -moz-column-count: 3;
-       column-count: 3;
-  -moz-column-gap: 3em;
-       column-gap: 3em;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;
 }
 .multi-column-list-4 {
-  -moz-column-count: 4;
-       column-count: 4;
-  -moz-column-gap: 3em;
-       column-gap: 3em;
+  -webkit-column-count: 4;
+     -moz-column-count: 4;
+          column-count: 4;
+  -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;
 }
 .multi-column-list-5 {
-  -moz-column-count: 5;
-       column-count: 5;
-  -moz-column-gap: 3em;
-       column-gap: 3em;
+  -webkit-column-count: 5;
+     -moz-column-count: 5;
+          column-count: 5;
+  -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;
 }
 .texto-binario {
-  animation: shine 1s ease-out 0s 1 normal;
+  -webkit-animation: shine 1s ease-out 0s 1 normal;
+          animation: shine 1s ease-out 0s 1 normal;
 }
 .texto-normal {
-  animation: shine2 1s ease-out 0s 1 normal;
+  -webkit-animation: shine2 1s ease-out 0s 1 normal;
+          animation: shine2 1s ease-out 0s 1 normal;
 }
 table {
   max-width: 760px;
@@ -340,11 +351,13 @@ img[alt^="left"] {
 }
 .note:before {
   left: 10px;
-  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 .note:after {
   right: 10px;
-  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 .note h1 {
   font-size: 48px;
@@ -385,20 +398,25 @@ img[alt$="bigimage-3"] {
   max-width: 580px;
 }
 .layout-split-2 {
-  -ms-flex-direction: row;
-      flex-direction: row;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   height: 100%;
 }
 .layout-split-2>section {
   width: 50%;
-  -ms-flex-positive: 1;
-      flex-grow: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: center;
 }
 .bespoke-backdrop {
@@ -555,6 +573,14 @@ img[alt$="bigimage-3"] {
 .bitten4.bespoke-backdrop {
   transition: none;
 }
+@-webkit-keyframes bounce {
+  from {
+    right: 20px;
+  }
+  to {
+    right: 40px;
+  }
+}
 @keyframes bounce {
   from {
     right: 20px;
@@ -563,7 +589,23 @@ img[alt$="bigimage-3"] {
     right: 40px;
   }
 }
+@-webkit-keyframes shine {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @keyframes shine {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes shine2 {
   from {
     opacity: 0.25;
   }
