@@ -176,7 +176,7 @@
   ou (2) a interface gráfica
   1. Abra o programa `git shell` e execute:
     ```bash
-    git clone git@github.com:SEU_USUARIO/cefet-lfui-sorting.git
+    git clone https://github.com/SEU_USUARIO/cefet-lfui-sorting.git
     ```
   2. Abra o programa `github` e adicione um repositório clonado (próximo slide)
 
