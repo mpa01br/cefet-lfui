@@ -1,4 +1,4 @@
 # Informática
 
 - Disciplina: **Laboratório de Fundamentos de Informática**
-- Professor: **[Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)**
+- Professor: **[Flávio Coutinho 2017](mailto:coutinho@decom.cefetmg.br)**
