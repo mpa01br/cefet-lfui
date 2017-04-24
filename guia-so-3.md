@@ -355,7 +355,7 @@ backdrop: cmd-and-powershell
     - www.google.com (não use http://)
     - www.eunaoexistomesmo.com (não use http://)
     
-  1. Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
+  2. Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
      C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
 - Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
 
