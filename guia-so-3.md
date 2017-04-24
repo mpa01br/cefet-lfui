@@ -313,6 +313,7 @@ backdrop: cmd-and-powershell
 
 ---
 # Exercício
+Para ser enviado pelo ambiente. Faca-o direto no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
 
 ---
 ## Atividade (parte 1/2)
