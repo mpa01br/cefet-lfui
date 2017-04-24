@@ -347,7 +347,7 @@ backdrop: cmd-and-powershell
   1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` (veja para que serve o comando rd, del e deltree).
   1. Exclua o diretório `seu_nome` juntamente com os seus sub-diretórios
   (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) (veja para que serve o comando rd, del e deltree).
-  ---
+---
 ## Atividade (parte 5/5)
 - Tarefa 4:Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não. Use esse "programa" para verificar se existem:
 - www.google.com (não use http://)
