@@ -313,13 +313,14 @@ backdrop: cmd-and-powershell
 
 ---
 # Exercício
-- Neste laboratório sera necessario criar um arquivo tipo doc para ser enviado ao professor, pelo ambinete AVA. Por isto veja que editor de texto tem seu computador, abra-o e crie um arquivo com seu nome do tipo DOC ou ODF (Word ou Libre Office) com seu nome. 
+- Neste laboratório sera necessario criar um arquivo tipo doc para ser enviado ao professor, pelo ambinete AVA. Por isto veja que editor de texto tem seu computador, abra-o e crie um arquivo com seu nome do tipo DOC ou ODF (Word ou Libre Office). 
 - Faca o envio no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
 
 ---
 ## Atividade (parte 1/5)
 
-- Tarefa 1: O que é CMD e para que serve? (de uma olhada nos comandos no link https://pt.wikibooks.org/wiki/MS-DOS/Lista_de_comandos e faca teste com alguns deles. (Responda no arquivo tipo DOC ou ODF com seu nome)
+- Tarefa 1: O que é CMD e para que serve? (Responda no arquivo tipo DOC ou ODF com seu nome)
+- De uma olhada em comandos CMD no link https://pt.wikibooks.org/wiki/MS-DOS/Lista_de_comandos e faca teste com alguns deles.
 
 ---
 ## Atividade (parte 2/5)
@@ -328,25 +329,24 @@ backdrop: cmd-and-powershell
 
 ---
 ## Atividade (parte 3/5)
-
 - Tarefa 3: Utilizando comandos no terminal, <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
-  1. Crie um diretório chamado `aluno` em sua área de trabalho (área de trabalho: `C:\Users\aluno\Desktop`)
-  1. Utilizando o comando `notepad texto.txt`, crie um arquivo texto dentro do seu
-     diretório `aluno`
-  1. Crie um novo diretório dentro do diretório `aluno` com o nome `trabalhos`
+  1. Crie um diretório (pasta) em sua área de trabalho (área de trabalho: `C:\Users\aluno\Desktop`) e de seu nome para ele (veja para   
+     que serve os comandos cd, md e dir).
+  1. Utilizando o comando `notepad texto.txt`, crie um arquivo texto dentro do diretório criado `seu_nome` (digite este comando na linha 
+     de comando).
+  1. Crie um novo diretório dentro do diretório `seu_nome` com o nome `trabalhos` (veja para que serve os comandos cd, md e dir).
   (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
 
 ---
 ## Atividade (parte 4/5)
-
-- Continuando tareaf 3...
-  1. Copie o arquivo `texto.txt` para o mesmo diretório `aluno` mas trocando o seu
-     nome para texto `copia.txt`
-  1. Mova o arquivo texto `copia.txt` que está no diretório `aluno` para o diretório
-     `trabalhos` que está dentro de `aluno`
-  1. Apague o arquivo `texto.txt` que está no diretório `aluno`
-  1. Exclua o diretório `aluno` juntamente com os seus sub-diretórios
-  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
+- Continuando tarefa 3...
+  1. Copie o arquivo `texto.txt` para o mesmo diretório `seu_nome` mas trocando o seu nome para `copia.txt` (veja para que serve o 
+     comando cp e o que significa path).
+  1. Mova o arquivo texto `copia.txt` que está no diretório `seu_nome` para o diretório `trabalhos` que está dentro de `seu_nome` (veja 
+     para que serve o comando mv e o que significa path).
+  1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` (veja para que serve o comando rd, del e deltree).
+  1. Exclua o diretório `seu_nome` juntamente com os seus sub-diretórios
+  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) (veja para que serve o comando rd, del e deltree).
   ---
 ## Atividade (parte 5/5)
 - Tarefa 4:Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não. Use esse "programa" para verificar se existem:
