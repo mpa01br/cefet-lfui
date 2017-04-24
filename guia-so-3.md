@@ -331,7 +331,7 @@ backdrop: cmd-and-powershell
 ## Atividade (parte 3/5) 
 - Tarefa 3: Utilizando comandos no terminal (CMD), <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
   1. Crie um diretório (pasta) em sua área de trabalho (área de trabalho: `C:\Users\aluno\Desktop`) e de seu nome para ele (veja para   
-     que serve os comandos cd, md e dir).
+     que serve os comandos cd, mkdir(md) e dir).
   1. Utilizando o comando `notepad texto.txt`, crie um arquivo texto dentro do diretório criado `seu_nome` (digite este comando na linha 
      de comando).
   1. Crie um novo diretório dentro do diretório `seu_nome` com o nome `trabalhos` (veja para que serve os comandos cd, md e dir).
@@ -341,11 +341,11 @@ backdrop: cmd-and-powershell
 ## Atividade (parte 4/5)
 - Continuando tarefa 3...
   1. Copie o arquivo `texto.txt` para o mesmo diretório `seu_nome` mas trocando o seu nome para `copia.txt` (veja para que serve o 
-     comando cp e o que significa path).
+     comando copy e o que significa path).
   1. Mova o arquivo texto `copia.txt` que está no diretório `seu_nome` para o diretório `trabalhos` que está dentro de `seu_nome` (veja 
-     para que serve o comando mv e o que significa path).
+     para que serve o comando move e o que significa path).
   1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` e exclua o diretório `seu_nome` juntamente com os seus sub-diretórios 
-     (veja para que serve o comando rd, del e deltree).
+     (veja para que serve o comando rd, del).
  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) 
   
 ---
