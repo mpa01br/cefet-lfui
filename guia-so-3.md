@@ -328,8 +328,8 @@ backdrop: cmd-and-powershell
 - Tarefa 2: Qual a diferenca entre o CMD e o powershell? (Responda no arquivo tipo DOC ou ODF com seu nome)
 
 ---
-## Atividade (parte 3/5)
-- Tarefa 3: Utilizando comandos no terminal, <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
+## Atividade (parte 3/5) 
+- Tarefa 3: Utilizando comandos no terminal (CMD), <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
   1. Crie um diretório (pasta) em sua área de trabalho (área de trabalho: `C:\Users\aluno\Desktop`) e de seu nome para ele (veja para   
      que serve os comandos cd, md e dir).
   1. Utilizando o comando `notepad texto.txt`, crie um arquivo texto dentro do diretório criado `seu_nome` (digite este comando na linha 
