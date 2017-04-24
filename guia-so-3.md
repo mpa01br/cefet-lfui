@@ -39,11 +39,11 @@ backdrop: cmd-and-powershell
   - Exemplo de arquivo `.bat`:
     ```bat
     @echo off
-    ping www.google.com.brrrr -n 1 -w 1000 > nul
+    ping www.google.com -n 1 -w 1000 > nul
     if errorlevel 1 ( echo Site fora do ar ou inexistente )
     else ( echo Site funcionando  )
     ```
-    - Baixar [essa versão do `.bat`](attachments/guia14/google-online.bat) e outra que recebe o [site como parâmetro](attachments/guia14/site-online.bat)
+    - Baixar [essa versão do `.bat`](https://ava.cefetmg.br/mod/resource/view.php?id=2373) e outra que recebe o [site como parâmetro](https://ava.cefetmg.br/mod/resource/view.php?id=2228)
 
 ---
 ## Histórico de _shell_ para Windows (3/3)
@@ -350,7 +350,7 @@ backdrop: cmd-and-powershell
   
 ---
 ## Atividade (parte 5/5)
-- Tarefa 4: Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não.
+- Tarefa 4: Baixe o arquivo site-online.bat (https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não.
   1. Use esse "programa" para verificar se existem:
       - www.google.com (não use http://)
       - www.eunaoexistomesmo.com (não use http://)    
