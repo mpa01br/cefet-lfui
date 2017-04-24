@@ -347,14 +347,18 @@ backdrop: cmd-and-powershell
   1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` (veja para que serve o comando rd, del e deltree).
   1. Exclua o diretório `seu_nome` juntamente com os seus sub-diretórios
   (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) (veja para que serve o comando rd, del e deltree).
+  
 ---
 ## Atividade (parte 5/5)
-- Tarefa 4:Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não. Use esse "programa" para verificar se existem:
-- www.google.com (não use http://)
-- www.eunaoexistomesmo.com (não use http://)
-
-Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
-C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
-
-Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
-Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
+- Tarefa 4: Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não.
+  1. Use esse "programa" para verificar se existem:
+    - www.google.com (não use http://)
+    - www.eunaoexistomesmo.com (não use http://)
+    
+  1. Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
+     C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
+  1. Crie um novo diretório dentro do diretório `seu_nome` com o nome `trabalhos` (veja para que serve os comandos cd, md e dir).
+  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
+  
+- Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
+- Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
