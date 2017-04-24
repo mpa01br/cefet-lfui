@@ -362,4 +362,4 @@ backdrop: cmd-and-powershell
 - Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
 ---
 
-## Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
+## Enviei o arquivo com seu nome ao professor, pelo ambiente, no link: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
