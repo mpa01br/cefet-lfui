@@ -344,9 +344,9 @@ backdrop: cmd-and-powershell
      comando cp e o que significa path).
   1. Mova o arquivo texto `copia.txt` que está no diretório `seu_nome` para o diretório `trabalhos` que está dentro de `seu_nome` (veja 
      para que serve o comando mv e o que significa path).
-  1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` (veja para que serve o comando rd, del e deltree).
-  1. Exclua o diretório `seu_nome` juntamente com os seus sub-diretórios
-  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) (veja para que serve o comando rd, del e deltree).
+  1. Apague o arquivo `texto.txt` que está no diretório `seu_nome` e exclua o diretório `seu_nome` juntamente com os seus sub-diretórios 
+     (veja para que serve o comando rd, del e deltree).
+ (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome) 
   
 ---
 ## Atividade (parte 5/5)
@@ -357,9 +357,8 @@ backdrop: cmd-and-powershell
     
   1. Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
      C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
-  1. Crie um novo diretório dentro do diretório `seu_nome` com o nome `trabalhos` (veja para que serve os comandos cd, md e dir).
-  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
 - Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
+
 ---
 
 ## Enviei o arquivo com seu nome ao professor, pelo ambiente, no link: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
