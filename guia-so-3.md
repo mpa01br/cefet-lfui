@@ -359,6 +359,7 @@ backdrop: cmd-and-powershell
      C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
   1. Crie um novo diretório dentro do diretório `seu_nome` com o nome `trabalhos` (veja para que serve os comandos cd, md e dir).
   (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
-  
 - Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
-- Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
+---
+
+## Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
