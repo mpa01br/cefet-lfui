@@ -63,7 +63,7 @@ backdrop: cmd-and-powershell
 - O **PowerShell**
   - No menu iniciar, procure por <u>Windows PowerShell</u>
   - No teclado: <kbd>Super</kbd><kbd>R</kbd>, digite `powershell.exe` (pode omitir `.exe`) e aperte <kbd>Enter</kbd>
-- Vejamos alguns comandos que podem ser executados no **`cmd.exe`**
+- Vejamos alguns comandos que podem ser executados no **`cmd.exe`**: https://pt.wikibooks.org/wiki/MS-DOS/Lista_de_comandos
 
 ---
 ## Comandos de sessão (1/2)
