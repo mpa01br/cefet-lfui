@@ -313,8 +313,8 @@ backdrop: cmd-and-powershell
 
 ---
 # Exercício
-# Neste laboratório sera necessario criar um arquivo tipo doc para ser enviado ao professor, pelo ambinete AVA. Por isto veja que editor de texto tem seu computador, abra-o e crie um arquivo com seu nome do tipo DOC ou ODF (Word ou Libre Office) com seu nome. 
-# Faca o envio no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
+- Neste laboratório sera necessario criar um arquivo tipo doc para ser enviado ao professor, pelo ambinete AVA. Por isto veja que editor de texto tem seu computador, abra-o e crie um arquivo com seu nome do tipo DOC ou ODF (Word ou Libre Office) com seu nome. 
+- Faca o envio no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
 
 ---
 ## Atividade (parte 1/5)
