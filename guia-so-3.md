@@ -352,8 +352,8 @@ backdrop: cmd-and-powershell
 ## Atividade (parte 5/5)
 - Tarefa 4: Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não.
   1. Use esse "programa" para verificar se existem:
-      www.google.com (não use http://)
-      www.eunaoexistomesmo.com (não use http://)    
+      - www.google.com (não use http://)
+      - www.eunaoexistomesmo.com (não use http://)    
   2. Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
      C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
 - Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
