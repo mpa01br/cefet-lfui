@@ -313,25 +313,48 @@ backdrop: cmd-and-powershell
 
 ---
 # Exercício
-Para ser enviado pelo ambiente. Faca-o direto no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
+# Neste laboratório sera necessario criar um arquivo tipo doc para ser enviado ao professor, pelo ambinete AVA. Por isto veja que editor de texto tem seu computador, abra-o e crie um arquivo com seu nome do tipo DOC ou ODF (Word ou Libre Office) com seu nome. 
+# Faca o envio no link https://ava.cefetmg.br/mod/assign/view.php?id=2225
 
 ---
-## Atividade (parte 1/2)
+## Atividade (parte 1/5)
 
-- Utilizando comandos no terminal, <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
+- Tarefa 1: O que é CMD e para que serve? (de uma olhada nos comandos no link https://pt.wikibooks.org/wiki/MS-DOS/Lista_de_comandos e faca teste com alguns deles. (Responda no arquivo tipo DOC ou ODF com seu nome)
+
+---
+## Atividade (parte 2/5)
+
+- Tarefa 2: Qual a diferenca entre o CMD e o powershell? (Responda no arquivo tipo DOC ou ODF com seu nome)
+
+---
+## Atividade (parte 3/5)
+
+- Tarefa 3: Utilizando comandos no terminal, <u>anote</u> a <u>sequência de comandos</u> utilizados em <u>cada atividade</u>:
   1. Crie um diretório chamado `aluno` em sua área de trabalho (área de trabalho: `C:\Users\aluno\Desktop`)
   1. Utilizando o comando `notepad texto.txt`, crie um arquivo texto dentro do seu
      diretório `aluno`
   1. Crie um novo diretório dentro do diretório `aluno` com o nome `trabalhos`
+  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
 
 ---
-## Atividade (parte 2/2)
+## Atividade (parte 4/5)
 
-- Continuando...
+- Continuando tareaf 3...
   1. Copie o arquivo `texto.txt` para o mesmo diretório `aluno` mas trocando o seu
      nome para texto `copia.txt`
   1. Mova o arquivo texto `copia.txt` que está no diretório `aluno` para o diretório
      `trabalhos` que está dentro de `aluno`
   1. Apague o arquivo `texto.txt` que está no diretório `aluno`
   1. Exclua o diretório `aluno` juntamente com os seus sub-diretórios
-- Envie os comandos executados em cada etapa pelo **Moodle**
+  (Coloque todos estes comando no arquivo tipo DOC ou ODF com seu nome)
+  ---
+## Atividade (parte 5/5)
+- Tarefa 4:Baixe o arquivo site-online.bat (http://mpa01br.github.io/cefet-lfui/attachments/guia-so-3/site-online.bat ou https://ava.cefetmg.br/mod/resource/view.php?id=2228), que verifica se um site existe e está funcionando ou não. Use esse "programa" para verificar se existem:
+- www.google.com (não use http://)
+- www.eunaoexistomesmo.com (não use http://)
+
+Para executar o site-online.bat, baixe-o para uma pasta e, dentro do prompt de comando (CMD), execute:
+C:\pasta_onde_esta_o_arquivo\> site-online.bat www.endereco-do-site.com.
+
+Dê um print da tela com as duas respostas e cole no arquivo tipo doc criado.
+Anexe o arquivo a esta tarefa e envie-o: https://ava.cefetmg.br/mod/assign/view.php?id=2225.
