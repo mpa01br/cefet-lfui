@@ -1009,7 +1009,7 @@
 ---
 # Exercício
 
-- A sala será dividida em 2 grupos
+- A sala será dividida em 7 grupos
 - Cada grupo deve **descobrir uma frase que está codificada em números binários usando a tabela ASCII**
 - Passos:
   1. Pergunte ao professor qual será sua frase
