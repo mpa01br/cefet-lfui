@@ -182,11 +182,17 @@
 ---
 ## O que é informática?
 
-# INFOTmação AutomÁTICA
+# INFORmação AutoMÁTICA
 
 - Ciência que abrange todas as atividades relacionadas com o processamento automático de informações, inclusive o relacionamento entre 
   serviços, equipamentos e profissionais envolvidos no processamento eletrônico de dados.
 
+---
+## O que é computação?
+
+![Tela inicial do curso Hour of Code versão Minecraft](images/computacao.png)
+- Computação pode ser definida como a busca de uma solução para um problema a partir de entradas (inputs) e tem seus resultados 
+  outputs) depois de trabalhada através de um algoritmo
 ---
 # Atividade de Hoje
 
