@@ -194,6 +194,21 @@
 - Computação pode ser definida como a busca de uma solução para um problema a partir de entradas (inputs) e tem seus resultados 
   outputs) depois de trabalhada através de um algoritmo
 ---
+## Terminologia
+
+- Dado: Informação que será trabalhada durante o processamento.
+     - Exemplos: 10 (idade), 12 x 8 (pressão arterial), 1.99 (altura em metros), Maria (nome)
+- Instrução: 
+  - Operação elementar que o computador tem a capacidade de processar
+  - Trabalha com os dados
+  - Ordens executadas pelo computador
+     - Exemplos: 
+        - instruções para entrada e saída (E/S) de dados
+        - instrução de movimentação de dados (transferência)
+        - instruções aritméticas
+        - instrução de comparação
+
+---
 # Atividade de Hoje
 
 ![Tela inicial do curso Hour of Code versão Minecraft](images/hourofcode-initial-screenshot.png)
