@@ -1,5 +1,18 @@
 ## Introdução à Informática
 
+# Acesso ao Ambiente AVA
+
+---
+## AVA **Criar Usuário Sistema de Identificação Única**
+
+1. Criar usuário para acesso ao moodle 
+   - iu.cefetmg.br
+1. Ambiente Moodle
+   - ava.cefetmg.br
+1. Contato:
+   - marcaopamaral@gmail.com
+
+---
 - Assunto: Introdução à Informática
 - Objetivos:
   1. Conhecer os conceitos básicos de informática de forma a possibilitar
@@ -9,7 +22,7 @@
      - Conceitos de _hardware_
      - Ferramentas e aplicação de informática
      - Diversos tipos de _software_
-     - Segurança da informação
+     - Configurações diversas
 
 ---
 # Conteúdo Programático da Disciplina
@@ -20,6 +33,12 @@
 1. Definição de Informática
 1. Breve História dos Computadores
 1. Funções Básicas do Computador
+1. Bits e Bytes
+1. Bases de Numeração: Representação Decimal, Binária, Octal e Hexadecimal
+1. Conversões de Números entre Bases
+1. Aritmética Binária
+1. Tipos de Dados e Suas Representações
+1. Tabela ASCII
 
 ---
 ## UNIDADE 2. **REPRESENTACÃO DE DADOS E SISTEMAS DE NUMERACÃO**
