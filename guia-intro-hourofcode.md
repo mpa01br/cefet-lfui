@@ -1,9 +1,7 @@
-## Introdução à Informática
-
-# Acesso ao Ambiente AVA
+## Laboratorio de Fundamentos de Informática (LFUI)
 
 ---
-## AVA **Criar Usuário Sistema de Identificação Única**
+## **Criar Usuário Sistema de Identificação Única**
 
 1. Criar usuário para acesso ao moodle 
    - iu.cefetmg.br
@@ -28,7 +26,7 @@
 # Conteúdo Programático da Disciplina
 
 ---
-## UNIDADE 1. **INTRODUÇÃO AOS COMPUTADORES E À INFORMÁTICA**
+## UNIDADE 1: **INTRODUÇÃO AOS COMPUTADORES E À INFORMÁTICA**
 
 1. Definição de Informática
 1. Breve História dos Computadores
@@ -41,17 +39,7 @@
 1. Tabela ASCII
 
 ---
-## UNIDADE 2. **REPRESENTACÃO DE DADOS E SISTEMAS DE NUMERACÃO**
-
-1. Bits e Bytes
-1. Bases de Numeração: Representação Decimal, Binária, Octal e Hexadecimal
-1. Conversões de Números entre Bases
-1. Aritmética Binária
-1. Tipos de Dados e Suas Representações
-1. Tabela ASCII
-
----
-## UNIDADE 3. **CONCEITOS DE SISTEMA OPERACIONAIS**
+## UNIDADE 2: **CONCEITOS DE SISTEMA OPERACIONAIS**
 
 1. Noções básicas de uso de Sistemas Operacionais
 1. Conceitos de Diretório, Arquivo e File System
@@ -59,24 +47,7 @@
 1. Sistemas Operacionais MsDos, Windows e Linux
 
 ---
-## UNIDADE 4. **INTERNET**
-
-1. Conceitos Básicos de Redes de Computadores e Internet
-1. Conceito de email: manipulação e boas práticas, o email como
-   ferramenta de trabalho
-1. Boas maneiras na Internet
-1. A Internet como ferramenta de trabalho
-
----
-## UNIDADE 5. **UTILIZANDO O COMPUTADOR COM SEGURANÇA**
-
-1. Boas práticas de segurança
-1. _Backup_
-1. Virus, _worms_, _spy/adwares_, spams, etc
-1. Aspectos legais da Internet
-
----
-## UNIDADE 6. **PROCESSAMENTO DE TEXTO**
+## UNIDADE 3: **PROCESSAMENTO DE TEXTO**
 
 1. Processadores de texto disponíveis no mercado
 1. Normas técnicas para formatação de trabalho científico
@@ -88,7 +59,7 @@
 1. Referência cruzada e índices
 
 ---
-## UNIDADE 7. **PLANILHAS ELETRÔNICAS**
+## UNIDADE 4: **PLANILHAS ELETRÔNICAS**
 
 1. Planilhas eletrônicas disponíveis no mercado
 1. Conceitos de arquivo, planilha e Célula
@@ -103,7 +74,7 @@
 1. Configuração de Páginas e Impressão
 
 ---
-## UNIDADE 8 – **PROGRAMAS DE APRESENTAÇÕES**
+## UNIDADE 5: **PROGRAMAS DE APRESENTAÇÕES**
 
 1. Orientações de Apresentação de conteúdos
 1. Programas de Apresentações Disponíveis no Mercado
@@ -119,7 +90,7 @@
 1. Impressão de Apresentações e Material de Apoio
 
 ---
-## UNIDADE 9. **COMPONENTES DO COMPUTADOR**
+## UNIDADE 6: **COMPONENTES DO COMPUTADOR**
 
 1. Dispositivos de Entrada e de Saída
 1. Unidade de Processamento
@@ -135,6 +106,23 @@
 1. Portas de Comunicação
 
 ---
+## UNIDADE 7: **DISPOSITIVOS DE ARMAZENAMENTO**
+
+1. Unidades de disco rígido
+1. Unidades de disco sólida
+1. Formatação
+1. Tipos de sistemas de arquivos (Ex: FAT32, NTFS, EXT)
+1. Configuração: física e lógica
+1. Drives óticos (Ex: CD, DVD)
+
+---
+## UNIDADE 7: **CONFIGURAÇÕES**
+
+1. Setup da BIOS/UEFI
+1. Particionamento de disco
+1. Instalação do sistema operacional
+
+---
 # Critérios de Avaliação
 
 ---
@@ -146,12 +134,23 @@
 - 4º Bimestre: 30 pontos
 
 ---
-## Atividades Avaliativas do **1º bimestre**
+## Atividades Avaliativas
 
-- (4) Participação em sala de aula
-- (10) Entrega das atividades em sala
-  - ~1,5 ponto por aula
-- (6) Prova
+- Participação em sala de aula (20%)
+- Entrega das atividades em sala (40%) 
+- Prova (30%)
+
+---
+## Tipos de Processamento de Dados
+
+- Manual: é aquele feito manualmente, sem a utilização da máquina.
+   Ex.: dar baixa, no talão de cheques, de um cheque emitido.
+- Semi-automático: é quando operações são feitas por máquinas, mas exigem a intervenção humana.
+   Ex.: rotinas de contabilidade que usam máquinas junto com processamento manual.
+- Automático: é quando todo o processamento é feito por máquinas.
+   Ex.: executar uma tarefa valendo-se exclusivamente de um computador.
+- Para resolver determinados problemas, sobretudo de cálculo, o homem inventou máquinas chamadas COMPUTADORES que, uma vez programados, 
+  efetuam o PROCESSAMENTO DE DADOS com muita rapidez e segurança, fornecendo os resultados desejados.
 
 ---
 # Atividade de Hoje
@@ -167,15 +166,13 @@
 1. Entre no site do _Hour of Code_: [https://code.org/mc](https://code.org/mc)
   1. Cadastre-se usando seu email
   1. Faça todos os 14 desafios e consiga seu certificado
-1. Envie o certificado de conclusão do curso via Moodle para o professor
+1. Veja que editor de texto que seu computador possui, abra-o e crie um arquivo do tipo DOC ou ODF (Word ou Libre Office) com seu nome.
+  - Envie o certificado de conclusão do curso via Moodle para o professor no ambiente 
+    Faça pelo link: https://ava.cefetmg.br/mod/assign/view.php?id=1903
   - Caso o Moodle ainda não tenha sido ativado, envie o certificado para
-    [coutinho@decom.cefetmg.br](mailto:coutinho@decom.cefetmg.br)
+    [marcao@decom.cefetmg.br](mailto:marcaoo@decom.cefetmg.br)
     **com o assunto**:
     ```
     [LFUI] Certificado Hour of Code
     ```
 
----
-## Resultado do professor
-
-![Certificado de conclusão do makeschool](images/hourofcode-certificate.png)
