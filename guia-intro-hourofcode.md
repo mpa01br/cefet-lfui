@@ -167,7 +167,7 @@
 ---
 ## Processamento Eletrônico de Dados
 
-![Processamento de dados](images/Processamento de dados.jpeg)
+![Processamento de dados](images/processamento-dados.png)
 - É o processamento de dados com a utilização do computador. 
   Diz-se eletrônico porque os computadores atuais são formados por componentes eletrônicos.
 
