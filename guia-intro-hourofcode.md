@@ -180,6 +180,14 @@
   tratamento de imagens gráficas, realidade virtual, entretenimento e cultura.
 
 ---
+## O que é informática?
+
+# INFOTmação AutomÁTICA
+
+- Ciência que abrange todas as atividades relacionadas com o processamento automático de informações, inclusive o relacionamento entre 
+  serviços, equipamentos e profissionais envolvidos no processamento eletrônico de dados.
+
+---
 # Atividade de Hoje
 
 ![Tela inicial do curso Hour of Code versão Minecraft](images/hourofcode-initial-screenshot.png)
