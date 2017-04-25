@@ -172,15 +172,20 @@
   Diz-se eletrônico porque os computadores atuais são formados por componentes eletrônicos.
 
 ---
+## O Computador
 
+![Processamento de dados](images/computador.png)
+- Computador é uma máquina capaz de variados tipos de tratamento automático de informações ou processamento de dados. Um computador pode 
+  possuir inúmeros atributos, dentre eles armazenamento de dados, processamento de dados, cálculo em grande escala, desenho industrial, 
+  tratamento de imagens gráficas, realidade virtual, entretenimento e cultura.
+
+---
 # Atividade de Hoje
 
 ![Tela inicial do curso Hour of Code versão Minecraft](images/hourofcode-initial-screenshot.png)
 
 ---
 ## _**Hour of Code**_ versão **Minecraft**
-
-
 1. Tenha um email pessoal
   - Se não tiver, sugiro criar um no [Gmail](https://accounts.google.com/SignUp?service=mail)
 1. Entre no site do _Hour of Code_: [https://code.org/mc](https://code.org/mc)
