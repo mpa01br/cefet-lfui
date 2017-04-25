@@ -186,16 +186,13 @@
 
 ---
 ## _**Hour of Code**_ versão **Minecraft**
-1. Tenha um email pessoal
-  - Se não tiver, sugiro criar um no [Gmail](https://accounts.google.com/SignUp?service=mail)
+1. Tenha um email pessoal (Se não tiver, sugiro criar um no [Gmail](https://accounts.google.com/SignUp?service=mail))
 1. Entre no site do _Hour of Code_: [https://code.org/mc](https://code.org/mc)
   1. Cadastre-se usando seu email
   1. Faça todos os 14 desafios e consiga seu certificado
 1. Veja que editor de texto que seu computador possui, abra-o e crie um arquivo do tipo DOC ou ODF (Word ou Libre Office) com seu nome.
-  - Envie o certificado de conclusão do curso via Moodle para o professor no ambiente 
-    Faça pelo link: https://ava.cefetmg.br/mod/assign/view.php?id=1903
-  - Caso o Moodle ainda não tenha sido ativado, envie o certificado para
-    [marcao@decom.cefetmg.br](mailto:marcaoo@decom.cefetmg.br)
+  - Envie o certificado de conclusão para o professor pelo ambiente (https://ava.cefetmg.br/mod/assign/view.php?id=1903)
+  - Caso o Moodle ainda não tenha sido ativado, envie o certificado para [marcao@decom.cefetmg.br](mailto:marcaoo@decom.cefetmg.br)
     **com o assunto**:
     ```
     [LFUI] Certificado Hour of Code
