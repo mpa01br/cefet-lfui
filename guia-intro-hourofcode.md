@@ -11,7 +11,8 @@
    - marcaopamaral@gmail.com
 
 ---
-- Assunto: Introdução à Informática
+## DISCIPLINA: **INTRODUÇÃO AOS COMPUTADORES E À INFORMÁTICA**
+
 - Objetivos:
   1. Conhecer os conceitos básicos de informática de forma a possibilitar
      o uso de computadores em rotinas básicas e facilitar o aprendizado
@@ -141,6 +142,17 @@
 - Prova (30%)
 
 ---
+## Processamento de Dados
+
+- Série de operações que se aplica a um conjunto de dados (entrada) para obter outro conjunto de dados ou resultados (saída).
+   Ex.: dar baixa, no talão de cheques, de um cheque emitido; procurar um número de telefone na lista telefônica e anotá-lo em uma 
+   caderneta; somar valores de compras no supermercado;
+- Elementos Básicos:
+  a) Dados iniciais: as informações iniciais são aquelas que estão sujeitas a certas transformações;
+  b) Transformações: são as modificações efetuadas no conteúdo ou na forma dos dados iniciais;
+  c) Resultados finais: o produto dos dados iniciais após as transformações.
+
+---
 ## Tipos de Processamento de Dados
 
 - Manual: é aquele feito manualmente, sem a utilização da máquina.
@@ -153,6 +165,13 @@
   efetuam o PROCESSAMENTO DE DADOS com muita rapidez e segurança, fornecendo os resultados desejados.
 
 ---
+## Processamento Eletrônico de Dados
+
+- É o processamento de dados com a utilização do computador. 
+  Diz-se eletrônico porque os computadores atuais são formados por componentes eletrônicos.
+
+---
+
 # Atividade de Hoje
 
 ![Tela inicial do curso Hour of Code versão Minecraft](images/hourofcode-initial-screenshot.png)
