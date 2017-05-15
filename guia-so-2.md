@@ -403,7 +403,7 @@ backdrop: terminal
 ---
 # Exercício
 # Para ser feito no ambiente AVA
-# https://ava.cefetmg.br/mod/assign/view.php?id=2231
+  https://ava.cefetmg.br/mod/assign/view.php?id=2231
 
 ---
 ## Atividade (parte 1/2)
