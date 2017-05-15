@@ -406,23 +406,34 @@ backdrop: terminal
   https://ava.cefetmg.br/mod/assign/view.php?id=2231
 
 ---
-## Atividade (parte 1/2)
+## Atividade (parte 1/3)
 
 - Utilizando comandos no terminal, <u>**anote**</u> a sequência de
   comandos utilizados em cada atividade:
-  1. [Crie um diretório](#cmds4) chamado `aluno` em sua área de trabalho (área de trabalho: `/home/aluno/Área de trabalho`)
-  1. Utilizando o comando `gedit texto.txt`, crie um arquivo texto dentro do seu
-     diretório `aluno`
-  1. Crie um [novo diretório](#cmds4) dentro do diretório `aluno` com o nome `trabalhos`
+- Veja qual diretorio voce esta com o comando: pwd ($pwd)
+- Mude para superusuario: sudo su ($sudo su)
+- Va até a área de trabalhos com o comando CD: #cd Área\ de \ Trabalho (#cd Área\ de \ Trabalho. 
+  OBS: Voce poder usar a tecla 'tab' para completar o nome.
+- o comando ls mostra o conteúdo de sua pasta: #ls
 
 ---
-## Atividade (parte 2/2)
+## Atividade (parte 2/3)
+
+  1. [Crie um diretório](#cmds4) e dê seu nome a ele (`seunome` em sua área de trabalho 
+  (área de trabalho: `/home/aluno/Área de Trabalho/`: mkdir ´seunome´)
+  1. Utilizando o comando `gedit texto.txt`, crie um arquivo texto.txt´ dentro do seu
+     diretório `seunome`
+  1. Crie um [novo diretório](#cmds4) dentro do diretório `seunome` com o nome `trabalhos`
+  1. Para ver comandos veja a pagina: http://www.est.ufpr.br/dicas/node8.html
+
+---
+## Atividade (parte 3/3)
 
 - Continuando...
-  1. [Copie o arquivo](#cmds5) `texto.txt` para o mesmo diretório `aluno` mas trocando o seu
+  1. [Copie o arquivo](#cmds5) `texto.txt` para o mesmo diretório `seunome` mas trocando o 
      nome para texto `copia.txt`
-  1. [Mova o arquivo](#cmds6) texto `copia.txt` que está no diretório `aluno` para o diretório
+  1. [Mova o arquivo](#cmds6) texto `copia.txt` que está no diretório `seunome` para o diretório
      `trabalhos` que está dentro de `aluno`
-  1. [Apague o arquivo](#cmds4) `texto.txt` que está no diretório `aluno`
-  1. [Exclua o diretório](#cmds4) `aluno` juntamente com os seus sub-diretórios
+  1. [Apague o arquivo](#cmds4) `texto.txt` que está no diretório `seunome`
+  1. [Exclua o diretório](#cmds4) `seunome` juntamente com os seus sub-diretórios
 - Envie os comandos executados em cada etapa pelo **Moodle**
