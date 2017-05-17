@@ -20,10 +20,42 @@
    <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
-# Parte 1: Criando e carregando documentos
+# Parte 1: Conhecendo os processadores de texto
 
 ---
-## Menu Arquivo
+## Processadores de texto
+
+- Cada programa foi criado para que o computador realize uma tarefa específica. 
+  O processador de texto é o programa utilizado para editar textos no computador. 
+
+- Um processador de texto no computador dispõe de mais recursos para facilitar e 
+  agilizar a digitação, formatação e finalização do texto.
+
+- Uma das facilidades é a possibilidade de alteração dos documentos criados, 
+  inserir e reposicionar parágrafos, substituir palavras, etc
+  
+- Mesmo após a gravação do documento no computador, é possível modifica-lo. 
+
+---
+## Processadores de texto (Cont)
+
+- Atualmente, os principais processadores de texto são:
+
+  - Word – disponível no pacote Office do Windows;
+  
+  - Wordpad – disponível no próprio Windows;
+  
+  - Writer – processador de texto gratuito, disponível no pacote Broffice. 
+
+---
+## Processadores de texto (Cont)
+
+
+
+---
+# Parte 2: Criando e carregando documentos
+
+---## Menu Arquivo
 
 ![](images/word-menu-arquivo.png)
 
@@ -61,7 +93,7 @@
   - Você pode associar uma assinatura digital
 
 ---
-# Parte 2: Formatação do texto e estilos de _design_
+# Parte 3: Formatação do texto e estilos de _design_
 
 ---
 ## Duas formas para formatar texto
@@ -97,7 +129,7 @@
   com o número das páginas preenchido dinamicamente
 
 ---
-# Parte 3:  Criando um sumário
+# Parte 4:  Criando um sumário
 
 ---
 ## Sumário
@@ -108,7 +140,7 @@
   ![](images/word-sumario.png)
 
 ---
-# Parte 4: Adicionando referências e citações
+# Parte 5: Adicionando referências e citações
 
 ---
 ## Preenchendo suas **fontes bibliográficas** (pt 1)
@@ -126,7 +158,7 @@
 ![](images/word-citar.png)
 
 ---
-# Parte 5: Revisão de texto
+# Parte 6: Revisão de texto
 
 ---
 ## Revisão ortográfica e gramatical
@@ -134,7 +166,7 @@
 ![](images/word-revisao-orto.png)
 
 ---
-# Parte 6: Um Relatório Técnico (Exercício)
+# Parte 7: Um Relatório Técnico (Exercício)
 
 - Entrega **até o final desta aula** via Moodle
 - Você deve entregar o seu documento em formato .docx
@@ -145,6 +177,7 @@
   Você deve criar um texto científico com o conteúdo e formatação idênticos a
   [este relatório técnico][rel]. A imagem a ser utilizada
   é [esta aqui](images/word-grafico.png).
+  <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 [rel]: attachments/relatorio.zip
 
