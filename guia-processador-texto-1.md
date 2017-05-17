@@ -50,7 +50,12 @@
 ---
 ## Processadores de texto (Cont)
 
+![](images/desktop.png)
 
+---
+## Processadores de texto (Cont)
+
+![](images/tablets.png)
 
 ---
 # Parte 2: Criando e carregando documentos
