@@ -175,15 +175,14 @@
 
 - Entrega **até o final desta aula** via Moodle
 - Você deve entregar o seu documento em formato .docx
-
+ <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 ---
 ## Exercício
 
   Você deve criar um texto científico com o conteúdo e formatação idênticos a
   [este relatório técnico][rel]. A imagem a ser utilizada
   é [esta aqui](images/word-grafico.png).
-  <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
-
+ 
 [rel]: attachments/relatorio.zip
 
 ---
