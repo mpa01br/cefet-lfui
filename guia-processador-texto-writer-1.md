@@ -145,7 +145,7 @@
 ![](images/writer-sumario-2.png)
 
 
----
+<!--
 # Parte 5: Adicionando referências e citações
 
 ---
@@ -158,8 +158,8 @@
 
 ![](images/word-referencias.png)
 
----
-# Parte 6: Revisão de texto
+-->
+# Parte 5: Revisão de texto
 
 ---
 ## Revisão ortográfica e gramatical
@@ -167,7 +167,7 @@
 ![](images/writer-revisao-orto.png)
 
 ---
-# Parte 7: Um Relatório Técnico (Exercício)
+# Parte 6: Um Relatório Técnico (Exercício)
 
 - Entrega **até o final desta aula** via Moodle
 - Você deve entregar o seu documento em formato .docx
