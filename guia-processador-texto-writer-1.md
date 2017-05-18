@@ -20,7 +20,45 @@
    <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
-# Parte 1: Criando e carregando documentos
+# Parte 1: Conhecendo os processadores de texto
+
+---
+## Processadores de texto
+
+- Cada programa foi criado para que o computador realize uma tarefa específica. 
+  O processador de texto é o programa utilizado para editar textos no computador. 
+
+- Um processador de texto no computador dispõe de mais recursos para facilitar e 
+  agilizar a digitação, formatação e finalização do texto.
+
+- Uma das facilidades é a possibilidade de alteração dos documentos criados, 
+  inserir e reposicionar parágrafos, substituir palavras, etc
+  
+- Mesmo após a gravação do documento no computador, é possível modifica-lo. 
+
+---
+## Processadores de texto (Cont)
+
+- Atualmente, os principais processadores de texto são:
+
+  - Word – disponível no pacote Office do Windows;
+  
+  - Wordpad – disponível no próprio Windows;
+  
+  - Writer – processador de texto gratuito, disponível no pacote Broffice. 
+
+---
+## Processadores de texto (Cont)
+
+![](images/desktop.png)
+
+---
+## Processadores de texto (Cont)
+
+![](images/tablets.png)
+
+---
+# Parte 2: Criando e carregando documentos
 
 ---
 ## Menu Arquivo
@@ -55,7 +93,7 @@
   documento do sistema de arquivos (pasta e nome do arquivo)
 
 ---
-# Parte 2: Formatação do texto e estilos de _design_
+# Parte 3: Formatação do texto e estilos de _design_
 
 ---
 ## Duas formas para formatar texto
@@ -91,7 +129,7 @@
   com o número das páginas preenchido dinamicamente
 
 ---
-# Parte 3:  Criando um sumário
+# Parte 4:  Criando um sumário
 
 ---
 ## Sumário (1/2)
@@ -106,26 +144,22 @@
 
 ![](images/writer-sumario-2.png)
 
-<!--
-# Parte 4: Adicionando referências e citações
 
+---
+# Parte 5: Adicionando referências e citações
+
+---
 ## Preenchendo suas **fontes bibliográficas** (pt 1)
 
 ![](images/word-bibliografia.png)
 
-
+---
 ## Criando uma **Bibliografia** (pt 2)
 
 ![](images/word-referencias.png)
 
-
-## **Citando** no texto
-
-![](images/word-citar.png)
-
--->
 ---
-# Parte 4: Revisão de texto
+# Parte 6: Revisão de texto
 
 ---
 ## Revisão ortográfica e gramatical
@@ -133,10 +167,12 @@
 ![](images/writer-revisao-orto.png)
 
 ---
-# Parte 5: Um Relatório Técnico (Exercício)
+# Parte 7: Um Relatório Técnico (Exercício)
 
 - Entrega **até o final desta aula** via Moodle
 - Você deve entregar o seu documento em formato .docx
+
+ <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 ---
 ## Exercício
