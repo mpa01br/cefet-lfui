@@ -144,21 +144,7 @@
 
 ![](images/writer-sumario-2.png)
 
-
-<!--
-# Parte 5: Adicionando referências e citações
-
 ---
-## Preenchendo suas **fontes bibliográficas** (pt 1)
-
-![](images/word-bibliografia.png)
-
----
-## Criando uma **Bibliografia** (pt 2)
-
-![](images/word-referencias.png)
-
--->
 # Parte 5: Revisão de texto
 
 ---
@@ -208,10 +194,3 @@
    1. O documento de referência possui erros de escrita (ortografia e gramática).
       Você deve **encontrar e corrigir todos os erros**
 
-<!--
-## Exercício (cont.)
-
-1. A seção de **referências** deve ser criada **automaticamente**
-   - Portanto, utilize as ferramentas de bibliografia ao fazer as citações no
-    texto
--->
