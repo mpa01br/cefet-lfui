@@ -133,3 +133,4 @@
 
 - Após lidar com as alterações
   - Salvar seu currículo: `curriculum-vitae-parte5.odt`
+  - Poste-o no moodle anexando-o a esta lição.
