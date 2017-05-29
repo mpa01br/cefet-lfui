@@ -19,7 +19,7 @@
    
 
 ---
-# Parte 1: Conhecendo os processadores/editores de texto
+# Conhecendo os processadores/editores de texto
 
 ---
 ## O que sao Editores de texto?
@@ -83,12 +83,22 @@ buscando cada vez mais facilitar a criação de documentos.
  - Melhor aproveitamento do recurso “Estilo”.
 
 ---
-## Tipos de arquivos Processadores de texto mais comuns para desktop
+## Tipos de arquivos do writer
 
 ![](images/Formartos-Doc-Writer.png)
 
 ---
-# Parte 2: Criando e carregando documentos
+## Exercicio 01
+
+ - A extensão padrão para documentos de texto salvos no formato 
+   Writer (aplicativo do pacote BrOffice.org), é:
+   A) docx
+   B) odt
+   c) ppt
+   d) txt
+
+---
+# Conhecendo o writer
 
 ---
 ## Menu Arquivo
@@ -121,6 +131,11 @@ buscando cada vez mais facilitar a criação de documentos.
 
 - Para carregar um arquivo, você pode acessar a opção **Abrir** e selecionar o
   documento do sistema de arquivos (pasta e nome do arquivo)
+
+---
+## Barras
+
+![](images/Barras-Writer.png)
 
 ---
 # Parte 3: Formatação do texto e estilos de _design_
