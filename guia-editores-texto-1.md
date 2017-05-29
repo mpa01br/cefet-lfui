@@ -92,9 +92,9 @@ buscando cada vez mais facilitar a criação de documentos.
 
  - A extensão padrão para documentos de texto salvos no formato 
    Writer (aplicativo do pacote BrOffice.org), é:
-   - A) docx;
-   - B) odt;
-   - c) ppt;
+   - A) docx
+   - B) odt
+   - c) ppt
    - d) txt
  
 ---
@@ -106,18 +106,29 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/writer-menu-arquivo.png)
 
 ---
-## Menu Arquivo &gt; Opção **Novo** (cont.)
+## Menu Arquivo: **criar ou abrir documentos**
 
-- Você pode criar um documento em branco
-- Mas também pode usar um **modelo** pronto de algum tipo de documento, por
-  exemplo:
+- Você pode criar um documento em branco através de Novo ou CTRL+N;
+   - O comando Novo abre um novo documento do BrOffice. 
+     Este documento pode ser,entre outros, um texto, uma planilha, 
+     uma apresentação, um arquivo de desenho, ou um banco de dados.
+     
+- Você pode abrir um documento existente através de Abrir ou CTRL+O;
+   - Abre um arquivo. Uma caixa de diálogo será aberta permitindo ao
+     usuário navegar pelos mais diversos caminhos.
+
+---
+## Menu Arquivo: **usar modelos**
+
+- Você pode usar um **modelo** pronto de algum tipo de document atraves
+  do assistente, São exemplos de modelos:
   - Uma lista de presença
   - Um currículo
   - Um certificado
   - Um cartão de visita
 
 ---
-## Menu Arquivo &gt; Opções **Salvar** e **Salvar como...**
+## Menu Arquivo: Opções **Salvar** e **Salvar como...**
 
 - A primeira vez que se clica em **Salvar** para um documento novo, você deve
   escolher em que pasta e qual o nome do arquivo
@@ -125,12 +136,9 @@ buscando cada vez mais facilitar a criação de documentos.
   - O arquivo é salvo com o mesmo nome
 - Para criar uma cópia do arquivo atual, use a opção **Salvar Como...** para
   escolher um local e um nome para a cópia
-
----
-## Menu Arquivo &gt; Opção **Abrir**
-
-- Para carregar um arquivo, você pode acessar a opção **Abrir** e selecionar o
-  documento do sistema de arquivos (pasta e nome do arquivo)
+- A opção Recarregar substitui o documento atual pela última versão salva.
+- Exportar como PDF permite salvar o conteúdo do documento diretamente em um arquivo PDF,
+  implementando, inclusive, a segurança deste tipo de arquivo.
 
 ---
 ## Barras
@@ -138,9 +146,31 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/Barras-Writer.png)
 
 ---
+## Exercicio 01
+
+ - O botão “Novo” do Writer, permite abrir novos documentos baseados em qualquer 
+   aplicativo do pacote BrOffice.org. Qual dos itens listados abaixo NÃO é um 
+   aplicativo BrOffice.org?
+
+   - A) Documento Texto
+   - B) Adobe Reader
+   - c) Planilhat
+   - d) Apresentação
+ 
+---
 # Parte 3: Formatação do texto e estilos de _design_
 
 ---
+## Menu editar
+
+![](images/Editar-Writer.png)
+
+- Alterações: Lista os comandos que estão disponíveis para rastrear as 
+  alterações em seu arquivo
+
+
+---
+
 ## Duas formas para formatar texto
 
 - Você pode alterar a fonte, uso de negrito, itálico, sublinhado, tachado,
