@@ -83,7 +83,11 @@ buscando cada vez mais facilitar a criação de documentos.
  - Melhor aproveitamento do recurso “Estilo”.
 
 ---
+## Tipos de arquivos Processadores de texto mais comuns para desktop
 
+![](images/Formartos-Doc-Writer.png)
+
+---
 # Parte 2: Criando e carregando documentos
 
 ---
