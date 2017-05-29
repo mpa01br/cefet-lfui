@@ -146,7 +146,7 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/Barras-Writer.png)
 
 ---
-## Exercicio 01
+## Exercicio 02
 
  - O botão “Novo” do Writer, permite abrir novos documentos baseados em qualquer 
    aplicativo do pacote BrOffice.org. Qual dos itens listados abaixo NÃO é um 
@@ -199,29 +199,35 @@ buscando cada vez mais facilitar a criação de documentos.
   com o número das páginas preenchido dinamicamente
 
 ---
-# Criando um sumário
-
----
-## Sumário (1/2)
-
-- Uma vez que você marcou quais são seus títulos e subtítulos, você pode gerar
-  o sumário automaticamente
-
-  ![](images/writer-sumario.png)
-
----
-## Sumário (2/2)
-
-![](images/writer-sumario-2.png)
-
----
-# Parte 5: Revisão de texto
+# Revisão de texto
 
 ---
 ## Revisão ortográfica e gramatical
 
 ![](images/writer-revisao-orto.png)
 
+---
+## Exercicio 03
+
+ - Quando o modo de substituição do editor BrOffice.org Writer estiver ativado, 
+   o cursor de texto terá o formato de
+
+   - A) um bloco fixo
+   - B) um bloco intermitente
+   - c) uma linha fixa
+   - d) uma linha intermitente
+ 
+---
+## Exercicio 04
+
+- Espaço inseparável e Hífen inseparável são funções que, no menu Inserir do 
+  aplicativo BrOffice.org Writer, pertencem à opção
+
+   - A) Assunto
+   - B) Caractere especial
+   - c) Referência
+   - d) Marca de formatação
+ 
 ---
 # Parte 6: Um Relatório Técnico (Exercício)
 
