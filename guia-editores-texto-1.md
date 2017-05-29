@@ -92,11 +92,11 @@ buscando cada vez mais facilitar a criação de documentos.
 
  - A extensão padrão para documentos de texto salvos no formato 
    Writer (aplicativo do pacote BrOffice.org), é:
-   A) docx
-   B) odt
-   c) ppt
-   d) txt
-
+   - A) docx;
+   - B) odt;
+   - c) ppt;
+   - d) txt
+ 
 ---
 # Conhecendo o writer
 
