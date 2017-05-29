@@ -9,6 +9,7 @@
 
 ---
 ## Roteiro - Exercício
+<marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
 
 1. Criar seu currículo (35 min)
 1. Enviar seu currículo para o colega ao lado e receber o dele (2 min)
