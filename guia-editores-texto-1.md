@@ -229,6 +229,14 @@ buscando cada vez mais facilitar a criação de documentos.
    - d) Marca de formatação
  
 ---
+## Curso Básico de LibreOffice
+
+- Curso completo do pacote LibreOffice: 
+  https://pt.wikibooks.org/wiki/Curso_b%C3%A1sico_de_LibreOffice
+
+- Acesse o link e tire todas suas duvidas
+ 
+---
 # Parte 6: Um Relatório Técnico (Exercício)
 
 - Entrega **até o final desta aula** via Moodle
