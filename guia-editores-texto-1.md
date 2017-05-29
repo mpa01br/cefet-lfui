@@ -158,19 +158,14 @@ buscando cada vez mais facilitar a criação de documentos.
    - d) Apresentação
  
 ---
-# Parte 3: Formatação do texto e estilos de _design_
+# Formatação do texto e estilos de _design_
 
 ---
-## Menu editar
+## Formatar
 
-![](images/Editar-Writer.png)
-
-- Alterações: Lista os comandos que estão disponíveis para rastrear as 
-  alterações em seu arquivo
-
+![](images/Formatar-Writer.png)
 
 ---
-
 ## Duas formas para formatar texto
 
 - Você pode alterar a fonte, uso de negrito, itálico, sublinhado, tachado,
@@ -204,7 +199,7 @@ buscando cada vez mais facilitar a criação de documentos.
   com o número das páginas preenchido dinamicamente
 
 ---
-# Parte 4:  Criando um sumário
+# Criando um sumário
 
 ---
 ## Sumário (1/2)
