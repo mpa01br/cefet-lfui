@@ -88,16 +88,6 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/Formartos-Doc-Writer.png)
 
 ---
-## Exercicio 01
-
- - A extensão padrão para documentos de texto salvos no formato 
-   Writer (aplicativo do pacote BrOffice.org), é:
-   - A) docx
-   - B) odt
-   - c) ppt
-   - d) txt
- 
----
 # Conhecendo o writer
 
 ---
@@ -146,17 +136,37 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/Barras-Writer.png)
 
 ---
-## Exercicio 02
+# Quebra de Pagina
 
- - O botão “Novo” do Writer, permite abrir novos documentos baseados em qualquer 
-   aplicativo do pacote BrOffice.org. Qual dos itens listados abaixo NÃO é um 
-   aplicativo BrOffice.org?
+---
+# Formatar Pagina
 
-   - A) Documento Texto
-   - B) Adobe Reader
-   - c) Planilhat
-   - d) Apresentação
- 
+---
+## Formatação de pagina
+
+- Permite selecionar um tamanho de papel predefinido ou digitar suas medidasde largura,
+  de altura e de margens. Quando for definir o formato e as margens, se aunidade de
+  medida aparecer em polegadas, é necessário que mude para centímetros.
+  - Passos: Clique em: Formatar  →  Página → Especificar o formato de papel, altura, largura, 
+    orientação, margens → Ok
+
+---
+## Formatação de pagina (cont.)
+
+![](images/Pagina-Writer.png)
+
+---
+## Quebra de página manual
+
+- Insere uma quebra de página manual e move o texto encontrado à direita do 
+  cursor para o início da próxima página.
+  - Clique em: Inserir → Quebra manual → Ok
+
+---
+## Quebra de página manual (cont.)
+
+![](images/Quebra-Writer.png)
+
 ---
 # Formatação do texto e estilos de _design_
 
@@ -207,6 +217,36 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/writer-revisao-orto.png)
 
 ---
+## Curso Básico de LibreOffice
+
+- Curso completo do pacote LibreOffice: 
+  https://pt.wikibooks.org/wiki/Curso_b%C3%A1sico_de_LibreOffice
+
+- Acesse o link e tire todas suas duvidas
+ 
+---
+## Exercicio 01
+
+ - A extensão padrão para documentos de texto salvos no formato 
+   Writer (aplicativo do pacote BrOffice.org), é:
+   - A) docx
+   - B) odt
+   - c) ppt
+   - d) txt
+ 
+---
+## Exercicio 02
+
+ - O botão “Novo” do Writer, permite abrir novos documentos baseados em qualquer 
+   aplicativo do pacote BrOffice.org. Qual dos itens listados abaixo NÃO é um 
+   aplicativo BrOffice.org?
+
+   - A) Documento Texto
+   - B) Adobe Reader
+   - c) Planilhat
+   - d) Apresentação
+ 
+---
 ## Exercicio 03
 
  - Quando o modo de substituição do editor BrOffice.org Writer estiver ativado, 
@@ -227,14 +267,6 @@ buscando cada vez mais facilitar a criação de documentos.
    - B) Caractere especial
    - c) Referência
    - d) Marca de formatação
- 
----
-## Curso Básico de LibreOffice
-
-- Curso completo do pacote LibreOffice: 
-  https://pt.wikibooks.org/wiki/Curso_b%C3%A1sico_de_LibreOffice
-
-- Acesse o link e tire todas suas duvidas
  
 ---
 # Parte 6: Um Relatório Técnico (Exercício)
