@@ -39,15 +39,15 @@
 ## Processadores/editores de texto mais usados:
 
 - Word 
-  - disponível no pacote Microsoft Office;
+  - disponível no pacote Microsoft Office
   - só é executado em sistemas Windows
-  - é pago.
-  
- - Writer
-   - disponível no pacote Broffice
-   - têm versões para o Linux e Window
-   - é gratuito
+  - é pago
 
+- Word 
+  - disponível no pacote Broffice
+  - têm versões para o Linux e Window
+  - é gratuito
+ 
 ---
 ## Processadores de texto mais comuns para desktop
 
@@ -226,7 +226,10 @@ buscando cada vez mais facilitar a criação de documentos.
   de desenho, com uma numeração sequencial. Para realizar este comando, siga os passos:
   - Selecione a imagem desejada → Inserir → Legenda
   
-  ![](images/Legenda-Writer.png)
+---
+## Inserindo legenda (cont.)
+
+![](images/Legenda-Writer.png)
 
 ---
 # Inserindo Figura
@@ -236,6 +239,9 @@ buscando cada vez mais facilitar a criação de documentos.
 
 - Para inserir figuras em um documento, realize os seguintes comandos:
   - Clique em: Inserir → Figura → De um arquivo
+
+---
+## Inserindo figura (cont.)
 
 ![](images/Figura-Writer.png)
 
@@ -249,12 +255,16 @@ buscando cada vez mais facilitar a criação de documentos.
   constam em um trabalho. Para fazer isto é necessario ter inserido os estilos.
   - Clique em: Inserir → Índices → Índices e Sumários →Faça suas alterações → Ok
 
-![](images/Indice-Writer.png)
-
 - Para atualizar o sumário, basta clicar com o botão direito em cima deste, e depois 
   em atualizar índices/sumários.
 
----## Curso Básico de LibreOffice
+---
+## Inserindo índices/sumários
+
+![](images/Indice-Writer.png)
+
+---
+## Curso Básico de LibreOffice
 
 - Curso completo do pacote LibreOffice: 
   https://pt.wikibooks.org/wiki/Curso_b%C3%A1sico_de_LibreOffice
