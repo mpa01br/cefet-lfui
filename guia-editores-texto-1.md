@@ -217,7 +217,44 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/writer-revisao-orto.png)
 
 ---
-## Curso Básico de LibreOffice
+# Inserindo legenda
+
+---
+## Inserindo legenda
+
+- No LibreOffice Writer, pode-se adicionar legendas em figuras, tabelas, quadros e objetos 
+  de desenho, com uma numeração sequencial. Para realizar este comando, siga os passos:
+  - Selecione a imagem desejada → Inserir → Legenda
+  
+  ![](images/Legenda-Writer.png)
+
+---
+# Inserindo Figura
+
+---
+## Inserindo figura
+
+- Para inserir figuras em um documento, realize os seguintes comandos:
+  - Clique em: Inserir → Figura → De um arquivo
+
+![](images/Figura-Writer.png)
+
+---
+# Inserindo Índices/Sumários
+
+---
+## Inserindo índices/sumários
+
+- É a enumeração dos principais tópicos, estilos de parágrafos, entre outros, que
+  constam em um trabalho. Para fazer isto é necessario ter inserido os estilos.
+  - Clique em: Inserir → Índices → Índices e Sumários →Faça suas alterações → Ok
+
+![](images/Indice-Writer.png)
+
+- Para atualizar o sumário, basta clicar com o botão direito em cima deste, e depois 
+  em atualizar índices/sumários.
+
+---## Curso Básico de LibreOffice
 
 - Curso completo do pacote LibreOffice: 
   https://pt.wikibooks.org/wiki/Curso_b%C3%A1sico_de_LibreOffice
@@ -225,88 +262,11 @@ buscando cada vez mais facilitar a criação de documentos.
 - Acesse o link e tire todas suas duvidas
  
 ---
-## Exercicio 01
-
- - A extensão padrão para documentos de texto salvos no formato 
-   Writer (aplicativo do pacote BrOffice.org), é:
-   - A) docx
-   - B) odt
-   - c) ppt
-   - d) txt
- 
----
-## Exercicio 02
-
- - O botão “Novo” do Writer, permite abrir novos documentos baseados em qualquer 
-   aplicativo do pacote BrOffice.org. Qual dos itens listados abaixo NÃO é um 
-   aplicativo BrOffice.org?
-
-   - A) Documento Texto
-   - B) Adobe Reader
-   - c) Planilhat
-   - d) Apresentação
- 
----
-## Exercicio 03
-
- - Quando o modo de substituição do editor BrOffice.org Writer estiver ativado, 
-   o cursor de texto terá o formato de
-
-   - A) um bloco fixo
-   - B) um bloco intermitente
-   - c) uma linha fixa
-   - d) uma linha intermitente
- 
----
-## Exercicio 04
-
-- Espaço inseparável e Hífen inseparável são funções que, no menu Inserir do 
-  aplicativo BrOffice.org Writer, pertencem à opção
-
-   - A) Assunto
-   - B) Caractere especial
-   - c) Referência
-   - d) Marca de formatação
- 
----
-# Parte 6: Um Relatório Técnico (Exercício)
-
-- Entrega **até o final desta aula** via Moodle
-- Você deve entregar o seu documento em formato .docx
-
- <marquee>ENTREGA DE EXERCÍCIO via Moodle</marquee>
-
----
 ## Exercício
 
-  Você deve criar um texto científico com o conteúdo e formatação idênticos a
-  [este relatório técnico][rel]. A imagem a ser utilizada
-  é [esta aqui](images/word-grafico.png).
-
-[rel]: attachments/relatorio.zip
-
----
-## Exercício (cont.)
-
-1. O documento deve usar a fonte Calibri (corpo) tamanho 10, com parágrafos
-   justificados
-1. Algumas listas possuem mais de uma coluna
-1. Palavras em negrito, itálico, etc. devem ser idênticas às do documento de
-   referência
-1. A capa deve ser semelhante à do documento de referência, mas não precisa ser
-   idêntica. Ela deve conter seu nome completos
-1. As páginas devem conter numeração no seu rodapé, do lado direito
-
----
-## Exercício (cont.)
-
-1. O **sumário** deve ser criado **automaticamente**
-   - Portanto, utilize os **estilos de títulos** para criar os títulos das seções
-1. Você deve incluir a figura do gráfico referenciá-la com uma **referência
-   cruzada**
-1. A tabela deve possuir uma legenda (Tabela 1: Tabela com as sugestões...) e
-   ela deve ser referenciada por uma **referência cruzada** também
-   - Use **estilos de _Design_** para colorir a tabela
-   1. O documento de referência possui erros de escrita (ortografia e gramática).
-      Você deve **encontrar e corrigir todos os erros**
+  Você deve seguir as informaoces do exercicio no ambiente:
+  https://ava.cefetmg.br/mod/assign/view.php?id=3148
+  e entrega-lo pelo proprio ambiente.
+  
+<marquee>ENTREGA DE EXERCÍCIO via AVA/Moodle</marquee>
 
