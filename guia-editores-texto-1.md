@@ -259,7 +259,7 @@ buscando cada vez mais facilitar a criação de documentos.
   em atualizar índices/sumários.
 
 ---
-## Inserindo índices/sumários
+## Inserindo índices/sumários (cont.)
 
 ![](images/Indice-Writer.png)
 
