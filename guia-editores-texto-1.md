@@ -136,9 +136,6 @@ buscando cada vez mais facilitar a criação de documentos.
 ![](images/Barras-Writer.png)
 
 ---
-# Quebra de Pagina
-
----
 # Formatar Pagina
 
 ---
@@ -154,6 +151,9 @@ buscando cada vez mais facilitar a criação de documentos.
 ## Formatação de pagina (cont.)
 
 ![](images/Pagina-Writer.png)
+
+---
+# Quebra de Pagina
 
 ---
 ## Quebra de página manual
