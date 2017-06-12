@@ -21,5 +21,5 @@
  3. Clique [aqui](http://www.cultura.ufpa.br/dicas/biome/bioamos.htm#moda) e leia o texto sobre Moda. 
     E depois explique o valor obtido para moda. 
  5. O que se pode concluir se aparecerem dois ou mais valores de moda, quando se estuda uma amostra?
- 6. A planilha pode ser obtida [aqui](https://ava.cefetmg.br/mod/resource/view.php?id=3712). Baixe-a, Salve-a
-    e post no ambiente.
+ 6. A planilha pode ser obtida [aqui](https://ava.cefetmg.br/mod/resource/view.php?id=3712). Baixe-a, salve-a
+    e post no ambiente com suas respostas.
