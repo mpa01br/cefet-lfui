@@ -14,12 +14,16 @@
 ---
 ## Enunciado
 - Supondo 3 amostras (A, B e C): 
-  A= 1, 2, 3 ... 50, B = 2, 4, 6, ... 100 e C = 3, 6, 9, ... 150
+  A= 1, 2, 3 ... 50, B = 2, 4, 6, ... 100 e C = 3, 6, 9, ... 150 (Voce pode digitar os 3 primeiros numeros
+  e depois "puxar" o restante ate o limite desejado).
  1. Calcular para as 3 amostras, para os dados puros:
     a. média b. mediana c. moda d. variância e. desvio padrão
  2. Formatar os resultados sempre com 4 casas decimais, negrito e em uma cor à sua escolha.
  3. Clique [aqui](http://www.cultura.ufpa.br/dicas/biome/bioamos.htm#moda) e leia o texto sobre Moda. 
     E depois explique o valor obtido para moda. 
  5. O que se pode concluir se aparecerem dois ou mais valores de moda, quando se estuda uma amostra?
- 6. A planilha pode ser obtida [aqui](https://ava.cefetmg.br/mod/resource/view.php?id=3712). Baixe-a, salve-a
-    e post no ambiente com suas respostas.
+
+---
+## Enunciado - Cont
+- Se vc nao consegui fazer a planilha pode obte-la [aqui](https://ava.cefetmg.br/mod/resource/view.php?id=3712). 
+- Se for usa-la nao esqueca de salva-la com seu nome, faça o que se pede e post no ambiente com suas respostas.
