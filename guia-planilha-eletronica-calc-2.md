@@ -16,4 +16,5 @@
 
 - Entrega via **Moodle** até o final **desta aula**
 - Baixe o enunciado do exercício aqui:
-  [exercicio-torneio-cefet-uai.pdf](http://fegemo.github.io/cefet-lfui/attachments/planilhas/exercicio-torneio-cefet-uai-calc.pdf)
+  [exercicio-torneio-cefet-uai.pdf](http://mpa01br.github.io/cefet-lfui/attachments/planilhas/exercicio-torneio-cefet-uai-calc.pdf
+  ou https://ava.cefetmg.br/mod/resource/view.php?id=3708)
