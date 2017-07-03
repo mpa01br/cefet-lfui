@@ -116,3 +116,8 @@
     - Condição usada para teste: <=50            
     - Condição verdadeira: “Barato”            
     - Condição Falsa: “Caro”            
+
+---
+## Exercicio
+- Faca o exercicio e post no ambiente.
+- As instucoes estão em https://ava.cefetmg.br/mod/assign/view.php?id=3903
