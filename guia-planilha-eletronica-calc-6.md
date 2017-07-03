@@ -9,8 +9,9 @@
     - funções
  
 ---
-## Tela inicial Calc
+## Tela Inicial Calc
 
+![](images/calc-tela-inicial.png)
 ---
 ## Enunciado
 - Supondo 3 amostras (A, B e C): 
