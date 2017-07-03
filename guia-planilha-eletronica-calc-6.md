@@ -30,3 +30,14 @@
 - Divisão: =A1/A2
 - Raiz Quadrada : = A1^2 (neste caso o número 2, mostra que esta célula (A1) será elevada ao quadrado)
 
+### Obs: Sempre que iniciarmos uma operação utilizaremos o "=" na barra de formula
+
+---
+## Referêcias
+![](images/calc-referencia.png)
+
+- Quando efetuamos uma operação fazemos o calculo em cima de células ou endereço de célula e não o seu conteúdo
+- No exemplo da figura usaremos a célula A1 e não o conteúdo 3.
+- Assim, se a celula B1 = A1, o valor de B1 será 3.
+
+
