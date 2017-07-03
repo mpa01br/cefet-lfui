@@ -2,7 +2,7 @@
 
 - Assunto: **Planilhas eletrônicas**: Calc
 - Objetivos:
-  1. Praticar o uso de Referências e Funções
+  - Praticar o uso de Referências e Funções
     - referência relativa
     - referência absoluta
     - referência mista
@@ -44,9 +44,8 @@
 ---
 ## Referência de Outra(s) Planilha(s)
 - Utilizada para retornar um resultado que foi obtido em outra planilha
-  - Ex: =Plan1!C4, Onde Plan1! é o nome da planilha que contém o valor obtido e C4 é a Célula da planilha 
-  
-                   referenciada que contém o valor obtido
+  - Ex: =Plan1!C4, Onde Plan1! é o nome da planilha que contém o valor obtido 
+    e C4 é a Célula da planilha referenciada que contém o valor obtido
   - Se C4 = 3 na planilha Plan1 e A1 = Plan1!C4, então A1 = 3
 
 ---
@@ -113,7 +112,7 @@
 ## Função Se
 - Utilizada para realizar um teste, mediante a uma condição que retornará um valor verdadeiro ou um valor falso.
   - Ex: =Se(a6<=50;”Barato”;”Caro”)
-  - A6 é a célula a ser testada
-  - Condição usada para teste: <=50            
-  - Condição verdadeira: “Barato”            
-  - Condição Falsa: “Caro”            
+    - A6 é a célula a ser testada
+    - Condição usada para teste: <=50            
+    - Condição verdadeira: “Barato”            
+    - Condição Falsa: “Caro”            
