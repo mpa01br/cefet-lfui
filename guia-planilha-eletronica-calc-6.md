@@ -2,14 +2,14 @@
 
 - Assunto: **Planilhas eletrônicas**: Calc
 - Objetivos:
-  1. Praticar o uso de funções estatisticas
-    - desvio padrão
-    - máximo,  mínimo, média e mediana
-    - moda
-    - variância
+  1. Praticar o uso de Referências e Funções
+    - referência relativa
+    - referência absoluta
+    - referência mista
+    - funções
  
 ---
-# Exercícios
+## Tela inicial Calc
 
 ---
 ## Enunciado
