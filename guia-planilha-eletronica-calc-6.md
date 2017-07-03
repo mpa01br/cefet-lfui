@@ -1,4 +1,4 @@
-## Guia Planilhas Eletrônicas - 5
+## Guia Planilhas Eletrônicas: Referências
 
 - Assunto: **Planilhas eletrônicas**: Calc
 - Objetivos:
@@ -120,4 +120,4 @@
 ---
 ## Exercicio
 - Faca o exercicio e post no ambiente.
-- As instucoes estão em https://ava.cefetmg.br/mod/assign/view.php?id=3903
+- As instucoes estão no ambiente ava: https://ava.cefetmg.br/mod/assign/view.php?id=3903
