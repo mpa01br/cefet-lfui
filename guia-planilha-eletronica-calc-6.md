@@ -23,6 +23,10 @@
     - "^ : Raiz Quadrada"
 
 ---
-## Enunciado - Cont
-- Se vc nao consegui fazer a planilha pode obte-la [aqui](https://ava.cefetmg.br/mod/resource/view.php?id=3712). 
-- Se for usa-la nao esqueca de salva-la com seu nome, faça o que se pede e post no ambiente com suas respostas.
+## Exemplos de utilização  dos operadores
+- Adição : = A1+A2+A3 
+- Subtração : =A1-A2
+- Multiplicação : =A1*A2
+- Divisão: =A1/A2
+- Raiz Quadrada : = A1^2 (neste caso o número 2, mostra que esta célula (A1) será elevada ao quadrado)
+
